@@ -1,0 +1,15 @@
+{
+  "name": "aandjtech-landing",
+  "version": "2.0.0",
+  "description": "A&J Tech landing pages — main site and app subdomains",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

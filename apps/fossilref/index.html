@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FossilRef Pro — North American Fossil Identification Guide</title>
+  <meta name="description" content="FossilRef Pro is the premier field guide for identifying fossils in North America. Detailed descriptions, photos, and geological context for hundreds of fossil species.">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{--primary:#6b4c2a;--accent:#d4870a;--light:#faf6f0;--dark:#3d2b14;--text:#2d1f0e;--muted:#7a5c3a;--card:#fff}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+    .logo span{color:var(--accent)}
+    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+    header a:hover{color:#fff}
+    .hero{background:linear-gradient(135deg,var(--dark) 0%,#5c3d1e 50%,var(--primary) 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='20' cy='20' r='3'/%3E%3C/g%3E%3C/svg%3E")}
+    .hero-content{position:relative;max-width:700px;margin:0 auto}
+    .app-badge{display:inline-block;background:rgba(212,135,10,0.2);border:1px solid rgba(212,135,10,0.4);color:#f0c060;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+    .hero h1 span{color:var(--accent)}
+    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(212,135,10,0.4)}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,135,10,0.5)}
+    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
+    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+    .features{padding:4rem 2rem;background:#fff}
+    .container{max-width:1100px;margin:0 auto}
+    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+    .card-icon{font-size:2.5rem;margin-bottom:1rem}
+    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+    .card p{color:var(--muted);font-size:0.95rem}
+    .stats{background:var(--light);padding:3rem 2rem;border-top:1px solid rgba(0,0,0,0.06)}
+    .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2rem;text-align:center;max-width:800px;margin:0 auto}
+    .stat-num{font-size:2.5rem;font-weight:900;color:var(--accent);line-height:1}
+    .stat-label{color:var(--muted);font-size:0.9rem;margin-top:0.25rem}
+    .download{background:linear-gradient(135deg,var(--dark),#5c3d1e);color:#fff;padding:4rem 2rem;text-align:center}
+    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+    .play-btn svg{width:28px;height:28px}
+    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+    footer a:hover{color:#fff}
+    .footer-links{margin-bottom:0.75rem}
+    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Fossil<span>Ref</span> Pro</div>
+  <a href="mailto:support@aandjtech.com">Support</a>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="app-badge">🦴 North American Fossil Guide</div>
+    <span class="hero-emoji">🦕</span>
+    <h1>Identify Any<br><span>Fossil You Find</span></h1>
+    <p>FossilRef Pro is the definitive field guide for fossil hunters in North America. Hundreds of species with detailed descriptions, geological timelines, and where to find them.</p>
+    <a href="#download" class="btn">📲 Download Free</a>
+    <a href="#features" class="btn btn-ghost">See Features</a>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat-grid">
+    <div><div class="stat-num">500+</div><div class="stat-label">Fossil Species</div></div>
+    <div><div class="stat-num">50+</div><div class="stat-label">Geological Periods</div></div>
+    <div><div class="stat-num">100%</div><div class="stat-label">Offline Access</div></div>
+    <div><div class="stat-num">Free</div><div class="stat-label">Ad-Supported</div></div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <h2 class="section-title">The Fossil Hunter's Best Tool</h2>
+    <p class="section-sub">From ammonites to dinosaur bones — identify what you find in the field</p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🔎</div>
+        <h3>Visual Identification</h3>
+        <p>Browse by shape, texture, size, and geological era to identify your fossil. Detailed descriptions help distinguish similar specimens with confidence.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗺️</div>
+        <h3>Find-Sites by Region</h3>
+        <p>Discover where different fossils are commonly found across North America. Plan your next fossil hunting trip with location-based guides.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⏳</div>
+        <h3>Geological Timeline</h3>
+        <p>Understand the deep history behind your finds. Each entry includes geological period, era, and how species fit into Earth's ancient history.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📴</div>
+        <h3>Works Offline</h3>
+        <p>No signal needed in the field. The full reference database is stored locally on your device so you can identify fossils wherever you find them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="download" id="download">
+  <div class="container">
+    <h2>Get FossilRef Pro Free</h2>
+    <p>Available on Android. Start identifying fossils like a professional paleontologist.</p>
+    <div>
+      <a href="https://play.google.com/store/apps/details?id=com.fossilref.app" class="play-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/privacy/fossilref/">Privacy Policy</a>
+    <a href="mailto:support@aandjtech.com">support@aandjtech.com</a>
+    <a href="https://aandjtech.com">A&amp;J Tech</a>
+  </div>
+  <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
