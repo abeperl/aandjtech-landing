@@ -50,6 +50,20 @@
     footer a:hover{color:#fff}
     .footer-links{margin-bottom:0.75rem}
     @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
+  
+    .waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+    .waitlist .section-sub{margin-bottom:2rem}
+    .waitlist-form{max-width:560px;margin:0 auto}
+    .waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+    .waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+    .waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+    .waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+    .waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+    .waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+    .waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+    .waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+    .waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+    @media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
   </style>
 </head>
 <body>
@@ -114,6 +128,23 @@
   </div>
 </section>
 
+
+<section class="waitlist" id="waitlist">
+  <div class="container">
+    <h2 class="section-title">Join the Waiting List</h2>
+    <p class="section-sub">Be among the first beta testers — get early access and help shape the app before public launch.</p>
+    <form class="waitlist-form" id="wl-form" onsubmit="submitWaitlist(event)">
+      <div class="waitlist-fields" id="wl-fields">
+        <input type="text" name="name" placeholder="Your name" autocomplete="name">
+        <input type="email" name="email" placeholder="Your email address" required autocomplete="email">
+        <button type="submit" class="waitlist-submit" id="wl-btn">Join Waiting List ✉️</button>
+      </div>
+      <div class="waitlist-msg success" id="wl-success">🎉 You're on the list! We'll email you when beta testing opens.</div>
+      <div class="waitlist-msg error" id="wl-error">Something went wrong. Please try again.</div>
+    </form>
+  </div>
+</section>
+
 <section class="download" id="download">
   <div class="container">
     <h2>Get KnotRef Pro Free</h2>
@@ -136,5 +167,41 @@
   <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
 </footer>
 
+<script>
+async function submitWaitlist(e) {
+  e.preventDefault();
+  var form = e.target;
+  var btn = document.getElementById('wl-btn');
+  var fields = document.getElementById('wl-fields');
+  var success = document.getElementById('wl-success');
+  var error = document.getElementById('wl-error');
+  btn.disabled = true;
+  btn.textContent = 'Submitting…';
+  success.style.display = 'none';
+  error.style.display = 'none';
+  var data = {
+    name: form.elements.name.value.trim(),
+    email: form.elements.email.value.trim(),
+    app: document.title.split('—')[0].trim()
+  };
+  try {
+    var res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    });
+    if (res.ok) {
+      fields.style.display = 'none';
+      success.style.display = 'block';
+    } else {
+      throw new Error('Server error');
+    }
+  } catch(err) {
+    error.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = 'Join Waiting List ✉️';
+  }
+}
+</script>
 </body>
 </html>

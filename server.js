@@ -30,6 +30,33 @@ function getSubdomain(hostname) {
   return null;
 }
 
+// Parse JSON request bodies (for waitlist API)
+app.use(express.json());
+
+// Waitlist signup endpoint
+app.post('/api/waitlist', (req, res) => {
+  const { name, email, app: appName } = req.body || {};
+  if (!email || !email.includes('@')) {
+    return res.status(400).json({ error: 'Valid email required' });
+  }
+  const entry = {
+    name: (name || '').trim(),
+    email: email.trim().toLowerCase(),
+    app: (appName || '').trim(),
+    timestamp: new Date().toISOString(),
+  };
+  const dataFile = path.join(ROOT, 'waitlist.json');
+  let list = [];
+  try { list = JSON.parse(fs.readFileSync(dataFile, 'utf8')); } catch {}
+  // Deduplicate by email + app
+  const exists = list.some(e => e.email === entry.email && e.app === entry.app);
+  if (!exists) {
+    list.push(entry);
+    fs.writeFileSync(dataFile, JSON.stringify(list, null, 2));
+  }
+  res.json({ status: 'ok' });
+});
+
 // Middleware: route by subdomain
 app.use((req, res, next) => {
   const hostname = req.hostname || req.headers.host || '';
