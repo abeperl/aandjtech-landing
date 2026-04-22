@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A&J Tech — Premium Digital Downloads on Etsy</title>
-  <meta name="description" content="A&J Tech — premium digital downloads on Etsy. Printable planners, botanical wall art, business templates, ADHD planners, SVG cut files, and more.">
+  <title>A&J Tech — Digital Downloads &amp; Printables</title>
+  <meta name="description" content="A&J Tech — premium digital downloads and printables on Etsy. Planners, journals, trackers, wall art, and business templates. Instant download, print at home.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root { --primary: #1a2e44; --accent: #e07b54; --light: #f8f5f0; --text: #2d3748; --muted: #718096; --green: #2d7a55; }
@@ -27,21 +27,24 @@
     .container { max-width: 1100px; margin: 0 auto; }
     .section-title { text-align: center; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--primary); }
     .section-sub { text-align: center; color: var(--muted); margin-bottom: 2.5rem; }
-    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid rgba(0,0,0,0.04); }
-    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-    .card-icon { font-size: 2.5rem; margin-bottom: 1rem; }
-    .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--primary); }
-    .card p { color: var(--muted); font-size: 0.95rem; }
-    .price-tag { display: inline-block; background: #f0faf4; color: var(--green); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 1rem; }
-    .shop-section { background: var(--primary); color: white; }
-    .shop-section .section-title { color: white; }
-    .shop-section .section-sub { color: rgba(255,255,255,0.7); }
-    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
-    .feature-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 1.5rem; }
-    .feature-card .icon { font-size: 2rem; margin-bottom: 0.75rem; }
-    .feature-card h4 { font-size: 1rem; margin-bottom: 0.4rem; color: white; }
-    .feature-card p { font-size: 0.875rem; color: rgba(255,255,255,0.7); }
+    /* Product grid with real images */
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+    .product-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid rgba(0,0,0,0.04); text-decoration: none; color: inherit; display: block; }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+    .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: #eee; }
+    .product-info { padding: 1rem 1.25rem 1.25rem; }
+    .product-info h3 { font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--primary); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .product-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 0.5rem; }
+    .product-price { color: var(--green); font-weight: 700; font-size: 1.05rem; }
+    .product-type { font-size: 0.75rem; color: var(--muted); background: #f0faf4; padding: 0.2rem 0.6rem; border-radius: 20px; }
+    .view-all { text-align: center; margin-top: 2.5rem; }
+    /* Features bar */
+    .features-bar { background: #1e3a5f; color: white; padding: 3rem 2rem; text-align: center; }
+    .features-bar h2 { font-size: 1.8rem; margin-bottom: 2rem; }
+    .features-inline { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto; }
+    .fi .icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .fi p { font-size: 0.875rem; opacity: 0.8; }
+    /* CTA box */
     .cta-box { max-width: 700px; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
     .cta-box h2 { font-size: 1.8rem; margin-bottom: 0.75rem; color: var(--primary); }
     .cta-box p { color: var(--muted); margin-bottom: 0.5rem; }
@@ -78,18 +81,17 @@
 <header>
   <div class="logo">A<span>&</span>J Tech</div>
   <nav>
-    <a href="#products">Digital Downloads</a>
-    <a href="#tools">Recommended Tools</a>
+    <a href="#products">Shop Products</a>
     <a href="#about">About</a>
     <a href="mailto:ajax@aandjtech.com">Contact</a>
-    <a href="https://www.etsy.com/shop/HeimisheMaps" style="color:var(--accent);font-weight:600;">Shop on Etsy &#x2192;</a>
+    <a href="https://www.etsy.com/shop/AANDJTech" style="color:var(--accent);font-weight:600;">A&amp;J Tech on Etsy &#x2192;</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h1>Premium Digital<br><span>Downloads on Etsy</span></h1>
-  <p>A&amp;J Tech creates and sells premium digital downloads on Etsy — printable planners, wall art, business templates, SVG cut files, and more.</p>
-  <a href="https://www.etsy.com/shop/HeimisheMaps" class="btn">Browse the Shop</a>
+  <h1>Premium Digital Downloads<br><span>Instant. Printable. Practical.</span></h1>
+  <p>A&amp;J Tech creates thoughtfully designed planners, journals, trackers, and wall art — all instant digital downloads available in our Etsy shop.</p>
+  <a href="https://www.etsy.com/shop/AANDJTech" class="btn">Browse Our Etsy Shop</a>
   <a href="#free-guide" class="btn btn-outline">Get Free AI Income Guide &#x2193;</a>
 </section>
 
@@ -106,45 +108,105 @@
 
 <section id="products">
   <div class="container">
-    <h2 class="section-title">Digital Downloads</h2>
-    <p class="section-sub">Instant-download products on our Etsy shop — no waiting, no shipping.</p>
-    <div class="grid-3">
-      <div class="card"><div class="card-icon">&#x1F5FA;</div><h3>Decorative Map Prints</h3><p>Minimalist city maps, neighborhood prints, and custom location wall art for modern homes and offices.</p><span class="price-tag">From $9.99</span></div>
-      <div class="card"><div class="card-icon">&#x1F33F;</div><h3>Botanical Wall Art</h3><p>Elegant botanical line art and watercolor prints — instant digital downloads for living rooms, nurseries, and studios.</p><span class="price-tag">From $9.99</span></div>
-      <div class="card"><div class="card-icon">&#x1F9E0;</div><h3>ADHD &amp; Focus Planners</h3><p>Printable daily planners designed for the neurodivergent brain — time-blocking, habit tracking, and brain dumps included.</p><span class="price-tag">From $15.50</span></div>
-      <div class="card"><div class="card-icon">&#x1F4BC;</div><h3>Business Templates</h3><p>Professional invoice templates, social media planners, and brand identity kits — editable in Google Docs and Canva.</p><span class="price-tag">From $8.99</span></div>
-      <div class="card"><div class="card-icon">&#x1F5A8;</div><h3>Printable Stationery</h3><p>Greeting cards, gift tags, calendars, and decorative printables for every occasion — print at home or at a local shop.</p><span class="price-tag">From $4.99</span></div>
-      <div class="card"><div class="card-icon">&#x2702;</div><h3>SVG Cut Files</h3><p>Ready-to-cut SVG files for Cricut and Silhouette — floral designs, quotes, monograms, and holiday motifs.</p><span class="price-tag">From $3.99</span></div>
+    <h2 class="section-title">Featured Products</h2>
+    <p class="section-sub">Instant-download digital products — buy once, download immediately, print forever.</p>
+    <div class="product-grid">
+
+      <a class="product-card" href="https://www.etsy.com/listing/4464086294/eretz-yisroel-map-poster-o-r-yrl-o" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/7482fd/7985385361/il_600x600.7985385361_5138.jpg" alt="Eretz Yisroel Map Poster — Hebrew Israel Map Wall Art" loading="lazy">
+        <div class="product-info">
+          <h3>Eretz Yisroel Map Poster | Hebrew Israel Map | Jewish Home Decor</h3>
+          <div class="product-meta"><span class="product-price">$39.99</span><span class="product-type">Digital Download</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492394624/solopreneur-content-calendar-social" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/5d108e/7985205923/il_600x600.7985205923_qa81.jpg" alt="Solopreneur Content Calendar Google Sheets" loading="lazy">
+        <div class="product-info">
+          <h3>Solopreneur Content Calendar | Social Media Planner | Brand Strategy Workbook</h3>
+          <div class="product-meta"><span class="product-price">$9.99</span><span class="product-type">Google Sheets</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492057524/wedding-planning-binder-vendor-checklist" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/7df952/7934877062/il_600x600.7934877062_gj09.jpg" alt="Wedding Planning Binder Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Wedding Planning Binder | Vendor Checklist | Budget Tracker | Seating Chart</h3>
+          <div class="product-meta"><span class="product-price">$9.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492049357/meal-prep-planner-weekly-menu-planner" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/1482db/7982837771/il_600x600.7982837771_llgx.jpg" alt="Meal Prep Planner Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Meal Prep Planner | Weekly Menu Planner | Grocery List | Pantry Inventory</h3>
+          <div class="product-meta"><span class="product-price">$7.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492046046/travel-journal-trip-planner-packing-list" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/77a6f7/7982728249/il_600x600.7982728249_adr4.jpg" alt="Travel Journal Trip Planner Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Travel Journal | Trip Planner | Packing List | Bucket List &amp; Itinerary</h3>
+          <div class="product-meta"><span class="product-price">$7.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492045270/family-budget-planner-monthly-bill" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/0b8b6b/7982721903/il_600x600.7982721903_b4wt.jpg" alt="Family Budget Planner Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Family Budget Planner | Monthly Bill Tracker | Debt Payoff | Savings Goals</h3>
+          <div class="product-meta"><span class="product-price">$6.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492038517/self-care-planner-mental-health-journal" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/09cc93/7934781012/il_600x600.7934781012_t4vj.jpg" alt="Self-Care Planner Mental Health Journal Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Self-Care Planner | Mental Health Journal | Mood Tracker | Anxiety Relief</h3>
+          <div class="product-meta"><span class="product-price">$6.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492413501/freelancer-invoice-client-tracker" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/247359/7985349043/il_600x600.7985349043_bt06.jpg" alt="Freelancer Invoice Client Tracker Google Sheets" loading="lazy">
+        <div class="product-info">
+          <h3>Freelancer Invoice &amp; Client Tracker | Income Dashboard | Tax Prep Sheet</h3>
+          <div class="product-meta"><span class="product-price">$7.99</span><span class="product-type">Google Sheets</span></div>
+        </div>
+      </a>
+
+      <a class="product-card" href="https://www.etsy.com/listing/4492036775/bullet-journal-starter-kit-bujo-spread" target="_blank" rel="noopener">
+        <img src="https://i.etsystatic.com/64798677/r/il/a31364/7934766434/il_600x600.7934766434_g69l.jpg" alt="Bullet Journal Starter Kit Printable PDF" loading="lazy">
+        <div class="product-info">
+          <h3>Bullet Journal Starter Kit | BuJo Spread Templates | Habit Tracker | Monthly Log</h3>
+          <div class="product-meta"><span class="product-price">$7.99</span><span class="product-type">Printable PDF</span></div>
+        </div>
+      </a>
+
+    </div>
+    <div class="view-all">
+      <a href="https://www.etsy.com/shop/AANDJTech" class="btn" target="_blank" rel="noopener">View All 158 Products on Etsy &#x2192;</a>
     </div>
   </div>
 </section>
 
-<section class="shop-section" id="shop">
-  <div class="container">
-    <h2 class="section-title">Our Etsy Shop</h2>
-    <p class="section-sub">Browse all of our digital downloads on Etsy — printable planners, wall art, business templates, and more. New products added regularly.</p>
-    <div class="feature-grid">
-      <div class="feature-card"><div class="icon">&#x26A1;</div><h4>Instant Delivery</h4><p>Every product is a digital download — purchase and access your files immediately, no shipping or waiting required.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F5A8;</div><h4>Print-Ready Quality</h4><p>High-resolution files in SVG, PDF, and PNG formats. Print at home, at a local shop, or use digitally.</p></div>
-      <div class="feature-card"><div class="icon">&#x270F;</div><h4>Fully Editable</h4><p>Most templates work with Google Docs, Canva, and Illustrator so you can customize them to fit your needs.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F504;</div><h4>Commercial Use OK</h4><p>Personal and small business license included with every purchase. Use our designs in your own projects.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F381;</div><h4>New Products Weekly</h4><p>We regularly add new designs and templates — follow our shop to get notified when fresh products drop.</p></div>
-      <div class="feature-card"><div class="icon">&#x2B50;</div><h4>5-Star Support</h4><p>Questions about a file or need a custom size? We respond within 24 hours and stand behind every product.</p></div>
-    </div>
-    <div style="text-align:center;margin-top:2.5rem;">
-      <a href="https://www.etsy.com/shop/HeimisheMaps" class="btn" style="margin-right:1rem;">Visit Our Etsy Shop</a>
-      <a href="mailto:ajax@aandjtech.com" class="btn btn-outline">Contact Us</a>
-    </div>
+<section class="features-bar">
+  <h2>Why Buyers Love Our Downloads</h2>
+  <div class="features-inline">
+    <div class="fi"><div class="icon">&#x26A1;</div><strong>Instant Download</strong><p>Access your files immediately after purchase</p></div>
+    <div class="fi"><div class="icon">&#x1F5A8;</div><strong>Print-Ready Files</strong><p>High-resolution PDF, SVG &amp; PNG included</p></div>
+    <div class="fi"><div class="icon">&#x270F;</div><strong>Fully Editable</strong><p>Works with Google Docs, Canva &amp; Illustrator</p></div>
+    <div class="fi"><div class="icon">&#x1F504;</div><strong>Commercial Use OK</strong><p>Personal and small biz license included</p></div>
   </div>
 </section>
-
 
 <section id="about">
   <div class="container">
     <div class="cta-box">
       <h2>About A&amp;J Tech</h2>
-      <p>A&amp;J Tech is a small digital products shop and software studio. We create and sell curated digital downloads on Etsy — printable planners, botanical art, business templates, and more.</p>
-      <p style="margin-top:0.75rem;">Every product is thoughtfully designed and instantly downloadable. Questions? We're happy to help.</p>
+      <p>A&amp;J Tech is a small digital products shop. We design and sell thoughtfully crafted planners, journals, trackers, and printables through our Etsy store — everything is instantly downloadable and ready to use.</p>
+      <p style="margin-top:0.75rem;">Every product is designed with care. Questions? We're happy to help.</p>
       <a href="mailto:ajax@aandjtech.com" class="btn btn-dark" style="margin-top:1.25rem;">&#x2709; ajax@aandjtech.com</a>
     </div>
   </div>
@@ -204,13 +266,13 @@
 
 <footer>
   <div class="footer-links">
-    <a href="https://www.etsy.com/shop/HeimisheMaps">Etsy Shop</a>
+    <a href="https://www.etsy.com/shop/AANDJTech" target="_blank" rel="noopener">Our Etsy Shop</a>
     <a href="#tools">Recommended Tools</a>
     <a href="#free-guide">Free Guide</a>
-    <a href="#shop">Our Shop</a>
+    <a href="#about">About</a>
     <a href="mailto:ajax@aandjtech.com">Contact</a>
   </div>
-  <div>&copy; 2026 A&amp;J Tech &middot; aandjtech.com &middot; Digital Downloads &amp; Shop Tools</div>
+  <div>&copy; 2026 A&amp;J Tech &middot; aandjtech.com &middot; Digital Downloads &amp; Printables</div>
   <div style="margin-top:0.4rem;font-size:0.8rem;opacity:0.6;">Some links on this page are affiliate links. We earn a small commission at no extra cost to you.</div>
 </footer>
 
