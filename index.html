@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A&J Tech — Digital Downloads &amp; Shop Management Tools</title>
-  <meta name="description" content="A&J Tech — premium digital downloads and Etsy shop management tools. Printable planners, botanical wall art, business templates, and HeimisheMaps listing automation.">
+  <title>A&J Tech — Premium Digital Downloads on Etsy</title>
+  <meta name="description" content="A&J Tech — premium digital downloads on Etsy. Printable planners, botanical wall art, business templates, ADHD planners, SVG cut files, and more.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root { --primary: #1a2e44; --accent: #e07b54; --light: #f8f5f0; --text: #2d3748; --muted: #718096; --green: #2d7a55; }
@@ -34,33 +34,43 @@
     .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--primary); }
     .card p { color: var(--muted); font-size: 0.95rem; }
     .price-tag { display: inline-block; background: #f0faf4; color: var(--green); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 1rem; }
-    .heimishe-section { background: var(--primary); color: white; }
-    .heimishe-section .section-title { color: white; }
-    .heimishe-section .section-sub { color: rgba(255,255,255,0.7); }
+    .shop-section { background: var(--primary); color: white; }
+    .shop-section .section-title { color: white; }
+    .shop-section .section-sub { color: rgba(255,255,255,0.7); }
     .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
     .feature-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 1.5rem; }
     .feature-card .icon { font-size: 2rem; margin-bottom: 0.75rem; }
     .feature-card h4 { font-size: 1rem; margin-bottom: 0.4rem; color: white; }
     .feature-card p { font-size: 0.875rem; color: rgba(255,255,255,0.7); }
-    .tech-stack { margin-top: 2.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 1.5rem 2rem; }
-    .tech-stack h4 { color: var(--accent); margin-bottom: 0.75rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
-    .tech-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .pill { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.85); padding: 0.3rem 0.85rem; border-radius: 20px; font-size: 0.825rem; border: 1px solid rgba(255,255,255,0.15); }
-    .compliance-box { margin-top: 2rem; background: rgba(45,122,85,0.2); border: 1px solid rgba(45,122,85,0.5); border-radius: 8px; padding: 1rem 1.5rem; font-size: 0.9rem; color: rgba(255,255,255,0.85); }
-    .compliance-box strong { color: #6fcf97; }
-    .features-bar { background: #1e3a5f; color: white; padding: 3rem 2rem; text-align: center; }
-    .features-bar h2 { font-size: 1.8rem; margin-bottom: 2rem; }
-    .features-inline { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto; }
-    .fi .icon { font-size: 2rem; margin-bottom: 0.5rem; }
-    .fi p { font-size: 0.875rem; opacity: 0.8; }
     .cta-box { max-width: 700px; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
     .cta-box h2 { font-size: 1.8rem; margin-bottom: 0.75rem; color: var(--primary); }
     .cta-box p { color: var(--muted); margin-bottom: 0.5rem; }
+    /* Email capture */
+    .email-capture { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; padding: 3.5rem 2rem; text-align: center; }
+    .email-capture h2 { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .email-capture p { font-size: 1.05rem; opacity: 0.9; margin-bottom: 1.75rem; max-width: 560px; margin-left: auto; margin-right: auto; }
+    .email-form { display: flex; gap: 0.75rem; max-width: 480px; margin: 0 auto; }
+    .email-form input { flex: 1; padding: 0.85rem 1.2rem; border: none; border-radius: 6px; font-size: 1rem; outline: none; }
+    .email-form button { background: #1a2e44; color: white; border: none; padding: 0.85rem 1.5rem; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background 0.2s; }
+    .email-form button:hover { background: #0f1e30; }
+    .email-success { display: none; background: rgba(255,255,255,0.2); border-radius: 8px; padding: 1rem 2rem; font-weight: 600; font-size: 1.1rem; }
+    /* Affiliate offers */
+    .affiliate-section { background: #f8f5f0; padding: 4rem 2rem; }
+    .affiliate-section .section-title { color: var(--primary); }
+    .affiliate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+    .affiliate-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.05); text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+    .affiliate-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+    .affiliate-card .af-icon { font-size: 2.2rem; margin-bottom: 0.75rem; }
+    .affiliate-card h4 { font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 0.4rem; }
+    .affiliate-card p { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; }
+    .affiliate-card .af-badge { font-size: 0.75rem; background: #fef3c7; color: #92400e; padding: 0.2rem 0.6rem; border-radius: 20px; font-weight: 600; display: inline-block; margin-bottom: 0.75rem; }
+    .affiliate-card a.af-btn { display: block; background: var(--accent); color: white; text-decoration: none; padding: 0.65rem 1rem; border-radius: 6px; font-size: 0.9rem; font-weight: 600; transition: background 0.2s; }
+    .affiliate-card a.af-btn:hover { background: #c96a43; }
     footer { background: #111827; color: rgba(255,255,255,0.6); text-align: center; padding: 2rem; font-size: 0.875rem; }
     footer a { color: rgba(255,255,255,0.8); text-decoration: none; }
     footer .footer-links { margin-bottom: 0.75rem; }
     footer .footer-links a { margin: 0 0.75rem; }
-    @media (max-width: 600px) { .btn-outline { margin-left: 0; margin-top: 0.75rem; display: block; } header nav { display: none; } }
+    @media (max-width: 600px) { .btn-outline { margin-left: 0; margin-top: 0.75rem; display: block; } header nav { display: none; } .email-form { flex-direction: column; } }
   </style>
 </head>
 <body>
@@ -69,7 +79,7 @@
   <div class="logo">A<span>&</span>J Tech</div>
   <nav>
     <a href="#products">Digital Downloads</a>
-    <a href="#heimishe">HeimisheMaps Tools</a>
+    <a href="#tools">Recommended Tools</a>
     <a href="#about">About</a>
     <a href="mailto:ajax@aandjtech.com">Contact</a>
     <a href="https://www.etsy.com/shop/HeimisheMaps" style="color:var(--accent);font-weight:600;">Shop on Etsy &#x2192;</a>
@@ -77,16 +87,27 @@
 </header>
 
 <section class="hero">
-  <h1>Digital Products &amp;<br><span>Shop Management Tools</span></h1>
-  <p>A&amp;J Tech sells premium digital downloads through the HeimisheMaps Etsy shop and builds private automation tools to manage the catalog efficiently.</p>
+  <h1>Premium Digital<br><span>Downloads on Etsy</span></h1>
+  <p>A&amp;J Tech creates and sells premium digital downloads on Etsy — printable planners, wall art, business templates, SVG cut files, and more.</p>
   <a href="https://www.etsy.com/shop/HeimisheMaps" class="btn">Browse the Shop</a>
-  <a href="#heimishe" class="btn btn-outline">Our API Integration</a>
+  <a href="#free-guide" class="btn btn-outline">Get Free AI Income Guide &#x2193;</a>
+</section>
+
+<!-- EMAIL CAPTURE -->
+<section class="email-capture" id="free-guide">
+  <h2>&#x1F4A1; Free Guide: 7 AI Tools to Build Passive Income in 2026</h2>
+  <p>We share the exact AI tools and strategies behind our digital product business. Enter your email and get the guide instantly — no spam, ever.</p>
+  <div class="email-form" id="emailForm">
+    <input type="email" id="emailInput" placeholder="your@email.com" autocomplete="email" />
+    <button onclick="submitEmail()">Get the Guide &#x2192;</button>
+  </div>
+  <div class="email-success" id="emailSuccess">&#x2705; Guide sent! Check your inbox.</div>
 </section>
 
 <section id="products">
   <div class="container">
     <h2 class="section-title">Digital Downloads</h2>
-    <p class="section-sub">Instant-download products sold via the HeimisheMaps Etsy shop — no waiting, no shipping.</p>
+    <p class="section-sub">Instant-download products on our Etsy shop — no waiting, no shipping.</p>
     <div class="grid-3">
       <div class="card"><div class="card-icon">&#x1F5FA;</div><h3>Decorative Map Prints</h3><p>Minimalist city maps, neighborhood prints, and custom location wall art for modern homes and offices.</p><span class="price-tag">From $9.99</span></div>
       <div class="card"><div class="card-icon">&#x1F33F;</div><h3>Botanical Wall Art</h3><p>Elegant botanical line art and watercolor prints — instant digital downloads for living rooms, nurseries, and studios.</p><span class="price-tag">From $9.99</span></div>
@@ -98,50 +119,85 @@
   </div>
 </section>
 
-<section class="heimishe-section" id="heimishe">
+<section class="shop-section" id="shop">
   <div class="container">
-    <h2 class="section-title">HeimisheMaps Digital Product Manager</h2>
-    <p class="section-sub">A private shop automation tool built on the Etsy Open API v3 — for internal use with the HeimisheMaps store only.</p>
+    <h2 class="section-title">Our Etsy Shop</h2>
+    <p class="section-sub">Browse all of our digital downloads on Etsy — printable planners, wall art, business templates, and more. New products added regularly.</p>
     <div class="feature-grid">
-      <div class="feature-card"><div class="icon">&#x1F4CB;</div><h4>Bulk Listing Creation</h4><p>Automates structured listing drafts for new product lines — titles, descriptions, tags, categorization — then submits via the Listings API. Eliminates copy-paste errors across 50+ SKUs.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F504;</div><h4>Listing Updates &amp; Sync</h4><p>Applies bulk description updates, price adjustments, and tag refreshes via the Listings PATCH endpoint. Used for seasonal promotions, SEO updates, and catalog-wide formatting.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F50D;</div><h4>SEO Tag Optimization</h4><p>Analyzes Etsy search trends and updates listing tags across the catalog to improve discoverability. Changes apply exclusively to HeimisheMaps-owned listings.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F4B0;</div><h4>Pricing Management</h4><p>Supports dynamic pricing across listing groups — promotional discounts, seasonal adjustments, and cost-based reviews — applied only to active HeimisheMaps listings.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F4E6;</div><h4>Order Fulfillment Tracking</h4><p>Reads recent orders to monitor digital download fulfillment status and flags any requiring manual attention, such as buyer non-delivery reports.</p></div>
-      <div class="feature-card"><div class="icon">&#x1F4CA;</div><h4>Shop Analytics</h4><p>Reads listing-level stats — views, favorites, revenue — to inform restocking priorities and surface top-performing products via read-only analytics endpoints.</p></div>
+      <div class="feature-card"><div class="icon">&#x26A1;</div><h4>Instant Delivery</h4><p>Every product is a digital download — purchase and access your files immediately, no shipping or waiting required.</p></div>
+      <div class="feature-card"><div class="icon">&#x1F5A8;</div><h4>Print-Ready Quality</h4><p>High-resolution files in SVG, PDF, and PNG formats. Print at home, at a local shop, or use digitally.</p></div>
+      <div class="feature-card"><div class="icon">&#x270F;</div><h4>Fully Editable</h4><p>Most templates work with Google Docs, Canva, and Illustrator so you can customize them to fit your needs.</p></div>
+      <div class="feature-card"><div class="icon">&#x1F504;</div><h4>Commercial Use OK</h4><p>Personal and small business license included with every purchase. Use our designs in your own projects.</p></div>
+      <div class="feature-card"><div class="icon">&#x1F381;</div><h4>New Products Weekly</h4><p>We regularly add new designs and templates — follow our shop to get notified when fresh products drop.</p></div>
+      <div class="feature-card"><div class="icon">&#x2B50;</div><h4>5-Star Support</h4><p>Questions about a file or need a custom size? We respond within 24 hours and stand behind every product.</p></div>
     </div>
-    <div class="tech-stack">
-      <h4>Technical Details</h4>
-      <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;margin-bottom:1rem;">Node.js backend service running on private infrastructure. Authenticates with Etsy using OAuth 2.0 + PKCE (Etsy v3 required). All credentials are owner-only — no third-party access, no scraping, no buyer data storage. Rate-limited per Etsy's published guidelines.</p>
-      <div class="tech-pills">
-        <span class="pill">Etsy Open API v3</span><span class="pill">OAuth 2.0 + PKCE</span><span class="pill">Node.js</span><span class="pill">Listings API</span><span class="pill">Shop Management API</span><span class="pill">Orders API</span><span class="pill">Analytics API</span><span class="pill">Single-shop only</span>
-      </div>
-    </div>
-    <div class="compliance-box"><strong>Etsy TOS Compliance:</strong> This tool accesses only listings, orders, and analytics belonging to the authenticated shop owner (HeimisheMaps). It does not scrape pages, harvest buyer data, facilitate off-platform transactions, or manipulate search rankings. It is a private single-shop tool — not a multi-tenant SaaS — with no external users or commercial licensing.</div>
     <div style="text-align:center;margin-top:2.5rem;">
-      <a href="https://www.etsy.com/shop/HeimisheMaps" class="btn" style="margin-right:1rem;">Visit HeimisheMaps on Etsy</a>
+      <a href="https://www.etsy.com/shop/HeimisheMaps" class="btn" style="margin-right:1rem;">Visit Our Etsy Shop</a>
       <a href="mailto:ajax@aandjtech.com" class="btn btn-outline">Contact Us</a>
     </div>
   </div>
 </section>
 
-<section class="features-bar">
-  <h2>Why Buyers Love Our Downloads</h2>
-  <div class="features-inline">
-    <div class="fi"><div class="icon">&#x26A1;</div><strong>Instant Download</strong><p>Access your files immediately after purchase</p></div>
-    <div class="fi"><div class="icon">&#x1F5A8;</div><strong>Print-Ready Files</strong><p>High-resolution SVG, PDF &amp; PNG included</p></div>
-    <div class="fi"><div class="icon">&#x270F;</div><strong>Fully Editable</strong><p>Works with Google Docs, Canva &amp; Illustrator</p></div>
-    <div class="fi"><div class="icon">&#x1F504;</div><strong>Commercial Use OK</strong><p>Personal and small biz license included</p></div>
-  </div>
-</section>
 
 <section id="about">
   <div class="container">
     <div class="cta-box">
       <h2>About A&amp;J Tech</h2>
-      <p>A&amp;J Tech is a small digital products shop and software studio. We sell curated digital downloads through the HeimisheMaps Etsy store, and build private automation tools to manage our catalog more efficiently.</p>
+      <p>A&amp;J Tech is a small digital products shop and software studio. We create and sell curated digital downloads on Etsy — printable planners, botanical art, business templates, and more.</p>
       <p style="margin-top:0.75rem;">Every product is thoughtfully designed and instantly downloadable. Questions? We're happy to help.</p>
       <a href="mailto:ajax@aandjtech.com" class="btn btn-dark" style="margin-top:1.25rem;">&#x2709; ajax@aandjtech.com</a>
+    </div>
+  </div>
+</section>
+
+<!-- AFFILIATE OFFERS -->
+<section class="affiliate-section" id="tools">
+  <div class="container">
+    <h2 class="section-title">&#x1F6E0; Tools We Actually Use</h2>
+    <p class="section-sub">These are the AI and digital tools powering our passive income stack. Some links are affiliate links — we only recommend what we use.</p>
+    <div class="affiliate-grid">
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F3A8;</div>
+        <h4>Canva Pro</h4>
+        <div class="af-badge">Design Tool</div>
+        <p>Create stunning digital products, social graphics, and printables with AI-powered design tools.</p>
+        <a class="af-btn" href="https://www.canva.com/join/aandjtech" target="_blank" rel="noopener">Try Canva Free &#x2192;</a>
+      </div>
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F4DA;</div>
+        <h4>Amazon — Passive Income Books</h4>
+        <div class="af-badge">Books &amp; Tools</div>
+        <p>Bestselling books and tools on digital products, Etsy selling, and building passive income streams.</p>
+        <a class="af-btn" href="https://www.amazon.com/s?k=passive+income+digital+products&tag=aandjtech-20" target="_blank" rel="noopener noreferrer">Shop Amazon &#x2192;</a>
+      </div>
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F6CD;</div>
+        <h4>Etsy Seller Account</h4>
+        <div class="af-badge">Marketplace</div>
+        <p>Start selling digital downloads on Etsy. Get 40 free listings when you sign up through our link.</p>
+        <a class="af-btn" href="https://etsy.me/3rEcSyM" target="_blank" rel="noopener">Get 40 Free Listings &#x2192;</a>
+      </div>
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F4BB;</div>
+        <h4>Hostinger</h4>
+        <div class="af-badge">Web Hosting</div>
+        <p>Affordable web hosting to launch your digital product store or landing page. Plans from $2.99/mo.</p>
+        <a class="af-btn" href="https://www.hostinger.com" target="_blank" rel="noopener">Get Hosting &#x2192;</a>
+      </div>
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F4D6;</div>
+        <h4>Skillshare</h4>
+        <div class="af-badge">Online Learning</div>
+        <p>Learn digital product creation, Canva, Etsy SEO, and passive income strategies from top creators.</p>
+        <a class="af-btn" href="https://www.skillshare.com" target="_blank" rel="noopener">1 Month Free &#x2192;</a>
+      </div>
+      <div class="affiliate-card">
+        <div class="af-icon">&#x1F4E7;</div>
+        <h4>ConvertKit / Kit</h4>
+        <div class="af-badge">Email Marketing</div>
+        <p>Build your email list and automate your sales funnel. Free up to 1,000 subscribers.</p>
+        <a class="af-btn" href="https://kit.com" target="_blank" rel="noopener">Start Free &#x2192;</a>
+      </div>
     </div>
   </div>
 </section>
@@ -149,11 +205,44 @@
 <footer>
   <div class="footer-links">
     <a href="https://www.etsy.com/shop/HeimisheMaps">Etsy Shop</a>
-    <a href="#heimishe">API Integration</a>
+    <a href="#tools">Recommended Tools</a>
+    <a href="#free-guide">Free Guide</a>
+    <a href="#shop">Our Shop</a>
     <a href="mailto:ajax@aandjtech.com">Contact</a>
   </div>
   <div>&copy; 2026 A&amp;J Tech &middot; aandjtech.com &middot; Digital Downloads &amp; Shop Tools</div>
+  <div style="margin-top:0.4rem;font-size:0.8rem;opacity:0.6;">Some links on this page are affiliate links. We earn a small commission at no extra cost to you.</div>
 </footer>
 
+<script>
+async function submitEmail() {
+  const emailInput = document.getElementById('emailInput');
+  const emailForm = document.getElementById('emailForm');
+  const emailSuccess = document.getElementById('emailSuccess');
+  const email = emailInput.value.trim();
+  if (!email || !email.includes('@')) {
+    emailInput.style.border = '2px solid #ef4444';
+    emailInput.focus();
+    return;
+  }
+  emailInput.style.border = '';
+  try {
+    const res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, app: 'ai-income-guide', name: '' })
+    });
+    if (res.ok) {
+      emailForm.style.display = 'none';
+      emailSuccess.style.display = 'block';
+    }
+  } catch (e) {
+    emailForm.querySelector('button').textContent = 'Try again';
+  }
+}
+document.getElementById('emailInput').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') submitEmail();
+});
+</script>
 </body>
 </html>
