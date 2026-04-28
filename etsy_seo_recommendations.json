@@ -1,0 +1,461 @@
+{
+  "generated": "2026-04-28",
+  "source": "AAN-352 eRank Scout Report",
+  "note": "Titles NOT changed (optimized in commit c24518b). Do not re-stuff keywords; tags should not duplicate title words.",
+  "top_10": [
+    {
+      "listing_id": "4464086294",
+      "name": "Eretz Yisroel Map Poster",
+      "audit_flags": "High price point ($39.99) needs high-contrast lifestyle mockups. Description needs more emotive storytelling.",
+      "tags_recommended": [
+        "Israel Map Art",
+        "Modern Israel Poster",
+        "Jewish Home Decor",
+        "Hebrew Wall Art",
+        "Minimalist Map Poster",
+        "Holy Land Map",
+        "Bar Mitzvah Gift",
+        "Zionist Art",
+        "Israel Print",
+        "Jewish Gift Idea",
+        "Hebrew Decor",
+        "Israel Wall Decor",
+        "Digital Download Art"
+      ],
+      "attributes_to_fill": {
+        "Room": ["Living Room", "Office"],
+        "Occasion": ["Bar Mitzvah", "Wedding"],
+        "Style": ["Minimalist"]
+      },
+      "description_first_paragraph": "Transform any wall into a meaningful statement with this stunning Eretz Yisroel Map Poster — a minimalist Hebrew map of the Holy Land, crafted for Jewish homes, offices, and gifting. Whether you're decorating your living room or choosing the perfect Bar Mitzvah or wedding gift, this instant digital download brings the beauty of Israel into any space.",
+      "intent_keyword": "Jewish Home Decor"
+    },
+    {
+      "listing_id": "4492394624",
+      "name": "Solopreneur Content Calendar",
+      "audit_flags": "Google Sheets specific. Needs clear value prop — time saved, multi-platform.",
+      "tags_recommended": [
+        "2026 Content Calendar",
+        "Social Media Planner",
+        "Google Sheets Tracker",
+        "Instagram Post Planner",
+        "Marketing Strategy Tool",
+        "Automated Content Calendar",
+        "Content Creator Planner",
+        "YouTube Content Plan",
+        "Small Business Calendar",
+        "Blog Post Scheduler",
+        "TikTok Content Ideas",
+        "Brand Building Tool",
+        "Digital Marketing Planner"
+      ],
+      "attributes_to_fill": {
+        "Software": ["Google Sheets"],
+        "Use": ["Business"]
+      },
+      "description_first_paragraph": "Stop losing hours every week figuring out what to post. This Solopreneur Content Calendar is an automated Google Sheets powerhouse that plans your Instagram, YouTube, TikTok, and blog content in one place — saving you 5+ hours every week. Built for content creators, coaches, and small business owners who want a consistent online presence without the burnout.",
+      "intent_keyword": "2026 Content Calendar"
+    },
+    {
+      "listing_id": "4492057524",
+      "name": "Wedding Planning Binder",
+      "audit_flags": "Competitive niche. Needs process video showing binder contents.",
+      "tags_recommended": [
+        "2026 Wedding Planner",
+        "Bridal Organizer PDF",
+        "Wedding Checklist Printable",
+        "Budget Wedding Planner",
+        "Engagement Gift for Bride",
+        "Luxury Wedding Planner",
+        "Wedding Binder Printable",
+        "Bride To Be Gift",
+        "Wedding Vendor Tracker",
+        "Printable Wedding Planner",
+        "Wedding Day Timeline",
+        "Seating Chart Template",
+        "Wedding Budget Tracker"
+      ],
+      "attributes_to_fill": {
+        "Wedding Theme": ["Classic", "Modern"],
+        "Color": ["Neutral", "White"]
+      },
+      "description_first_paragraph": "Plan your dream wedding without the overwhelm. This all-in-one Wedding Planning Binder PDF gives you vendor checklists, a detailed budget tracker, seating chart templates, and a day-of timeline — everything you need from engagement to \"I do.\" Perfect as a gift for the bride-to-be or for any couple planning their 2026 wedding on any budget.",
+      "intent_keyword": "2026 Wedding Planner"
+    },
+    {
+      "listing_id": "4492049357",
+      "name": "Meal Prep Planner",
+      "audit_flags": "Description should mention ADHD-friendly and High Protein trends.",
+      "tags_recommended": [
+        "Weekly Meal Planner",
+        "Meal Prep Log PDF",
+        "ADHD Meal Tracker",
+        "High Protein Meal Prep",
+        "Family Meal Plan",
+        "Clean Eating Journal",
+        "Grocery List Printable",
+        "Pantry Inventory Sheet",
+        "Healthy Eating Planner",
+        "Meal Planning Printable",
+        "Budget Meal Planner",
+        "Dinner Planner Printable",
+        "Nutrition Tracker PDF"
+      ],
+      "attributes_to_fill": {
+        "Health Goal": ["Weight Loss", "Muscle Gain", "Healthy Eating"]
+      },
+      "description_first_paragraph": "Meal prep doesn't have to be complicated. This ADHD-friendly Meal Prep Planner helps you plan weekly menus, build grocery lists, log high-protein meals, and manage your pantry inventory — all in one printable PDF kit. Whether you're batch cooking for a family or tracking macros solo, this planner keeps your nutrition on track every week.",
+      "intent_keyword": "High Protein Meal Prep"
+    },
+    {
+      "listing_id": "4492046046",
+      "name": "Travel Journal",
+      "audit_flags": "Needs Slow Travel and Eco-Travel keywords in description.",
+      "tags_recommended": [
+        "Travel Journal Printable",
+        "Vacation Memory Book",
+        "Road Trip Planner",
+        "Wanderlust Journal",
+        "Digital Travel Log",
+        "Solo Travel Journal",
+        "Slow Travel Planner",
+        "Eco Travel Journal",
+        "Adventure Journal PDF",
+        "Backpacker Journal",
+        "Travel Bucket List",
+        "Packing List Printable",
+        "Trip Itinerary Template"
+      ],
+      "attributes_to_fill": {
+        "Travel Destination": ["Global", "International", "Road Trip"]
+      },
+      "description_first_paragraph": "Capture every adventure — from slow travel escapes to epic road trips. This Travel Journal printable helps you plan itineraries, pack smarter with customizable lists, log eco-friendly travel memories, and track your bucket list destinations. Perfect for solo travelers, backpackers, and anyone who wants to document their wanderlust beautifully.",
+      "intent_keyword": "Solo Travel Journal"
+    },
+    {
+      "listing_id": "4492045270",
+      "name": "Family Budget Planner",
+      "audit_flags": "Huge demand for Cash Stuffing aesthetics. Refresh thumbnails.",
+      "tags_recommended": [
+        "Family Budget Planner",
+        "Monthly Finance Tracker",
+        "Debt Payoff Log",
+        "Savings Challenge PDF",
+        "Cash Envelope System",
+        "Minimalist Budget",
+        "Cash Stuffing Printable",
+        "Bill Tracker Printable",
+        "Sinking Funds Tracker",
+        "Zero Based Budget",
+        "Financial Planner PDF",
+        "50 30 20 Budget",
+        "Savings Goal Worksheet"
+      ],
+      "attributes_to_fill": {
+        "Financial Goal": ["Debt Payoff", "Savings", "Monthly Budgeting"]
+      },
+      "description_first_paragraph": "Get your family finances under control with this cash stuffing-inspired Family Budget Planner. Track bills, log debt payoff progress, set savings goals, and manage your cash envelope system — all with clean, minimalist worksheets. Whether you follow the 50/30/20 rule or zero-based budgeting, this printable kit adapts to your financial lifestyle.",
+      "intent_keyword": "Cash Stuffing Printable"
+    },
+    {
+      "listing_id": "4492038517",
+      "name": "Self-Care Planner",
+      "audit_flags": "Trend shift toward Neurodivergent-friendly layouts.",
+      "tags_recommended": [
+        "Self-Care Planner 2026",
+        "Mental Health Journal",
+        "Gratitude Journal PDF",
+        "ADHD Wellness Planner",
+        "Mindfulness Workbook",
+        "Anxiety Tracker",
+        "Neurodivergent Planner",
+        "Mood Tracker Printable",
+        "Self Care Routine PDF",
+        "Burnout Recovery Plan",
+        "Emotional Wellness Log",
+        "Therapy Journal Printable",
+        "Daily Wellness Tracker"
+      ],
+      "attributes_to_fill": {
+        "Mental Health Focus": ["Anxiety", "ADHD", "General Wellness"]
+      },
+      "description_first_paragraph": "Designed for neurodivergent minds and anyone navigating anxiety, burnout, or just the chaos of daily life — this Self-Care Planner gives you mood tracking, anxiety relief exercises, mindfulness prompts, and a daily wellness routine in a flexible, low-pressure format. Reclaim your mental health one gentle day at a time.",
+      "intent_keyword": "ADHD Wellness Planner"
+    },
+    {
+      "listing_id": "4492413501",
+      "name": "Freelancer Invoice & Client Tracker",
+      "audit_flags": "Highlight Tax-Ready and Automated Dashboard in description.",
+      "tags_recommended": [
+        "Freelancer Spreadsheet",
+        "Client Tracker Google Sheets",
+        "Income and Expense Log",
+        "Freelance Tax Tracker",
+        "Small Business Bookkeeping",
+        "Automated Dashboard",
+        "Invoice Template Google Sheets",
+        "Project Management Tracker",
+        "Freelance Income Tracker",
+        "Self Employed Budget",
+        "Tax Ready Spreadsheet",
+        "Contractor Invoice Log",
+        "Business Revenue Tracker"
+      ],
+      "attributes_to_fill": {
+        "Professional Use": ["Freelancing", "Small Business", "Self-Employed"]
+      },
+      "description_first_paragraph": "Go from scattered invoices to a tax-ready business in one Google Sheets template. This Freelancer Invoice & Client Tracker auto-calculates your income, tracks outstanding payments, logs project hours, and generates a dashboard view of your revenue — so you spend less time on admin and more time doing the work that pays.",
+      "intent_keyword": "Tax Ready Spreadsheet"
+    },
+    {
+      "listing_id": "4492036775",
+      "name": "Bullet Journal Starter Kit",
+      "audit_flags": "Premade Bujo is the 2026 winner. Ensure tags reflect this.",
+      "tags_recommended": [
+        "2026 Bullet Journal",
+        "Bujo Templates PDF",
+        "Habit Tracker Printable",
+        "Minimalist Bujo Pages",
+        "Aesthetic Journal Pages",
+        "Digital Bujo",
+        "Premade Bullet Journal",
+        "Printable Journal Pages",
+        "Weekly Spread Template",
+        "Monthly Log Printable",
+        "Future Log Template",
+        "A5 Journal Template",
+        "Bujo Starter Kit PDF"
+      ],
+      "attributes_to_fill": {
+        "Paper Size": ["A4", "US Letter", "A5"]
+      },
+      "description_first_paragraph": "Skip the blank page anxiety — this Premade Bullet Journal Starter Kit gives you beautifully designed BuJo spreads ready to print and use. Includes habit trackers, monthly logs, weekly spreads, and a future log template, all in minimalist aesthetic layouts. Perfect for bullet journal beginners and anyone who wants a 2026 bujo without the setup work.",
+      "intent_keyword": "Premade Bullet Journal"
+    },
+    {
+      "listing_id": "4492422488",
+      "name": "Intermittent Fasting Tracker",
+      "audit_flags": "Pivot description to include Hormone-based fasting. Note: audit report listed ID 4492033633 incorrectly — correct ID is 4492422488.",
+      "tags_recommended": [
+        "Intermittent Fasting Log",
+        "Fasting Tracker Printable",
+        "16 8 Fasting Journal",
+        "Hormone Fasting Tracker",
+        "Keto Fasting Planner",
+        "Womens Fasting Guide",
+        "5 2 Diet Tracker",
+        "Fasting Window Log",
+        "Weight Loss Journal PDF",
+        "Hunger Level Tracker",
+        "Metabolic Health Journal",
+        "Circadian Fasting Plan",
+        "Fasting Results Log"
+      ],
+      "attributes_to_fill": {
+        "Diet Type": ["Intermittent Fasting", "Keto", "Low Carb"]
+      },
+      "description_first_paragraph": "Track every fasting window, hunger signal, and energy level with this Intermittent Fasting Tracker — now with hormone-based fasting guidance for women. Whether you follow 16:8, 5:2, or cycle syncing protocols, this printable journal helps you stay consistent, spot patterns, and measure real results week over week.",
+      "intent_keyword": "16 8 Fasting Journal"
+    }
+  ],
+  "bulk_26_fixes": {
+    "universal_tag_rule": "Ensure all 13 tag slots are filled with long-tail phrases relevant to the listing niche",
+    "universal_attribute_fills": {
+      "all_digital_downloads": {
+        "File Type": ["PDF"],
+        "File Format": ["Printable", "Instant Download"]
+      },
+      "health_wellness": {
+        "Health Goal": ["General Wellness"],
+        "Format": ["Printable Journal"]
+      },
+      "business_finance": {
+        "Software": ["Google Sheets", "PDF"],
+        "Use": ["Business", "Personal Finance"]
+      },
+      "education": {
+        "Grade Level": ["All Ages"],
+        "Subject": ["Planning", "Organization"]
+      },
+      "family_parenting": {
+        "Age Range": ["All Ages"],
+        "Occasion": ["Everyday"]
+      },
+      "events_celebrations": {
+        "Occasion": ["Birthday", "Holiday"],
+        "Theme": ["Classic"]
+      },
+      "hobbies_lifestyle": {
+        "Skill Level": ["Beginner", "All Levels"],
+        "Medium": ["Printable", "Digital"]
+      },
+      "home_life": {
+        "Room": ["All Rooms", "Home Office"],
+        "Style": ["Minimalist", "Modern"]
+      }
+    },
+    "remaining_listings": [
+      {
+        "listing_id": "4492422488",
+        "name": "Intermittent Fasting Tracker",
+        "note": "Handled in top-10"
+      },
+      {
+        "listing_id": "4492389775",
+        "name": "Party Planning Checklist",
+        "bulk_tags": ["Party Planning Checklist", "Birthday Planner PDF", "Event Planning Printable", "Party Budget Tracker", "Guest List Template", "Party Timeline Planner", "Kids Birthday Planner", "Party Decor Checklist", "Celebration Planner PDF", "Event Coordinator Tool", "DIY Party Planner", "Party Food Planner", "Vendor Contact List"],
+        "bulk_attributes": {"Occasion": ["Birthday", "Holiday Party"], "Theme": ["Classic", "Modern"]}
+      },
+      {
+        "listing_id": "4492397364",
+        "name": "Digital Detox Planner",
+        "bulk_tags": ["Digital Detox Planner", "Screen Time Tracker", "Dopamine Detox Journal", "Tech Free Challenge", "Mindful Tech Use", "Phone Addiction Planner", "Social Media Detox", "Mental Health Planner", "Wellness Challenge PDF", "Minimalist Living Guide", "Focus Productivity Planner", "30 Day Detox Plan", "Healthy Habits Journal"],
+        "bulk_attributes": {"Health Goal": ["Mental Wellness", "Digital Wellbeing"], "Format": ["Printable Journal"]}
+      },
+      {
+        "listing_id": "4492388187",
+        "name": "Apartment Rental Tracker",
+        "bulk_tags": ["Apartment Hunting Tracker", "Rental Comparison Sheet", "Moving Checklist PDF", "Lease Agreement Tracker", "Tenant Rights Guide", "Apartment Budget Tool", "First Apartment Planner", "Moving Day Checklist", "New Home Planner", "Real Estate Renter Tool", "Property Comparison PDF", "Relocation Planner", "City Move Checklist"],
+        "bulk_attributes": {"Room": ["All Rooms"], "Occasion": ["Moving Day", "New Home"]}
+      },
+      {
+        "listing_id": "4492395986",
+        "name": "Retirement Countdown Planner",
+        "bulk_tags": ["Retirement Planner PDF", "Pre-Retirement Checklist", "Retirement Countdown", "Social Security Guide", "Retirement Bucket List", "Financial Freedom Plan", "Early Retirement Planner", "Medicare Planning Guide", "Retirement Income Tracker", "Post Work Life Planner", "Retire Early Roadmap", "Senior Life Planner", "FIRE Movement Planner"],
+        "bulk_attributes": {"Life Stage": ["Pre-Retirement", "Retirement"], "Financial Goal": ["Retirement Savings"]}
+      },
+      {
+        "listing_id": "4492395348",
+        "name": "Grief Journal",
+        "bulk_tags": ["Grief Journal Printable", "Loss and Healing Workbook", "Bereavement Journal", "Memory Pages PDF", "Healing After Loss", "Grief Recovery Workbook", "Pet Loss Memorial Journal", "Sympathy Gift Printable", "Mindful Grief Journal", "Emotional Healing Journal", "Remembrance Pages", "Guided Grief Journal", "Mental Health Workbook"],
+        "bulk_attributes": {"Mental Health Focus": ["Grief", "Loss", "Healing"], "Occasion": ["Memorial", "Sympathy"]}
+      },
+      {
+        "listing_id": "4492394034",
+        "name": "Kids Chore Chart & Reward Tracker",
+        "bulk_tags": ["Kids Chore Chart", "Reward Star Chart", "Allowance Tracker Kids", "Printable Chore List", "Weekly Kids Schedule", "Behavior Chart Printable", "Toddler Routine Chart", "Kids Responsibility Chart", "Sticker Chart Printable", "Family Chores Organizer", "Kids Morning Routine", "Montessori Chore Chart", "Visual Schedule Kids"],
+        "bulk_attributes": {"Age Range": ["3-12 years"], "Occasion": ["Everyday", "Back to School"]}
+      },
+      {
+        "listing_id": "4492384863",
+        "name": "New Mom Survival Planner",
+        "bulk_tags": ["New Mom Planner", "Baby Feeding Tracker", "Newborn Sleep Log", "Postpartum Wellness Journal", "Baby Schedule Tracker", "Breastfeeding Log PDF", "New Parent Organizer", "Baby Milestone Tracker", "Infant Feeding Chart", "Mom Self Care Planner", "Newborn Daily Log", "Nap Schedule Tracker", "Baby Growth Log"],
+        "bulk_attributes": {"Life Stage": ["Postpartum", "New Parent"], "Age Range": ["0-12 months"]}
+      },
+      {
+        "listing_id": "4492051713",
+        "name": "Pet Care Planner",
+        "bulk_tags": ["Pet Care Planner", "Vet Visit Log", "Dog Health Journal", "Cat Care Tracker", "Pet Vaccination Record", "Pet Daily Routine", "Animal Care Planner", "Pet Medicine Log", "Dog Training Tracker", "Pet Emergency Info", "Puppy Care Schedule", "Kitten Care Journal", "Multi-Pet Planner"],
+        "bulk_attributes": {"Pet Type": ["Dog", "Cat", "All Pets"], "Occasion": ["Everyday Pet Care"]}
+      },
+      {
+        "listing_id": "4492060088",
+        "name": "Recipe Binder Kit",
+        "bulk_tags": ["Recipe Binder Printable", "Recipe Card Template", "Meal Index Planner", "Family Recipe Book", "Cooking Journal PDF", "Kitchen Organization", "Recipe Collection Binder", "Favorites Recipe Tracker", "Weekly Menu Planner", "Grocery Planning Sheet", "Cook Book Template", "Heirloom Recipe Cards", "Holiday Recipe Book"],
+        "bulk_attributes": {"Occasion": ["Holiday", "Everyday Cooking"], "Style": ["Classic", "Modern"]}
+      },
+      {
+        "listing_id": "4492059752",
+        "name": "College Student Planner",
+        "bulk_tags": ["College Student Planner", "Semester Study Planner", "Academic Schedule PDF", "Student Assignment Tracker", "College Homework Log", "Study Session Planner", "GPA Tracker Printable", "Course Schedule Template", "Exam Prep Planner", "Student Budget Tracker", "Dorm Room Planner", "Back to School Planner", "University Planner PDF"],
+        "bulk_attributes": {"Grade Level": ["College", "University"], "Subject": ["General Academic Planning"]}
+      },
+      {
+        "listing_id": "4492050673",
+        "name": "Declutter Challenge",
+        "bulk_tags": ["Declutter Challenge PDF", "Room by Room Checklist", "Minimalist Living Guide", "KonMari Checklist", "Home Organization Planner", "Downsizing Guide", "30 Day Declutter Plan", "Donation Tracker Sheet", "Clutter Free Challenge", "Capsule Wardrobe Planner", "Spring Cleaning Checklist", "Minimalist Home Guide", "Simple Living Planner"],
+        "bulk_attributes": {"Room": ["All Rooms", "Whole Home"], "Style": ["Minimalist"]}
+      },
+      {
+        "listing_id": "4492059114",
+        "name": "Home Renovation Planner",
+        "bulk_tags": ["Home Renovation Planner", "Remodel Budget Tracker", "Contractor Log PDF", "Home Improvement Checklist", "Room by Room Reno Plan", "DIY Project Planner", "Interior Design Worksheet", "Kitchen Reno Planner", "Bathroom Renovation Plan", "Project Timeline Template", "Home Improvement Budget", "Renovation Wish List", "Contractor Quote Tracker"],
+        "bulk_attributes": {"Room": ["Kitchen", "Bathroom", "All Rooms"], "Style": ["Modern", "Traditional"]}
+      },
+      {
+        "listing_id": "4492058784",
+        "name": "Gratitude Journal",
+        "bulk_tags": ["Gratitude Journal PDF", "Mindfulness Planner", "Daily Affirmations Journal", "Positive Thinking Planner", "Mental Wellness Journal", "Anxiety Relief Journal", "Law of Attraction Planner", "Morning Pages Template", "Self Improvement Journal", "Manifestation Journal", "Meditation Log Printable", "Intention Setting Planner", "Vision Board Journal"],
+        "bulk_attributes": {"Mental Health Focus": ["Gratitude", "Mindfulness", "Anxiety Relief"], "Occasion": ["Daily Practice"]}
+      },
+      {
+        "listing_id": "4492049677",
+        "name": "Book Club Kit",
+        "bulk_tags": ["Book Club Kit PDF", "Reading Tracker Printable", "Discussion Guide Template", "Book Review Journal", "Monthly TBR Planner", "Reading Log Printable", "Fiction Book Discussion", "Book Club Questions Sheet", "Reading Challenge PDF", "Literary Journal Pages", "Annual Reading Tracker", "Book Wishlist Template", "Library Tracker Printable"],
+        "bulk_attributes": {"Subject": ["Reading", "Literature"], "Occasion": ["Book Club", "Personal Reading"]}
+      },
+      {
+        "listing_id": "4492057790",
+        "name": "Fitness Workout Tracker",
+        "bulk_tags": ["Fitness Workout Tracker", "Exercise Planner PDF", "Strength Training Log", "Weekly Workout Schedule", "Gym Progress Tracker", "Body Measurement Log", "HIIT Workout Planner", "Running Log Printable", "Weight Lifting Journal", "Home Workout Planner", "Fitness Goal Tracker", "Cardio Log Printable", "Personal Training Tracker"],
+        "bulk_attributes": {"Health Goal": ["Weight Loss", "Strength Building", "Fitness"], "Format": ["Printable Journal"]}
+      },
+      {
+        "listing_id": "4492046618",
+        "name": "Small Business Planner",
+        "bulk_tags": ["Small Business Planner", "Etsy Seller Tracker", "Entrepreneur Planner PDF", "Income Tracker Printable", "Order Management Sheet", "Inventory Log Printable", "Side Hustle Planner", "Shop Revenue Tracker", "Etsy Shop Organizer", "Handmade Business Planner", "Product Launch Planner", "Customer Order Log", "Monthly Sales Tracker"],
+        "bulk_attributes": {"Professional Use": ["Small Business", "Etsy Seller"], "Software": ["PDF"]}
+      },
+      {
+        "listing_id": "4492038139",
+        "name": "Baby Shower Games Bundle",
+        "bulk_tags": ["Baby Shower Games Bundle", "Printable Baby Bingo", "Baby Shower Activities", "Gender Reveal Games", "Baby Price is Right Game", "Baby Shower Bingo Cards", "Co-ed Baby Shower Games", "Virtual Baby Shower Games", "Baby Shower Icebreaker", "Baby Trivia Game PDF", "Diaper Raffle Cards", "Baby Shower Charades", "Printable Party Games"],
+        "bulk_attributes": {"Occasion": ["Baby Shower", "Gender Reveal"], "Theme": ["Classic", "Modern"]}
+      },
+      {
+        "listing_id": "4492037943",
+        "name": "Teacher Planner",
+        "bulk_tags": ["Teacher Planner PDF", "Lesson Plan Template", "Class Roster Printable", "Grade Book Template", "Substitute Teacher Form", "Classroom Management Plan", "Elementary Teacher Planner", "Weekly Lesson Schedule", "Student Progress Tracker", "Back to School Teacher", "Homeschool Teacher Planner", "IEP Meeting Notes Template", "Annual Curriculum Map"],
+        "bulk_attributes": {"Grade Level": ["K-12", "Elementary", "Middle School"], "Subject": ["General Education"]}
+      },
+      {
+        "listing_id": "4492037517",
+        "name": "Garden Planner",
+        "bulk_tags": ["Garden Planner PDF", "Seed Starting Schedule", "Plant Care Log", "Harvest Tracker Printable", "Vegetable Garden Planner", "Raised Bed Garden Plan", "Companion Planting Guide", "Seasonal Garden Calendar", "Flower Garden Planner", "Herb Garden Tracker", "Crop Rotation Planner", "Seed Inventory List", "Composting Log"],
+        "bulk_attributes": {"Garden Type": ["Vegetable", "Herb", "Flower"], "Season": ["Spring", "Summer", "Fall"]}
+      },
+      {
+        "listing_id": "4492037343",
+        "name": "Homeschool Planner",
+        "bulk_tags": ["Homeschool Planner PDF", "Lesson Plan Template", "Grade Tracker Printable", "Curriculum Planning Guide", "Homeschool Year Planner", "Charlotte Mason Planner", "Classical Education Planner", "Homeschool Daily Schedule", "Student Assessment Log", "Reading List Tracker", "Field Trip Journal", "Homeschool Portfolio", "Secular Homeschool Plan"],
+        "bulk_attributes": {"Grade Level": ["K-12", "Elementary", "High School"], "Subject": ["All Subjects"]}
+      },
+      {
+        "listing_id": "4492037141",
+        "name": "Pregnancy Journal",
+        "bulk_tags": ["Pregnancy Journal Printable", "Weekly Milestone Tracker", "Birth Plan Template", "Baby Shower Planning", "Pregnancy Memory Book", "Trimester Tracker PDF", "Baby Name List Printable", "Hospital Bag Checklist", "Prenatal Appointment Log", "Nursery Planning Checklist", "New Baby Planner", "Maternity Journal", "Pregnancy Symptoms Log"],
+        "bulk_attributes": {"Life Stage": ["Pregnancy", "Expecting"], "Occasion": ["Baby Shower", "New Baby"]}
+      },
+      {
+        "listing_id": "4492042844",
+        "name": "Candle Making Recipe Cards",
+        "bulk_tags": ["Candle Making Recipe Cards", "Fragrance Blend Log", "Wax Formula Tracker", "Candle Business Planner", "Soy Candle Recipe Cards", "DIY Candle Journal", "Craft Business Tracker", "Scent Testing Log", "Batch Production Record", "Candle Maker Planner", "Fragrance Oil Notes", "Candle Label Template", "Artisan Business Log"],
+        "bulk_attributes": {"Craft Type": ["Candle Making"], "Professional Use": ["Hobby", "Small Business"]}
+      },
+      {
+        "listing_id": "4492042616",
+        "name": "Anniversary Planner",
+        "bulk_tags": ["Anniversary Planner PDF", "Date Night Ideas List", "Relationship Goals Journal", "Love Letter Template", "Couples Bucket List", "Anniversary Gift Planner", "Valentine's Day Planner", "Romantic Date Planner", "Couples Challenge PDF", "Love Journal Printable", "Relationship Milestone Log", "Wedding Anniversary Gift", "Marriage Journal Printable"],
+        "bulk_attributes": {"Occasion": ["Anniversary", "Valentine's Day"], "Relationship": ["Couples", "Marriage"]}
+      },
+      {
+        "listing_id": "4492042384",
+        "name": "Beginner Cross-Stitch Pattern Kit",
+        "bulk_tags": ["Cross Stitch Pattern PDF", "Beginner Embroidery Kit", "Floral Cross Stitch Design", "Printable Stitch Pattern", "DIY Needlework Pattern", "Modern Cross Stitch PDF", "Botanical Stitch Pattern", "Easy Embroidery Design", "Cross Stitch Grid Template", "Cottagecore Craft Pattern", "Handmade Gift Idea", "Fiber Arts Printable", "Stitch Color Chart"],
+        "bulk_attributes": {"Craft Type": ["Cross Stitch", "Embroidery"], "Skill Level": ["Beginner", "Intermediate"]}
+      },
+      {
+        "listing_id": "4492042156",
+        "name": "Calorie Counter & Macro Tracker",
+        "bulk_tags": ["Calorie Counter PDF", "Macro Tracker Printable", "Weight Loss Journal", "Daily Food Log", "Nutrition Tracking Sheet", "Meal Planning Printable", "Fitness Nutrition Tracker", "Body Measurement Log", "Diet Journal PDF", "Keto Macro Tracker", "Protein Tracker Sheet", "Calorie Deficit Planner", "Healthy Weight Journal"],
+        "bulk_attributes": {"Health Goal": ["Weight Loss", "Macro Tracking"], "Diet Type": ["Flexible", "Keto", "Low Carb"]}
+      },
+      {
+        "listing_id": "4492033633",
+        "name": "Printable Birthday Invitation Bundle",
+        "bulk_tags": ["Birthday Invitation Template", "Editable Canva Invitation", "Printable Party Invitation", "Thank You Card Template", "Place Card Template", "Kids Birthday Invite", "Adult Birthday Invite", "Instant Download Invite", "Digital Invite Template", "DIY Birthday Party", "Canva Birthday Bundle", "Party Stationery Set", "Personalized Invitation"],
+        "bulk_attributes": {"Occasion": ["Birthday"], "Age Range": ["Kids", "Adults", "All Ages"]}
+      }
+    ]
+  }
+}
