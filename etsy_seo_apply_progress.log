@@ -1,0 +1,267 @@
+[02:19:40] ============================================================
+[02:19:40] AAN-353 Etsy SEO Apply — Starting full run
+[02:19:40] ============================================================
+[02:19:40] Loaded 36 listings
+[02:19:40] Connecting to Chrome at port 9222...
+[02:19:40] Using existing page: https://www.etsy.com/your/shops/me/listing-editor/edit/4492049357#media
+[02:19:40] 
+[1/36] Skipping 4464086294 (already done)
+[02:19:40] 
+[2/36] Processing...
+[02:19:40] 
+--- [top_10] Solopreneur Content Calendar | Social Media Planner (4492394624) ---
+[02:19:47]   Removed 6 tags
+[02:19:59]   Added 13/13 tags
+[02:20:00]   Description updated: True
+[02:20:03]   PUBLISHED OK
+[02:20:04] 
+[3/36] Processing...
+[02:20:04] 
+--- [top_10] Wedding Planning Binder | Vendor Checklist & Budget Tracker (4492057524) ---
+[02:20:11]   Removed 6 tags
+[02:20:23]   Added 13/13 tags
+[02:20:23]   Description updated: True
+[02:20:26]   PUBLISHED OK
+[02:20:28] 
+[4/36] Processing...
+[02:20:28] 
+--- [top_10] Meal Prep Planner | Weekly Menu | Grocery List & Pantry Log (4492049357) ---
+[02:20:34]   Removed 6 tags
+[02:20:47]   Added 13/13 tags
+[02:20:47]   Description updated: True
+[02:20:50]   PUBLISHED OK
+[02:20:52] 
+[5/36] Processing...
+[02:20:52] 
+--- [top_10] Travel Journal | Trip Planner | Packing List & Itinerary (4492046046) ---
+[02:20:58]   Removed 6 tags
+[02:21:10]   Added 13/13 tags
+[02:21:11]   Description updated: True
+[02:21:14]   PUBLISHED OK
+[02:21:15] 
+[6/36] Processing...
+[02:21:15] 
+--- [top_10] Family Budget Planner | Bill Tracker | Debt Payoff & Savings (4492045270) ---
+[02:21:22]   Removed 6 tags
+[02:21:34]   Added 13/13 tags
+[02:21:34]   Description updated: True
+[02:21:37]   PUBLISHED OK
+[02:21:39] 
+[7/36] Processing...
+[02:21:39] 
+--- [top_10] Self-Care Planner | Mental Health Journal & Mood Tracker (4492038517) ---
+[02:21:45]   Removed 6 tags
+[02:21:58]   Added 13/13 tags
+[02:21:58]   Description updated: True
+[02:22:01]   PUBLISHED OK
+[02:22:03] 
+[8/36] Processing...
+[02:22:03] 
+--- [top_10] Freelancer Invoice & Client Tracker | Google Sheets Template (4492413501) ---
+[02:22:09]   Removed 6 tags
+[02:22:22]   Added 13/13 tags
+[02:22:22]   Description updated: True
+[02:22:25]   PUBLISHED OK
+[02:22:26] 
+[9/36] Processing...
+[02:22:26] 
+--- [top_10] Bullet Journal Starter Kit | BuJo Templates & Habit Tracker (4492036775) ---
+[02:22:33]   Removed 6 tags
+[02:22:45]   Added 13/13 tags
+[02:22:46]   Description updated: True
+[02:22:49]   PUBLISHED OK
+[02:22:50] 
+[10/36] Processing...
+[02:22:50] 
+--- [top_10] Intermittent Fasting Tracker | 16:8 & 5:2 Log | Hunger Journal (4492422488) ---
+[02:22:57]   Removed 6 tags
+[02:23:09]   Added 13/13 tags
+[02:23:10]   Description updated: True
+[02:23:13]   PUBLISHED OK
+[02:23:14] 
+[11/36] Processing...
+[02:23:14] 
+--- [bulk_26] Party Planning Checklist | Birthday Planner & Budget Tracker (4492389775) ---
+[02:23:20]   Removed 6 tags
+[02:23:33]   Added 13/13 tags
+[02:23:36]   PUBLISHED OK
+[02:23:37] 
+[12/36] Processing...
+[02:23:37] 
+--- [bulk_26] Digital Detox Planner | Screen Time Log | Dopamine Reset (4492397364) ---
+[02:23:43]   Removed 6 tags
+[02:23:56]   Added 13/13 tags
+[02:23:59]   PUBLISHED OK
+[02:24:00] 
+[13/36] Processing...
+[02:24:00] 
+--- [bulk_26] Apartment Rental Tracker | Lease Comparison & Moving Checklist (4492388187) ---
+[02:24:07]   Removed 6 tags
+[02:24:19]   Added 13/13 tags
+[02:24:22]   PUBLISHED OK
+[02:24:24] 
+[14/36] Processing...
+[02:24:24] 
+--- [bulk_26] Retirement Countdown Planner | Pre-Retirement Checklist (4492395986) ---
+[02:24:30]   Removed 6 tags
+[02:24:43]   Added 13/13 tags
+[02:24:46]   PUBLISHED OK
+[02:24:48] 
+[15/36] Processing...
+[02:24:48] 
+--- [bulk_26] Grief Journal | Loss & Healing Workbook | Memory Pages (4492395348) ---
+[02:24:54]   Removed 6 tags
+[02:25:06]   Added 13/13 tags
+[02:25:09]   PUBLISHED OK
+[02:25:11] 
+[16/36] Processing...
+[02:25:11] 
+--- [bulk_26] Kids Chore Chart & Reward Tracker | Star Chart Printable (4492394034) ---
+[02:25:17]   Removed 6 tags
+[02:25:30]   Added 13/13 tags
+[02:25:33]   PUBLISHED OK
+[02:25:34] 
+[17/36] Processing...
+[02:25:34] 
+--- [bulk_26] New Mom Survival Planner | Baby Feeding & Sleep Tracker (4492384863) ---
+[02:25:41]   Removed 6 tags
+[02:25:53]   Added 13/13 tags
+[02:25:56]   PUBLISHED OK
+[02:25:58] 
+[18/36] Processing...
+[02:25:58] 
+--- [bulk_26] Pet Care Planner | Vet Log | Vaccination & Daily Checklist (4492051713) ---
+[02:26:04]   Removed 6 tags
+[02:26:17]   Added 13/13 tags
+[02:26:20]   PUBLISHED OK
+[02:26:21] 
+[19/36] Processing...
+[02:26:21] 
+--- [bulk_26] Recipe Binder Kit | Recipe Card Templates & Meal Index (4492060088) ---
+[02:26:27]   Removed 6 tags
+[02:26:40]   Added 13/13 tags
+[02:26:43]   PUBLISHED OK
+[02:26:45] 
+[20/36] Processing...
+[02:26:45] 
+--- [bulk_26] College Student Planner | Semester Schedule & Study Log (4492059752) ---
+[02:26:51]   Removed 6 tags
+[02:27:04]   Added 13/13 tags
+[02:27:07]   PUBLISHED OK
+[02:27:09] 
+[21/36] Processing...
+[02:27:09] 
+--- [bulk_26] Declutter Challenge | Room-by-Room Checklist & Habit Planner (4492050673) ---
+[02:27:15]   Removed 6 tags
+[02:27:27]   Added 13/13 tags
+[02:27:31]   PUBLISHED OK
+[02:27:32] 
+[22/36] Processing...
+[02:27:32] 
+--- [bulk_26] Home Renovation Planner | Budget Tracker | Contractor Log (4492059114) ---
+[02:27:38]   Removed 6 tags
+[02:27:51]   Added 13/13 tags
+[02:27:54]   PUBLISHED OK
+[02:27:56] 
+[23/36] Processing...
+[02:27:56] 
+--- [bulk_26] Gratitude Journal | Mindfulness Planner | Daily Affirmations (4492058784) ---
+[02:28:02]   Removed 6 tags
+[02:28:15]   Added 13/13 tags
+[02:28:18]   PUBLISHED OK
+[02:28:19] 
+[24/36] Processing...
+[02:28:19] 
+--- [bulk_26] Book Club Kit | Reading Tracker | Discussion Guide Printable (4492049677) ---
+[02:28:26]   Removed 6 tags
+[02:28:39]   Added 13/13 tags
+[02:28:42]   PUBLISHED OK
+[02:28:43] 
+[25/36] Processing...
+[02:28:43] 
+--- [bulk_26] Fitness Workout Tracker | Exercise Planner & Strength Log (4492057790) ---
+[02:28:50]   Removed 6 tags
+[02:29:03]   Added 13/13 tags
+[02:29:06]   PUBLISHED OK
+[02:29:07] 
+[26/36] Processing...
+[02:29:07] 
+--- [bulk_26] Small Business Planner | Etsy Seller & Income Tracker (4492046618) ---
+[02:29:14]   Removed 6 tags
+[02:29:27]   Added 13/13 tags
+[02:29:30]   PUBLISHED OK
+[02:29:31] 
+[27/36] Processing...
+[02:29:31] 
+--- [bulk_26] Baby Shower Games Bundle | 10 Printable Party Games (4492038139) ---
+[02:29:38]   Removed 6 tags
+[02:29:50]   Added 13/13 tags
+[02:29:53]   PUBLISHED OK
+[02:29:55] 
+[28/36] Processing...
+[02:29:55] 
+--- [bulk_26] Teacher Planner | Lesson Plan Book | Grade Book & Sub Form (4492037943) ---
+[02:30:02]   Removed 6 tags
+[02:30:14]   Added 13/13 tags
+[02:30:17]   PUBLISHED OK
+[02:30:19] 
+[29/36] Processing...
+[02:30:19] 
+--- [bulk_26] Garden Planner | Seed Schedule | Plant Care & Harvest Log (4492037517) ---
+[02:30:25]   Removed 6 tags
+[02:30:37]   Added 13/13 tags
+[02:30:40]   PUBLISHED OK
+[02:30:42] 
+[30/36] Processing...
+[02:30:42] 
+--- [bulk_26] Homeschool Planner | Lesson Templates & Grade Tracker (4492037343) ---
+[02:30:48]   Removed 6 tags
+[02:31:00]   Added 13/13 tags
+[02:31:03]   PUBLISHED OK
+[02:31:05] 
+[31/36] Processing...
+[02:31:05] 
+--- [bulk_26] Pregnancy Journal | Weekly Milestone Tracker & Birth Plan (4492037141) ---
+[02:31:11]   Removed 6 tags
+[02:31:24]   Added 13/13 tags
+[02:31:27]   PUBLISHED OK
+[02:31:28] 
+[32/36] Processing...
+[02:31:28] 
+--- [bulk_26] Candle Making Recipe Cards | Fragrance Blend & Batch Log (4492042844) ---
+[02:31:35]   Removed 6 tags
+[02:31:47]   Added 13/13 tags
+[02:31:50]   PUBLISHED OK
+[02:31:52] 
+[33/36] Processing...
+[02:31:52] 
+--- [bulk_26] Anniversary Planner | Date Night Ideas & Relationship Goals (4492042616) ---
+[02:31:58]   Removed 6 tags
+[02:32:10]   Added 13/13 tags
+[02:32:13]   PUBLISHED OK
+[02:32:15] 
+[34/36] Processing...
+[02:32:15] 
+--- [bulk_26] Beginner Cross-Stitch Pattern Kit | Floral Designs Printable (4492042384) ---
+[02:32:21]   Removed 6 tags
+[02:32:34]   Added 13/13 tags
+[02:32:37]   PUBLISHED OK
+[02:32:38] 
+[35/36] Processing...
+[02:32:38] 
+--- [bulk_26] Calorie Counter & Macro Tracker | Weight Loss Meal Planner (4492042156) ---
+[02:32:44]   Removed 6 tags
+[02:32:57]   Added 13/13 tags
+[02:33:00]   PUBLISHED OK
+[02:33:01] 
+[36/36] Processing...
+[02:33:01] 
+--- [bulk_26] Printable Birthday Invitation Bundle | Editable Canva Cards (4492033633) ---
+[02:33:08]   Removed 6 tags
+[02:33:21]   Added 13/13 tags
+[02:33:24]   PUBLISHED OK
+[02:33:25] 
+============================================================
+[02:33:25] DONE: 36 success, 0 partial, 0 errors, 0 skipped
+[02:33:25] Results: /home/openclaw/aandjtech-landing/etsy_seo_apply_results.json
+[02:33:25] ============================================================
