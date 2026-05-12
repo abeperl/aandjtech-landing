@@ -59,7 +59,8 @@ app.post('/api/waitlist', (req, res) => {
 
 // Middleware: route by subdomain
 app.use((req, res, next) => {
-  const hostname = req.hostname || req.headers.host || '';
+  // Railway overwrites X-Forwarded-Host; honor X-Original-Host set by the Cloudflare Worker
+  const hostname = req.headers['x-original-host'] || req.hostname || req.headers.host || '';
   const sub = getSubdomain(hostname);
 
   if (sub && APP_SUBDOMAINS[sub]) {
