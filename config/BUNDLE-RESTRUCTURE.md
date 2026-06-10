@@ -38,6 +38,16 @@ Art theme has only 1 LS SKU → no art bundle on LS (6 bundles there).
 Constraints: LS API is GET-only for products — every change is dashboard work. LS has no
 native bundle product type — each bundle is a new product whose files are the combined archive.
 
+## LS execution status (AAN-688, 2026-06-10)
+
+Done: 6 lead magnets at $0, 27 singles clamped to band, 15 drafts untouched, and 3 of 6
+bundles published — Creator $29 (id 1133342), Business $29 (1133351), Planner $24 (1133333),
+each with a zip archive of the theme's locally available PDFs. Events/Wellness/Home bundles
+are blocked: only 59 of 184 LS products have any deliverable file attached, those 3 themes
+have ~none, and LS 403s merchant downloads of its own product files (AAN-690 tracks sourcing
+the missing files and finishing the bundles). Scripts: ~/projects/aandjtech-ls-products/src/
+(restructure_prices.py, build_bundles.py, upload_bundles.py).
+
 ## Execution notes
 
 - Gumroad API supports no price edits or bundle creation → dashboard/browser automation.
