@@ -38,15 +38,18 @@ Art theme has only 1 LS SKU → no art bundle on LS (6 bundles there).
 Constraints: LS API is GET-only for products — every change is dashboard work. LS has no
 native bundle product type — each bundle is a new product whose files are the combined archive.
 
-## LS execution status (AAN-688, 2026-06-10)
+## Execution status — COMPLETE & API-VERIFIED (2026-06-10)
 
-Done: 6 lead magnets at $0, 27 singles clamped to band, 15 drafts untouched, and 3 of 6
-bundles published — Creator $29 (id 1133342), Business $29 (1133351), Planner $24 (1133333),
-each with a zip archive of the theme's locally available PDFs. Events/Wellness/Home bundles
-are blocked: only 59 of 184 LS products have any deliverable file attached, those 3 themes
-have ~none, and LS 403s merchant downloads of its own product files (AAN-690 tracks sourcing
-the missing files and finishing the bundles). Scripts: ~/projects/aandjtech-ls-products/src/
-(restructure_prices.py, build_bundles.py, upload_bundles.py).
+**Gumroad (AAN-687):** 172 products = 165 originals + 7 published bundles at target prices
+(Events $19/13 items, Creator $29/25, Business $29/30, Wellness $24/26, Home $29/38,
+Planner $24/22, Wall Art $19/6); 7 lead magnets at $0; 0 price mismatches vs the mapping.
+
+**LemonSqueezy (AAN-688 + AAN-690):** 175 published = 169 originals + 6 bundles at target
+prices (ids 1133764/1133342/1133351/1133767/1133771/1133333), each with its combined zip;
+6 lead magnets at $0; 27 singles clamped; 15 drafts untouched; 0 mismatches.
+AAN-690 sourced the missing deliverable files that had blocked 3 of the bundles.
+Scripts: ~/projects/aandjtech-ls-products/src/ (restructure_prices.py, build_bundles.py,
+upload_bundles.py).
 
 ## Execution notes
 
