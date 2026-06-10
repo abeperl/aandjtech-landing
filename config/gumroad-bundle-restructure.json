@@ -1,0 +1,1548 @@
+{
+  "source_issue": "AAN-685",
+  "generated": "2026-06-10",
+  "gumroad_catalog_size": 165,
+  "lifetime_sales_all_skus": 0,
+  "tier_rules": {
+    "free": "one lead magnet per theme, price $0, feeds Kit list",
+    "single": "$4.99-$9.99 band, out-of-band prices clamped to $9.99",
+    "bundle": "one new Gumroad native bundle per theme at $19-$29",
+    "premium": "existing premium Notion OS products kept at current price"
+  },
+  "themes": [
+    {
+      "key": "events",
+      "label": "Events & Celebrations",
+      "bundle_price_usd": 19.0,
+      "products": [
+        {
+          "gumroad_id": "QYNjufYXnHFNUslWvMqyAQ==",
+          "name": "Wedding Photographer Pricing Guide & Welcome Packet | Canva Template | Photography Business | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/nobkme",
+          "current_price_usd": 18.98,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "DlSpJPR0gwBRL5ary6tJWw==",
+          "name": "Party Planning Checklist | Birthday Event Planner | Guest List & Budget Tracker | DIY Decor Ideas (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ebnfox",
+          "current_price_usd": 5.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "_Qx0URQB65nVRu8CDQyhDA==",
+          "name": "Baby Shower Games Bundle | 10 Printable Party Games | Price is Right Cards | Bingo (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/bohjaq",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "h9PF9L7aiawJD_Mx7LYURg==",
+          "name": "Pregnancy Journal | Weekly Milestone Tracker | Birth Plan Template | Baby Shower Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/vqsqvz",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "YUBf18zOjLmYwLQiTXBBRw==",
+          "name": "Anniversary Planner | Date Night Ideas List | Relationship Goals Journal | Love Letter Prompts (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hrswsh",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "uYkbjyTzHfdWkuceLzJU_w==",
+          "name": "Printable Birthday Invitation Bundle | Editable Party Invites | Thank You Cards | Table Place Cards (Canva Template)",
+          "short_url": "https://ajaxtech.gumroad.com/l/kbyxsi",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Ye_TSWHJZPHBaASsdNdLkg==",
+          "name": "Birthday Party Planner | Guest List RSVP Tracker | Party Budget | Activity Schedule (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/sqpjd",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "8wr9-bAP-HhB3bJZY9SlQA==",
+          "name": "Wedding Budget Tracker Spreadsheet | Google Sheets + Excel | Vendor Payment Planner | Instant Download | Bride Gift",
+          "short_url": "https://ajaxtech.gumroad.com/l/drkhqc",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "UykwiIPlKGkQkfarBkY7WA==",
+          "name": "Baby Shower Party Bundle | Invitation Template | Games Printable | Decorations | Advice Cards | Diaper Raffle (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qnlfbjx",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "6Qkr_ymC3o5HIOjtwNOHPw==",
+          "name": "Wedding Planning Checklist | Budget Tracker | Guest List and Vendor Contacts | Timeline Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/abhkbk",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "fFd1FguZfMzdWAt5kfkaCA==",
+          "name": "Baby Shower Planning Kit | Guest List & Registry Tracker | Bingo Cards | Game Ideas | Thank You Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qatuqv",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "BP0vkKdhBrKd9a0UVo-GuQ==",
+          "name": "Christmas & Holiday Planner | Gift List & Budget Tracker | Holiday Meal Planner | Christmas Card List | Party Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ookba",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Hhp-oKzaz_TkGMkUj7uUkg==",
+          "name": "Wedding Planning Binder | Vendor Checklist & Budget Tracker | Guest List Manager | Day-Of Timeline (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/pmgsn",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "key": "creator",
+      "label": "Creator & Marketing Studio",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "gumroad_id": "smLmKxPP62bc5xSljQVqWw==",
+          "name": "Print-on-Demand Starter Kit | Niche Research Tracker | Design Prompt Guide | Etsy POD Toolkit",
+          "short_url": "https://ajaxtech.gumroad.com/l/qjkpcx",
+          "current_price_usd": 11.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "qx3g9cYNRUQimT5CrUIRag==",
+          "name": "Notion Course Creator Dashboard | Curriculum Planner | Launch Tracker | EdTech Template",
+          "short_url": "https://ajaxtech.gumroad.com/l/gbdskp",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "UaiJU8VFTPkuPx6CIzljUw==",
+          "name": "SEO Audit Checklist & Tracker | Google Sheets Template | Website Optimization | Marketing Tools",
+          "short_url": "https://ajaxtech.gumroad.com/l/rvebej",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "RbeKUM_I6x6pubNKo_S1Rw==",
+          "name": "UGC Creator Media Kit & Pitch Email Templates | Canva Editable | Brand Deals | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/fxptu",
+          "current_price_usd": 11.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "a2XNjRiYKBh7BqTVnIiRQQ==",
+          "name": "Faceless YouTube Channel Guide & Templates | Automation Playbook | Canva Thumbnails | Digital Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/pxahdy",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "Dg7VXvbHYZ6IUgufJf0_NQ==",
+          "name": "Midjourney Prompt Guide for Coloring Books | AI Art Prompts | KDP Coloring Pages | Instant PDF Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/wghjbd",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "8kaCq9fSvBBZ4lKPcu2qhg==",
+          "name": "Real Estate Marketing Kit | Canva Templates | Social Media Posts, Flyers, Business Cards | Realtor Bundle",
+          "short_url": "https://ajaxtech.gumroad.com/l/bccklm",
+          "current_price_usd": 19.98,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "Ob2B-k6K15fDVxW7NFvFaQ==",
+          "name": "Solopreneur Content Calendar | Social Media Planner | Brand Strategy Workbook | Launch Checklist (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/elukgf",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "VZpV3nd2t9BAtRaU2d622A==",
+          "name": "Creative Writing Journal | 365 Story Prompts for Writers | Novel Planner | Character Worksheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hekgc",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Tq38Q8cRmHlMTfkDY_PB5w==",
+          "name": "Real Estate Agent Toolkit | Buyer Checklist | Seller Checklist | Open House Sign-In | Listing Marketing Plan (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/fqbku",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "F2s51pnow3mzqTVI6nSZug==",
+          "name": "Social Media Content Planner | Instagram & TikTok Calendar | Creator Batch Planner",
+          "short_url": "https://ajaxtech.gumroad.com/l/tgjzu",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "NtMZEanVzjdZNkZ2mG2BGw==",
+          "name": "90-Day Content Calendar Template | Social Media Editorial Planner | Canva & Excel | Blog + Instagram + TikTok | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/jzfui",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "3JMY2ODpFL4XZEHQ1jYwBg==",
+          "name": "Social Media Content Calendar | Instagram TikTok Planner | Monthly Post Scheduler | Content Strategy Template (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/lwtums",
+          "current_price_usd": 7.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "VQSFpbFLTtm-mV4na_ifZg==",
+          "name": "Gratitude Journal | 365-Day Affirmation Pages | Daily Reflection Prompts | Mindfulness Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ckbufe",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "nlwRy92ruxwAQkkI_zW1jw==",
+          "name": "Podcast Planner | Episode Planning Kit | Guest Tracker and Show Notes Template | Launch Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/mycdd",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "bcF6VyIV5ivHRVdGV1aI8A==",
+          "name": "Email Marketing Planner | Campaign Calendar | A/B Test Log | Subscriber Growth Tracker | Launch Sequence Checklist (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jwvda",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "l4gKHdhuwuRWj0iJiLLpXA==",
+          "name": "Instagram Story Templates | 50 Editable Canva Designs | Highlights Covers and Reels Frames | Instant Canva Access",
+          "short_url": "https://ajaxtech.gumroad.com/l/mnesio",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "demCLTax_zVUukUbaYvWwg==",
+          "name": "Content Creator Income Tracker | Sponsorship & Brand Deal Log | YouTube TikTok Revenue Dashboard | Platform Analytics (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/zbsjkt",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "QHS-NO9HcVVChJdkK2_CcA==",
+          "name": "Pinterest Pin Templates | 50 Editable Canva Designs | Blog & Product Promotion | Viral Pin Pack | Instant Canva Access",
+          "short_url": "https://ajaxtech.gumroad.com/l/hexwbpm",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "nEiUEX6QqNQ8p1q6uy5zMA==",
+          "name": "Instagram Story Templates | 30 Editable Canva Designs | Q&A, Poll, Product Launch & Engagement Story Pack | Instant Canva Access",
+          "short_url": "https://ajaxtech.gumroad.com/l/ggmfu",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "GmKvLmDTS4AC_7Q9dAlM6g==",
+          "name": "Podcast Content Planner | Episode Tracker | Guest Outreach Log | Listener Growth Tracker | Show Notes Template (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qixxme",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Dx6ARNU5EPXxBWM7EuZJ1A==",
+          "name": "TikTok & Instagram Content Calendar | Social Media Growth Tracker | Reel Ideas Log | Posting Schedule Template (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hcbvt",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "UrMHRzzt8Yi6iXGmbUEqOA==",
+          "name": "Vision Board Workbook | 90-Day Goal Setting | Manifestation Journal | Dream Life Planner | Affirmation Prompts (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hifyxv",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "jrEDxWUtDEc9FrfmJLb9XQ==",
+          "name": "Podcast Planner & Episode Tracker | Content Calendar | Guest Outreach Log | Launch Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/nuofgg",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "fzy7jV0gqobYtJPA2DXLmQ==",
+          "name": "Content Creator Hub \u2014 Notion Template for YouTubers, Podcasters & Social Media Creators",
+          "short_url": "https://ajaxtech.gumroad.com/l/rfrjv",
+          "current_price_usd": 29.0,
+          "new_price_usd": 29.0,
+          "tier": "premium",
+          "action": "keep_premium"
+        },
+        {
+          "gumroad_id": "efhOHwPFdnQ8RDZlC2KlAg==",
+          "name": "Social Media Content Planner PDF - 30-Day Calendar + 100 Ideas",
+          "short_url": "https://ajaxtech.gumroad.com/l/tbxzxi",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "label": "Business & Freelance Toolkit",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "gumroad_id": "ibYQzSND_iuFawjLLhezuw==",
+          "name": "Small Business Bookkeeping Google Sheets | Income & Expense Tracker | Profit & Loss Dashboard | Tax Prep",
+          "short_url": "https://ajaxtech.gumroad.com/l/drwah",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "SjBjBJQZL1eEQeu-1S-2cQ==",
+          "name": "Airbnb Welcome Book Canva Template | Vrbo Host Guide | Guest Book | Rental Property Forms | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/qjgovb",
+          "current_price_usd": 15.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "Ugw2nItrFPXOtwegVuQyDA==",
+          "name": "Editable Certificate of Authenticity Template | Canva Certificate for Artists & Creators | Digital Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/ceojhd",
+          "current_price_usd": 7.0,
+          "new_price_usd": 7.0,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "w7p1gGfzF3jOoLq-_AnAfg==",
+          "name": "Digital Product Mockup Templates | Canva Editable | iPad, iPhone, Mac Mockups | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/tjtwk",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "t_72THIL8P1hbRbsFeD-Ew==",
+          "name": "Retirement Countdown Planner | Pre-Retirement Checklist | Social Security Guide | Bucket List Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qjlepv",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "LdQfXaI_ImdGjjWSinDzSQ==",
+          "name": "Freelancer Invoice & Client Tracker | Project Log | Income Dashboard | Tax Prep Sheet (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/cfusby",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "eJEdHtAdDfV7z0ZCDc1vrw==",
+          "name": "Small Business Planner | Etsy Seller Tracker | Monthly Income Log | Order and Inventory Sheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jztcw",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "JW1QPhzSF3aLw_qHPU8VYA==",
+          "name": "Small Business Startup Checklist | LLC Launch Planner | Business Plan Template | Google Sheets (Digital Download)",
+          "short_url": "https://ajaxtech.gumroad.com/l/okpab",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "S7UGX4C384YJ32pV6pgswA==",
+          "name": "Etsy Shop Planner | Seller Organizer Spreadsheet | Revenue Tracker | Listing Planner | Google Sheets | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/objfqo",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "rcRGOfREPiSmeN_bsem3Tg==",
+          "name": "Brand Style Guide Template | Canva Editable | Logo + Color Palette + Typography | Small Business Branding | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/iwxjfi",
+          "current_price_usd": 11.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "wnft-ZfYe096oheMdCG-Rw==",
+          "name": "Freelance Project Tracker | Client Management Spreadsheet | Google Sheets + Excel | Invoice Log | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/wtbqyk",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "dFd9JBMWnrXl_Wv8uMXKDA==",
+          "name": "Client Onboarding Packet Template | Canva Editable | Welcome Kit | Service Provider | Freelancer Branding | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/qhvlnd",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "VqQg5V8cpn7tMOg3E8W77Q==",
+          "name": "Minimalist Business Card Template | Canva Editable | Modern Professional Card Design | 5 Color Variations | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/kzkaj",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "RqxEw8Sjhy6z2Gek_sER3Q==",
+          "name": "Freelance Service Contract Template | Editable Word & Google Docs | Professional Client Agreement | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/dsslzb",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "rrGe33KkihzG7YA0lY7Wxw==",
+          "name": "Freelance Invoice Template | Client Proposal | Project Scope of Work | Contract Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/gwvjjj",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "ZrxLznbMisuMsi4C6uDzdw==",
+          "name": "Resume Template Pack | 3 Professional CV Designs | Cover Letter Template | References Page (Editable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/yphilsx",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "tr2MLRYmFyxDq8ILap_Rfw==",
+          "name": "Real Estate Investor Tracker | Property Analysis and ROI Calculator | Rental Income Log (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/decarr",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "SmerRrhuukc1UNlkSTu5pw==",
+          "name": "Small Business Finance Tracker | Revenue and Expense Log | Tax Prep Worksheet | Profit Dashboard (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/unfyw",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "6BfSko0fa2IHX44FvoKjiw==",
+          "name": "Business Plan Template | Lean Canvas + Financial Projections | Pitch Deck Outline | Startup Roadmap | Market Research Worksheet (PDF + Docs)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jpptcp",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "cwHsMVrt10qQU8k2JvEW-Q==",
+          "name": "Photography Business Planner | Client Session Tracker | Booking Calendar | Invoice Log | Editing Workflow Checklist (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ckquj",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "i2SX9LlmieJHY5wscNwLOw==",
+          "name": "Resume & Cover Letter Template Bundle | Modern ATS-Friendly Design | Google Docs + Word | Job Application Tracker (Instant Download)",
+          "short_url": "https://ajaxtech.gumroad.com/l/rfpgbn",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "3Zi58OZLmlGMFl5fKEjeJA==",
+          "name": "Real Estate Investment Tracker | Rental Property Cash Flow Analyzer | Deal Analysis Worksheet | Portfolio Dashboard (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/dsxdsj",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "ElvnvL0ny1vYzyMJG7os4g==",
+          "name": "Job Search Tracker & Career Development Planner | Application Log | Interview Prep Sheet | Salary Negotiation Worksheet (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/wynwbl",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "mgMofDxOEd-Hd8AxB1obag==",
+          "name": "Small Business Launch Checklist | Startup Planner | Brand Identity Worksheet | First 90 Days Action Plan (Printable PDF + Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/vprph",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "cqvE7MZirNGa0dlvZ7pe6A==",
+          "name": "Side Hustle Income Tracker | Multiple Income Streams Dashboard | Freelance Expense Log | Tax Prep Worksheet (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/tflnnu",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "rCMtEZ8zeiJpf6cVYnaVfw==",
+          "name": "Etsy Seller Planner | Shop Analytics Tracker | Product Launch Checklist | Monthly Revenue Goal (Google Sheets + PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/fexlrp",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "lZJkKNREOb61CrPHGZr0fw==",
+          "name": "Real Estate Deal Analyzer | Rental Property Calculator | Investment Tracker | ROI Worksheet (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/svgwbz",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "ic5tNVZnroOpq_vziHwz8g==",
+          "name": "Freelancer Client Tracker | Invoice Log | Project Management Dashboard | Business Planner (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hnjtz",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "zP2dKU8j235Ccf-TcuFjIg==",
+          "name": "Business OS Team License \u2014 Notion Template for Startup Teams (Up to 10 Seats)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ketpx",
+          "current_price_usd": 69.0,
+          "new_price_usd": 69.0,
+          "tier": "premium",
+          "action": "keep_premium"
+        },
+        {
+          "gumroad_id": "FNSzHBNjK14EyB-mLCFBrA==",
+          "name": "Freelancer Command Center \u2014 Notion Template for Independent Professionals",
+          "short_url": "https://ajaxtech.gumroad.com/l/fkvrsx",
+          "current_price_usd": 29.0,
+          "new_price_usd": 29.0,
+          "tier": "premium",
+          "action": "keep_premium"
+        },
+        {
+          "gumroad_id": "vFNPNH6vRCxqtDVzXfp-Gg==",
+          "name": "Business OS for Notion \u2014 All-in-One Startup & Founder Operating System",
+          "short_url": "https://ajaxtech.gumroad.com/l/pgxzg",
+          "current_price_usd": 39.0,
+          "new_price_usd": 39.0,
+          "tier": "premium",
+          "action": "keep_premium"
+        },
+        {
+          "gumroad_id": "eMkqtYWwJ8FQ5EiXQv9exg==",
+          "name": "Small Business Starter Bundle - 4 Essential Templates (50%+ Off)",
+          "short_url": "https://ajaxtech.gumroad.com/l/zjkhoi",
+          "current_price_usd": 19.99,
+          "new_price_usd": 19.99,
+          "tier": "premium",
+          "action": "keep_premium"
+        },
+        {
+          "gumroad_id": "oXL4ffDomT8_HOgVQh3Q_w==",
+          "name": "Brand Kit Template - Complete Brand Identity Workbook for Small Business",
+          "short_url": "https://ajaxtech.gumroad.com/l/lgygge",
+          "current_price_usd": 12.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "VXaFTwO5N5OvF_FCbA_ZhQ==",
+          "name": "Small Business Invoice Template PDF - Professional Billing",
+          "short_url": "https://ajaxtech.gumroad.com/l/fnyldh",
+          "current_price_usd": 7.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        }
+      ]
+    },
+    {
+      "key": "wellness",
+      "label": "Health & Wellness",
+      "bundle_price_usd": 24.0,
+      "products": [
+        {
+          "gumroad_id": "YNme7UusgkAwVr3cR17pmA==",
+          "name": "Printable Daily Gratitude Journal | Mindfulness & Reflection Planner | 5 Minute Morning Routine (PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/uaxxpc",
+          "current_price_usd": 5.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "pUO1HtC_1BTgdRvymWyHMQ==",
+          "name": "Intermittent Fasting Tracker | 16-8 and 5-2 Log | Hunger Journal | Weight and Energy Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/muwpvz",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "4nzBklOjZOIRFQdwGjgXfg==",
+          "name": "Digital Detox Planner | Screen Time Log | Dopamine Reset Journal | Mindful Tech Habits Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/raszej",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "wOHTYCbbb9RbHYCpRKxgRA==",
+          "name": "Grief Journal | Loss and Healing Workbook | Memory Keeping Pages | Daily Processing Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/wbkgqh",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "SLYTMdrCsKiuO3-JEOkhhQ==",
+          "name": "New Mom Survival Planner | Baby Feeding Log | Sleep Tracker | Postpartum Self-Care Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/lpccux",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "-f-bhN8ZIdzXckvTVXqUhA==",
+          "name": "Meal Prep Planner | Weekly Menu Planner | Grocery List Template | Pantry Inventory (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jtuyyp",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "iVN1Ng9QXgX2Z3scNorkVg==",
+          "name": "Fitness Workout Tracker | Weekly Exercise Planner | Strength Log | Body Measurement Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/cockzf",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "yMnklh7xB0vaiJE2ZzRMdQ==",
+          "name": "Self-Care Planner | Mental Health Journal | Mood Tracker | Anxiety Relief Worksheets (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/bufvv",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "wfHjOX5s3UCmI50zbxelWQ==",
+          "name": "Calorie Counter and Macro Tracker | Weight Loss Journal | Meal Planner | Body Measurement Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/zbctax",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "YqpgtNND1NvxPMGpFGn3Xg==",
+          "name": "Skincare Routine Planner | Morning Night Regimen Tracker | Product Log | Skin Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/snmkpc",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "jJmbpa85mlZQR8OB5uVWHQ==",
+          "name": "Fitness & Workout Log | Weight Training Tracker | 12-Week Progress Planner | Gym Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/nhhta",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "glEAaDAZNNO7ewq_vLMuUg==",
+          "name": "Pregnancy Journal & Baby First Year Tracker | Milestone Keepsake | Bump Photos Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/kniho",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "fvHwjMk2W0qYcs93fMOn9w==",
+          "name": "Self-Care Routine Planner | Daily Wellness Tracker | Morning & Evening Ritual | Printable PDF | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/hhowc",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "3ilK3zUUl_FM5F5yKcuSLA==",
+          "name": "Weekly Grocery & Meal Prep Planner | Printable PDF | Shopping List | Clean Eating | Instant Download | Kitchen Organization",
+          "short_url": "https://ajaxtech.gumroad.com/l/loyfr",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "OPEebYzktUZtnRwARqKHhw==",
+          "name": "Anxiety & Mindfulness Journal | 50-Page Printable PDF | Daily Mental Health Tracker | Self-Care Planner | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/acjor",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "nP75XFBrGJA9vUFpIq4mCw==",
+          "name": "Fitness Workout Log | Weekly Meal Prep Planner | Progress Tracker | Gym Schedule (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qihple",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "BHZLfARcIfJ2rrTKAMWTxA==",
+          "name": "Yoga & Meditation Journal | Daily Practice Log | Breathwork Tracker | Chakra & Energy Check-In | Mindfulness Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/yrnzs",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Wza8A2HFxI2oQtr9xGnBiw==",
+          "name": "ADHD Planner & Focus Tracker | Executive Function Support | Daily Routine Builder | Brain Dump Journal | Time Blocking Worksheets (PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jvtjvg",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "k-B-YQU7w4F-f21fY_JacQ==",
+          "name": "Mental Health Journal & Mood Tracker | Daily Check-In Log | Anxiety Relief Sheet | Gratitude & Affirmation Pages (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ixocxp",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "F_jsOPdyVqQmwXU2LvbKXA==",
+          "name": "Weekly Meal Prep Planner | Grocery List Template | Batch Cooking Log | Recipe Cost Calculator | Nutrition Notes (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/arvnuy",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "QejR4p7e6TRRo0FOkuQepg==",
+          "name": "Fitness Workout Log & Gym Progress Tracker | Weekly Exercise Planner | PR Record | Body Measurement Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/gcfwn",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "aS880_c5mKmv7fmm1toaqw==",
+          "name": "Pregnancy Journal & Baby Tracker | Weekly Bump Log | Birth Plan Template | Newborn Milestone Record (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jggzkc",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "MP4DQtpRMflQ245b0r6g5A==",
+          "name": "Self-Care Planner & Wellness Tracker | Mental Health Journal | Daily Routine Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/lgiiw",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "qLxleaau4AU9w1fMKSOMkQ==",
+          "name": "ADHD Daily Planner PDF - Focus & Productivity System",
+          "short_url": "https://ajaxtech.gumroad.com/l/cgdxhp",
+          "current_price_usd": 17.5,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "HV0eCT9xdgHeZ9-AKDebcw==",
+          "name": "Daily Planner PDF for Neurodivergent Minds - ADHD Support",
+          "short_url": "https://ajaxtech.gumroad.com/l/rjdktc",
+          "current_price_usd": 19.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "lq2b11i2otOJ1ZJ1i-r0Cw==",
+          "name": "ADHD Daily Planner PDF - Neurodivergent Friendly",
+          "short_url": "https://ajaxtech.gumroad.com/l/vsahxb",
+          "current_price_usd": 15.5,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "label": "Home & Family Organization",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "gumroad_id": "Y6sh9lU2JYI_zlgQNr9I0g==",
+          "name": "Minimalist Recipe Ebook Canva Template | Cookbook Creator | Food Blogger Lead Magnet | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/hbobav",
+          "current_price_usd": 16.98,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "wx2DgB95GtmvU7V7vOeb_Q==",
+          "name": "Notion Finance Tracker Template | Personal Budget Planner | Income & Expense Log | Notion Dashboard",
+          "short_url": "https://ajaxtech.gumroad.com/l/lcffbg",
+          "current_price_usd": 11.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "zTHsClcTbb3j7hxVf2Ujyg==",
+          "name": "Kids Chore Chart & Reward Tracker | Weekly Responsibility Board | Star Chart | Allowance Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jplnso",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "D0hlKGx6BpWQ1oLmSD3gLA==",
+          "name": "Pet Care Planner | Vet Visit Log | Vaccination Tracker | Dog Cat Daily Care Checklist (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/gekwt",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "QuTc7DOqjvGx7tWiQHIorA==",
+          "name": "Apartment Rental Tracker | Lease Comparison Worksheet | Moving Checklist | Tenant Rights Guide (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/tpipzl",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "diXlZI2FNtv1v65PAe2n4A==",
+          "name": "Recipe Binder Kit | Recipe Card Templates | Meal Index | Tried and True Recipe Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/vqlipd",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "5eNT63ErDbcQO54QFik7jw==",
+          "name": "Declutter Challenge | Room-by-Room Checklist | Donation Tracker | Minimalist Habit Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qcsvbv",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "HrDsuimXWYmHxnWqoYkBBw==",
+          "name": "Home Renovation Planner | Project Budget Tracker | Contractor Log | Room Design Worksheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/niaxmx",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "NIhLKl8VWG8Owxn-5atw9A==",
+          "name": "Teacher Planner | Lesson Plan Book | Class Roster | Grade Book | Substitute Teacher Form (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/lfoiil",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "8tKnPDR_bgc3IuyVg67smQ==",
+          "name": "Garden Planner | Seed Starting Schedule | Plant Care Log | Harvest Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/htglsn",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "YTIm6AXeMFRdnw0QiumqYg==",
+          "name": "Family Budget Planner | Monthly Bill Tracker | Debt Payoff Log | Savings Goal Worksheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/zwnthl",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "IXNdTJcG0X06K9cUDQRmDA==",
+          "name": "Candle Making Recipe Cards | Fragrance Blend Log | Wax Formula Tracker | Batch Record Sheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/kwcmfo",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "f7wU-VOVV2BxGGNIIK-TfA==",
+          "name": "Spring Cleaning Checklist | Deep Clean Planner | Room-by-Room Guide | Home Organization Labels (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jieztu",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "SMW0IyzLWmt99Qtf5NweHg==",
+          "name": "Dog Training Log | Puppy Progress Tracker | Command Checklist | Vet Health Record (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ixddxx",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "T0_wrQvo2jm7C7DMu8ZsvA==",
+          "name": "Botanical Wall Art Set | 4 Minimalist Plant Prints | Printable Leaf Art | Neutral Boho Home Decor | 8x10 Gallery Wall (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/sjvwu",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "oQVbXc7OGSRNUXqqFv54Rg==",
+          "name": "Teacher Lesson Plan Template | Weekly Lesson Planner | Class Roster | Parent Communication Log | Sub Plans (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hvxiyj",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "bN6hzAtpSOakk3LQshH-ww==",
+          "name": "Minimalist Wall Art Prints Set | 6 Abstract Line Art Posters | Boho Home Decor (Digital Download)",
+          "short_url": "https://ajaxtech.gumroad.com/l/pftbym",
+          "current_price_usd": 11.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "W8XgRAr7OJLT1RN8gEdLlQ==",
+          "name": "Budget Planner & Monthly Expense Tracker | Bill Payment Log | Debt Payoff | Savings Goals (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/tydom",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "ap26gwKNLdyq-vQfJJRdsg==",
+          "name": "Kids Daily Routine Chart | Printable Chore Chart | Reward System | Morning Checklist | Toddler Preschool | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/sqyjqm",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "K5FMVmFBAGU52lEueuhC0Q==",
+          "name": "Home Declutter & Organization Planner | Room-by-Room Checklist | Minimalist Living | Printable PDF | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/kswsjb",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "7IpCmenDC-CXKSCIxlYk_A==",
+          "name": "Savings Goal Tracker | Visual Progress Printable | Debt Payoff + Savings Chart | Financial Planner | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/obhws",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "panfkZiOFBBJ74QohpJC7g==",
+          "name": "Kids Chore Chart | Reward System | Weekly Responsibility Tracker | Star Chart | Screen Time Agreement (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/kiuehi",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "BGPwzP0VDmbcD7Ym5QaqoA==",
+          "name": "Recipe Card Templates | Printable Recipe Cards 4x6 and Full Page | Blank Recipe Book Pages | Kitchen Organizer (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/emnnsv",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "KxeX9fl51BZ5WZZWyzSqKg==",
+          "name": "Homeschool Planner | Weekly Lesson Tracker | Subject Schedule and Grade Log | Attendance Record (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ypsndh",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "_LZ9StWg7IihKeWLBVz75w==",
+          "name": "Teacher Gift Tags & Classroom Label Pack | 100 Printable Labels | Back to School | Thank You Tags | Editable Canva Templates",
+          "short_url": "https://ajaxtech.gumroad.com/l/gugjph",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "iRrKYTbu3WLXcOcKI4ynNA==",
+          "name": "Watercolor Botanical Wall Art Set | 6 Floral Prints | Spring & Garden Home Decor | Printable Poster Pack | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/iewvyz",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "XTQMxvf2oFoOdEHzHRuLmg==",
+          "name": "Moving House Checklist & New Home Planner | Change of Address Tracker | Room Setup Guide | Utilities Transfer Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hpdzaa",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "rxcyO2-wxK2WbefybFPmvQ==",
+          "name": "Personal Finance Dashboard | Net Worth Tracker | Debt Snowball Planner | Monthly Budget & Investment Log (Google Sheets)",
+          "short_url": "https://ajaxtech.gumroad.com/l/yszuo",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "PkjYViFusHt4istb_Nonvg==",
+          "name": "Homeschool Curriculum Planner | Lesson Plan Log | Student Progress Tracker | Annual Schedule | Resource Organizer (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/rqocsg",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "VKmwvBvV7vXRj8CMxJW7Ng==",
+          "name": "Home Cleaning Schedule & Chore Checklist | Daily, Weekly & Monthly Tasks | Deep Clean Tracker | Zone Cleaning System (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/pyawau",
+          "current_price_usd": 5.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "dU6KnbG-dq_f3F5LQC3S7Q==",
+          "name": "Pet Health Log & Dog Care Planner | Vet Visit Tracker | Vaccine Schedule | Medication Log | Grooming Record (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qkxdd",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "sVuN5aC7G-2vgg3WGN-Gag==",
+          "name": "Travel Itinerary Planner | Trip Budget Tracker | Packing List Template | Hotel & Flight Log | Bucket List Map (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/gozto",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "gtA0OTY1PxUmyv-XnyW0EQ==",
+          "name": "Teacher Lesson Planner & Gradebook Tracker | Weekly Curriculum Map | Attendance Log | Parent Contact Sheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/urdyk",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "6145xw_HePbHKJi93H5OFQ==",
+          "name": "Home Renovation & DIY Project Planner | Room Makeover Budget Tracker | Contractor Quote Sheet | Timeline Template (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/dnggol",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "YAZAJcuBRDcXyz0s6w26VQ==",
+          "name": "Kids Chore Chart & Responsibility Tracker | Weekly Allowance Log | Homework Planner | Screen Time Limit Sheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/jtfcq",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "OIxjD7djSoK_126unFyWYg==",
+          "name": "Annual Budget Planner 2025-2026 | Monthly Bill Tracker | Savings Goal Worksheet | Debt Payoff Snowball (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/kzqkjv",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "TKsD4zRYyMr5HvWDwqUF0w==",
+          "name": "Home Garden Planner | Seed Starting Log | Plant Care Tracker | Harvest Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/nuvelq",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "Nun8CUsuSN_8-Hff92b4Qw==",
+          "name": "Teacher Lesson Planner | Classroom Management Tracker | Weekly Unit Plan | Grade Book (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ncetzi",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "key": "planner",
+      "label": "Planner & Productivity Vault",
+      "bundle_price_usd": 24.0,
+      "products": [
+        {
+          "gumroad_id": "jzDgFHISO-ZFYKMHRGXxPw==",
+          "name": "Notion Digital Nomad Travel & Expense Planner | Itinerary Dashboard | Packing List | Notion Template",
+          "short_url": "https://ajaxtech.gumroad.com/l/rwoqe",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "tTHXCwlFvdVKRAOUc-xtMw==",
+          "name": "Notion Student Planner Template | College & High School Dashboard | Assignment Tracker & Class Schedule",
+          "short_url": "https://ajaxtech.gumroad.com/l/aeaddb",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "NjZqXmW6FrkLkVaKqYQd_w==",
+          "name": "Notion Second Brain Template | Personal Life OS | Productivity Planner & Task Manager | Notion Template",
+          "short_url": "https://ajaxtech.gumroad.com/l/uxvsrf",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "mS26cqqrgdKmCDLwK47tlA==",
+          "name": "College Student Planner | Semester Schedule | Study Timetable | Assignment Tracker (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/ayrsj",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "S49unom_Fh7zfpRff8ZK0g==",
+          "name": "Book Club Kit | Reading Tracker | Discussion Guide Template | Monthly TBR List (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/nfiyzw",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "KF42w_gM7y0JNTRMQAT7Bg==",
+          "name": "Travel Journal | Trip Planner | Packing List | Bucket List and Itinerary Planner (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/knoeku",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "iv7soVzPK3y9yFp1ZiBKzg==",
+          "name": "Beginner Cross-Stitch Pattern Kit | Easy Floral Designs | Grid Templates | Stitch Color Chart (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/cuefs",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "TJiVNnU4QIIphBmQtoUexA==",
+          "name": "Travel Journal & Trip Planner | Bucket List Tracker | Packing Checklist | Itinerary Template (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/rdwnfw",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "wiORlX-sdjlN72oAOiuWXQ==",
+          "name": "Digital Scrapbook Kit | Boho Textures & Frames | Scrapbook Stickers | Printable Ephemera | Canva | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/unxwzj",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "eJzL8ihJ-zuHMuR2CqKedQ==",
+          "name": "Student Study Planner | Academic Organizer | Exam Tracker | Assignment Planner | Printable PDF | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/iihvr",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "5xatDXaQOtqVP-f88Q-S5w==",
+          "name": "Reading Log & Book Tracker | Book Club Planner | Reading Challenge | Review Journal | Printable PDF | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/gqadm",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "kiAt4XWTn7JmT5fswnOQBg==",
+          "name": "Habit Tracker Bundle | 30-Day Challenge Printable | Daily Goals | Streaks | Behavior Change | Printable PDF | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/ttbjae",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "ZMlEZXVoY7X7rAi2oZ2iYQ==",
+          "name": "Digital Vision Board Template | Canva Editable | 2026 Goal Setting | Manifestation Board | New Year Planner | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/iivytb",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "h6G_Eccw6hg7v4mr31Fe1w==",
+          "name": "Bullet Journal Starter Kit | Monthly Spread Templates | Habit Tracker Pages | Weekly Layout (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/nhmcgf",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "8D6ZCLp8vYKp2eL6eT4ZJg==",
+          "name": "Reading Journal and Book Review Log | Reading List Tracker | Genre Goals | Annual Reading Challenge (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/tqvkk",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "iOmBcFv1IDPHmVSd-AeK0w==",
+          "name": "Language Learning Planner | Vocabulary Notebook | Study Schedule | Daily Practice Tracker | Immersion Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/azqvij",
+          "current_price_usd": 6.99,
+          "new_price_usd": 6.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "BvrdN5ZMdyArys5E2RsaFg==",
+          "name": "Notion Life Dashboard Template | All-in-One Personal OS | Habit Tracker, Goal Planner & Project Hub | Instant Notion Template",
+          "short_url": "https://ajaxtech.gumroad.com/l/ujwjt",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "W1rwVDECumKt251BpxIewQ==",
+          "name": "Book Reading Log & Library Tracker | Reading Challenge Worksheet | Monthly TBR List | Favorite Quotes Journal (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/qbhroc",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "DTuaFzwA4lf1-_lNX9vFUw==",
+          "name": "Digital Nomad Planner | Remote Work Productivity Tracker | Travel Work Balance Log (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/uzjwle",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "_3C4jgkxdVfVyHQicvGHdQ==",
+          "name": "Daily Habit Tracker | 30-Day Challenge Log | Mood & Energy Journal | Routine Builder (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/bhhaj",
+          "current_price_usd": 5.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "PsTTwLe4Jjrof9kYmA4YWQ==",
+          "name": "Reading Tracker & Book Review Journal | 100-Book Challenge Log | TBR List | Book Club Kit (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/hetgvj",
+          "current_price_usd": 5.99,
+          "new_price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "TA93A9pqRClX04cQONDwHw==",
+          "name": "College Student Academic Planner | Semester Schedule | Study Tracker | GPA Goal Sheet (Printable PDF)",
+          "short_url": "https://ajaxtech.gumroad.com/l/dxtwhl",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "key": "art",
+      "label": "Printable Wall Art Gallery",
+      "bundle_price_usd": 19.0,
+      "products": [
+        {
+          "gumroad_id": "2NcUximTffXaCDrl3oUPDw==",
+          "name": "Vintage Botanical Prints Set | 4 Piece Antique Floral Posters | Cottagecore Wall Art | Printable PDF",
+          "short_url": "https://ajaxtech.gumroad.com/l/ervucw",
+          "current_price_usd": 8.99,
+          "new_price_usd": 8.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "-zPZIbwwPoXmvJkGuJE_Ig==",
+          "name": "Neutral Abstract Wall Art Set | 3 Piece Boho Gallery Wall Prints | Printable Geometric Art | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/qsnotc",
+          "current_price_usd": 7.99,
+          "new_price_usd": 7.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "U8WOc1Ch_-UFKFHZ61iuzg==",
+          "name": "Scandinavian Hygge Wall Art Set | 6 Minimalist Nordic Prints | Boho Line Art | Printable Poster Pack | Instant Download",
+          "short_url": "https://ajaxtech.gumroad.com/l/annho",
+          "current_price_usd": 9.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "keep"
+        },
+        {
+          "gumroad_id": "6M1eMVv5RwXzkCC8IycuHg==",
+          "name": "Minimalist Botanical Wall Art Prints - Digital Set of 4",
+          "short_url": "https://ajaxtech.gumroad.com/l/xyxpy",
+          "current_price_usd": 13.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        },
+        {
+          "gumroad_id": "WcDhI7buVxq3dMXMSWVgnA==",
+          "name": "Set of 4 Minimalist Botanical SVG Wall Art Prints",
+          "short_url": "https://ajaxtech.gumroad.com/l/rbluki",
+          "current_price_usd": 11.99,
+          "new_price_usd": 0.0,
+          "tier": "free",
+          "action": "make_free_lead_magnet"
+        },
+        {
+          "gumroad_id": "bSHup9pzAuDRjeuLgX2e3w==",
+          "name": "Minimalist Botanical Wall Art SVG Prints - Set of 4",
+          "short_url": "https://ajaxtech.gumroad.com/l/dpytee",
+          "current_price_usd": 14.99,
+          "new_price_usd": 9.99,
+          "tier": "single",
+          "action": "reprice"
+        }
+      ]
+    }
+  ]
+}

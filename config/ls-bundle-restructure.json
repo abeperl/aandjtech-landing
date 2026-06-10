@@ -1,0 +1,1409 @@
+{
+  "source_issue": "AAN-685",
+  "generated": "2026-06-10",
+  "ls_published_count": 169,
+  "ls_draft_count": 15,
+  "note": "LS API is GET-only for products; all changes are dashboard-only. LS has no native bundle type: bundles = new products with combined file uploads, or use the same files via shared archive. Art theme has 1 LS SKU - no bundle.",
+  "themes": [
+    {
+      "key": "events",
+      "label": "Events & Celebrations",
+      "bundle_price_usd": 19.0,
+      "products": [
+        {
+          "ls_id": "1056727",
+          "name": "Anniversary Planner | Date Night Ideas List | Relationship Goals Journal | Love Letter Prompts (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056738",
+          "name": "Baby Shower Games Bundle | 10 Printable Party Games | Price is Right Cards | Bingo (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056712",
+          "name": "Baby Shower Party Bundle | Invitation Template | Games Printable | Decorations | Advice Cards | Diaper Raffle (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056695",
+          "name": "Baby Shower Planning Kit | Guest List & Registry Tracker | Bingo Cards | Game Ideas | Thank You Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056717",
+          "name": "Birthday Party Planner | Guest List RSVP Tracker | Party Budget | Activity Schedule (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056684",
+          "name": "Christmas & Holiday Planner | Gift List & Budget Tracker | Holiday Meal Planner | Christmas Card List | Party Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056758",
+          "name": "Party Planning Checklist | Birthday Event Planner | Guest List & Budget Tracker | DIY Decor Ideas (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "1056731",
+          "name": "Pregnancy Journal | Weekly Milestone Tracker | Birth Plan Template | Baby Shower Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056722",
+          "name": "Printable Birthday Invitation Bundle | Editable Party Invites | Thank You Cards | Table Place Cards (Canva Template)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056606",
+          "name": "Wedding Budget Tracker Spreadsheet | Google Sheets + Excel | Vendor Payment Planner | Instant Download | Bride Gift",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056668",
+          "name": "Wedding Planning Binder | Vendor Checklist & Budget Tracker | Guest List Manager | Day-Of Timeline (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056624",
+          "name": "Wedding Planning Checklist | Budget Tracker | Guest List and Vendor Contacts | Timeline Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        }
+      ]
+    },
+    {
+      "key": "creator",
+      "label": "Creator & Marketing Studio",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "ls_id": "1056591",
+          "name": "90-Day Content Calendar Template | Social Media Editorial Planner | Canva & Excel | Blog + Instagram + TikTok | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025175",
+          "name": "A/B Testing Cheatsheet for Product Teams",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1033956",
+          "name": "Affiliate Program Launch Kit",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024910",
+          "name": "AI Image Prompts Library \u2014 300+ Midjourney/DALL\u00b7E",
+          "price_usd": 11.5,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "972667",
+          "name": "AI Prompt Library for Marketers (500+ Prompts)",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024898",
+          "name": "ChatGPT Coding Prompts \u2014 200 Dev Prompts",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024985",
+          "name": "Cold DM Templates for Creators",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024899",
+          "name": "Cold Email Outreach Kit \u2014 50 Sales Templates",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056696",
+          "name": "Content Creator Income Tracker | Sponsorship & Brand Deal Log | YouTube TikTok Revenue Dashboard | Platform Analytics (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056720",
+          "name": "Creative Writing Journal | 365 Story Prompts for Writers | Novel Planner | Character Worksheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1033936",
+          "name": "Discord Server Launch Kit",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056699",
+          "name": "Email Marketing Planner | Campaign Calendar | A/B Test Log | Subscriber Growth Tracker | Launch Sequence Checklist (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "972702",
+          "name": "Email Marketing Template Pack \u2014 20 Proven Templates",
+          "price_usd": 19.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056634",
+          "name": "Gratitude Journal | 365-Day Affirmation Pages | Daily Reflection Prompts | Mindfulness Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056688",
+          "name": "Instagram Story Templates | 50 Editable Canva Designs | Highlights Covers and Reels Frames | Instant Canva Access",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025092",
+          "name": "Newsletter Sponsorship Sales Kit",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1033948",
+          "name": "Pinterest Marketing Strategy Kit",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056694",
+          "name": "Pinterest Pin Templates | 50 Editable Canva Designs | Blog & Product Promotion | Viral Pin Pack | Instant Canva Access",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056679",
+          "name": "Podcast Content Planner | Episode Tracker | Guest Outreach Log | Listener Growth Tracker | Show Notes Template (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056655",
+          "name": "Podcast Planner & Episode Tracker | Content Calendar | Guest Outreach Log | Launch Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056707",
+          "name": "Podcast Planner | Episode Planning Kit | Guest Tracker and Show Notes Template | Launch Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056716",
+          "name": "Real Estate Agent Toolkit | Buyer Checklist | Seller Checklist | Open House Sign-In | Listing Marketing Plan (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025099",
+          "name": "SaaS Onboarding Email Sequence \u2014 50 Templates",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "972765",
+          "name": "SEO Keyword Research Workbook \u2014 Google Sheets System",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1025173",
+          "name": "Slack Community Launch Kit",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056708",
+          "name": "Social Media Content Calendar | Instagram TikTok Planner | Monthly Post Scheduler | Content Strategy Template (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "972657",
+          "name": "Social Media Content Calendar 2026",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056629",
+          "name": "Social Media Content Planner | Instagram & TikTok Calendar | Creator Batch Planner",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056752",
+          "name": "Solopreneur Content Calendar | Social Media Planner | Brand Strategy Workbook | Launch Checklist (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056667",
+          "name": "TikTok & Instagram Content Calendar | Social Media Growth Tracker | Reel Ideas Log | Posting Schedule Template (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024907",
+          "name": "TikTok Content Strategy Workbook 2026",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056664",
+          "name": "Vision Board Workbook | 90-Day Goal Setting | Manifestation Journal | Dream Life Planner | Affirmation Prompts (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025201",
+          "name": "Welcome Email Series for E-commerce",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024983",
+          "name": "YouTube Channel Setup Kit",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "972696",
+          "name": "YouTube Growth Playbook 2026 \u2014 90-Day Roadmap",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "label": "Business & Freelance Toolkit",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "ls_id": "1024906",
+          "name": "100 Profitable Side Hustle Ideas \u2014 Niche Vault",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056619",
+          "name": "Brand Style Guide Template | Canva Editable | Logo + Color Palette + Typography | Small Business Branding | Instant Download",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "1025192",
+          "name": "Brand Voice & Tone Guide Template",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "972775",
+          "name": "Canva Business Card & Brand Kit \u2014 50 Templates",
+          "price_usd": 7.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 7.99
+        },
+        {
+          "ls_id": "1056612",
+          "name": "Client Onboarding Packet Template | Canva Editable | Welcome Kit | Service Provider | Freelancer Branding | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1033947",
+          "name": "Customer Support Macros \u2014 50 Templates",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "972701",
+          "name": "Developer Portfolio Website Template \u2014 Dark Mode HTML",
+          "price_usd": 24.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056656",
+          "name": "Etsy Seller Planner | Shop Analytics Tracker | Product Launch Checklist | Monthly Revenue Goal (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024904",
+          "name": "Etsy Shop Launch Checklist + Listing Template",
+          "price_usd": 7.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 7.99
+        },
+        {
+          "ls_id": "1056621",
+          "name": "Etsy Shop Planner | Seller Organizer Spreadsheet | Revenue Tracker | Listing Planner | Google Sheets | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056710",
+          "name": "Freelance Invoice Template | Client Proposal | Project Scope of Work | Contract Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024909",
+          "name": "Freelance Pricing Calculator (Sheets)",
+          "price_usd": 7.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 7.99
+        },
+        {
+          "ls_id": "1056618",
+          "name": "Freelance Project Tracker | Client Management Spreadsheet | Google Sheets + Excel | Invoice Log | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056589",
+          "name": "Freelance Service Contract Template | Editable Word & Google Docs | Professional Client Agreement | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056638",
+          "name": "Freelancer Client Tracker | Invoice Log | Project Management Dashboard | Business Planner (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056750",
+          "name": "Freelancer Invoice & Client Tracker | Project Log | Income Dashboard | Tax Prep Sheet (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "972689",
+          "name": "Freelancer Legal Bundle \u2014 5 Essential Contract Templates",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024984",
+          "name": "Google Sheets Mastery \u2014 50 Power Formulas",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1025021",
+          "name": "Invoice & Contract Templates Bundle",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056675",
+          "name": "Job Search Tracker & Career Development Planner | Application Log | Interview Prep Sheet | Salary Negotiation Worksheet (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024900",
+          "name": "LinkedIn Personal Brand 30-Day Playbook",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056597",
+          "name": "Minimalist Business Card Template | Canva Editable | Modern Professional Card Design | 5 Color Variations | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "972676",
+          "name": "Notion Business OS Template \u2014 All-in-One Workspace",
+          "price_usd": 19.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1024982",
+          "name": "Notion Templates Bundle for Solopreneurs",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056685",
+          "name": "Photography Business Planner | Client Session Tracker | Booking Calendar | Invoice Log | Editing Workflow Checklist (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025026",
+          "name": "Productized Service Launch Kit",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056654",
+          "name": "Real Estate Deal Analyzer | Rental Property Calculator | Investment Tracker | ROI Worksheet (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056680",
+          "name": "Real Estate Investment Tracker | Rental Property Cash Flow Analyzer | Deal Analysis Worksheet | Portfolio Dashboard (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056705",
+          "name": "Real Estate Investor Tracker | Property Analysis and ROI Calculator | Rental Income Log (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024902",
+          "name": "Resume & Cover Letter Bundle (ATS-Optimized)",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056683",
+          "name": "Resume & Cover Letter Template Bundle | Modern ATS-Friendly Design | Google Docs + Word | Job Application Tracker (Instant Download)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056709",
+          "name": "Resume Template Pack | 3 Professional CV Designs | Cover Letter Template | References Page (Editable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056755",
+          "name": "Retirement Countdown Planner | Pre-Retirement Checklist | Social Security Guide | Bucket List Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056662",
+          "name": "Side Hustle Income Tracker | Multiple Income Streams Dashboard | Freelance Expense Log | Tax Prep Worksheet (Google Sheets + PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025018",
+          "name": "Side Project to Profitable Business \u2014 90-Day Plan",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056702",
+          "name": "Small Business Finance Tracker | Revenue and Expense Log | Tax Prep Worksheet | Profit Dashboard (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056670",
+          "name": "Small Business Launch Checklist | Startup Planner | Brand Identity Worksheet | First 90 Days Action Plan (Printable PDF + Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056739",
+          "name": "Small Business Planner | Etsy Seller Tracker | Monthly Income Log | Order and Inventory Sheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056633",
+          "name": "Small Business Startup Checklist | LLC Launch Planner | Business Plan Template | Google Sheets (Digital Download)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025079",
+          "name": "Stripe Setup & Pricing Page Templates",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1025088",
+          "name": "Webflow Site Launch Kit",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        }
+      ]
+    },
+    {
+      "key": "wellness",
+      "label": "Health & Wellness",
+      "bundle_price_usd": 24.0,
+      "products": [
+        {
+          "ls_id": "1056687",
+          "name": "ADHD Planner & Focus Tracker | Executive Function Support | Daily Routine Builder | Brain Dump Journal | Time Blocking Worksheets (PDF)",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "1056584",
+          "name": "Anxiety & Mindfulness Journal | 50-Page Printable PDF | Daily Mental Health Tracker | Self-Care Planner | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056723",
+          "name": "Calorie Counter and Macro Tracker | Weight Loss Journal | Meal Planner | Body Measurement Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056757",
+          "name": "Digital Detox Planner | Screen Time Log | Dopamine Reset Journal | Mindful Tech Habits Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056630",
+          "name": "Fitness & Workout Log | Weight Training Tracker | 12-Week Progress Planner | Gym Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056658",
+          "name": "Fitness Workout Log & Gym Progress Tracker | Weekly Exercise Planner | PR Record | Body Measurement Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056625",
+          "name": "Fitness Workout Log | Weekly Meal Prep Planner | Progress Tracker | Gym Schedule (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056741",
+          "name": "Fitness Workout Tracker | Weekly Exercise Planner | Strength Log | Body Measurement Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056753",
+          "name": "Grief Journal | Loss and Healing Workbook | Memory Keeping Pages | Daily Processing Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056742",
+          "name": "Meal Prep Planner | Weekly Menu Planner | Grocery List Template | Pantry Inventory (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056677",
+          "name": "Mental Health Journal & Mood Tracker | Daily Check-In Log | Anxiety Relief Sheet | Gratitude & Affirmation Pages (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056751",
+          "name": "New Mom Survival Planner | Baby Feeding Log | Sleep Tracker | Postpartum Self-Care Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056628",
+          "name": "Pregnancy Journal & Baby First Year Tracker | Milestone Keepsake | Bump Photos Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056657",
+          "name": "Pregnancy Journal & Baby Tracker | Weekly Bump Log | Birth Plan Template | Newborn Milestone Record (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056637",
+          "name": "Self-Care Planner & Wellness Tracker | Mental Health Journal | Daily Routine Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056740",
+          "name": "Self-Care Planner | Mental Health Journal | Mood Tracker | Anxiety Relief Worksheets (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056613",
+          "name": "Self-Care Routine Planner | Daily Wellness Tracker | Morning & Evening Ritual | Printable PDF | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056718",
+          "name": "Skincare Routine Planner | Morning Night Regimen Tracker | Product Log | Skin Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056608",
+          "name": "Weekly Grocery & Meal Prep Planner | Printable PDF | Shopping List | Clean Eating | Instant Download | Kitchen Organization",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056698",
+          "name": "Yoga & Meditation Journal | Daily Practice Log | Breathwork Tracker | Chakra & Energy Check-In | Mindfulness Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "label": "Home & Family Organization",
+      "bundle_price_usd": 29.0,
+      "products": [
+        {
+          "ls_id": "1056660",
+          "name": "Annual Budget Planner 2025-2026 | Monthly Bill Tracker | Savings Goal Worksheet | Debt Payoff Snowball (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056756",
+          "name": "Apartment Rental Tracker | Lease Comparison Worksheet | Moving Checklist | Tenant Rights Guide (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056715",
+          "name": "Botanical Wall Art Set | 4 Minimalist Plant Prints | Printable Leaf Art | Neutral Boho Home Decor | 8x10 Gallery Wall (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056623",
+          "name": "Budget Planner & Monthly Expense Tracker | Bill Payment Log | Debt Payoff | Savings Goals (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056728",
+          "name": "Candle Making Recipe Cards | Fragrance Blend Log | Wax Formula Tracker | Batch Record Sheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056747",
+          "name": "Declutter Challenge | Room-by-Room Checklist | Donation Tracker | Minimalist Habit Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056719",
+          "name": "Dog Training Log | Puppy Progress Tracker | Command Checklist | Vet Health Record (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056729",
+          "name": "Family Budget Planner | Monthly Bill Tracker | Debt Payoff Log | Savings Goal Worksheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056732",
+          "name": "Garden Planner | Seed Starting Schedule | Plant Care Log | Harvest Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056686",
+          "name": "Home Cleaning Schedule & Chore Checklist | Daily, Weekly & Monthly Tasks | Deep Clean Tracker | Zone Cleaning System (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "1056614",
+          "name": "Home Declutter & Organization Planner | Room-by-Room Checklist | Minimalist Living | Printable PDF | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056653",
+          "name": "Home Garden Planner | Seed Starting Log | Plant Care Tracker | Harvest Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056665",
+          "name": "Home Renovation & DIY Project Planner | Room Makeover Budget Tracker | Contractor Quote Sheet | Timeline Template (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056745",
+          "name": "Home Renovation Planner | Project Budget Tracker | Contractor Log | Room Design Worksheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056690",
+          "name": "Homeschool Curriculum Planner | Lesson Plan Log | Student Progress Tracker | Annual Schedule | Resource Organizer (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056706",
+          "name": "Homeschool Planner | Weekly Lesson Tracker | Subject Schedule and Grade Log | Attendance Record (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056663",
+          "name": "Kids Chore Chart & Responsibility Tracker | Weekly Allowance Log | Homework Planner | Screen Time Limit Sheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056713",
+          "name": "Kids Chore Chart & Reward Tracker | Weekly Responsibility Board | Star Chart | Allowance Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056622",
+          "name": "Kids Daily Routine Chart | Printable Chore Chart | Reward System | Morning Checklist | Toddler Preschool | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056631",
+          "name": "Minimalist Wall Art Prints Set | 6 Abstract Line Art Posters | Boho Home Decor (Digital Download)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056697",
+          "name": "Moving House Checklist & New Home Planner | Change of Address Tracker | Room Setup Guide | Utilities Transfer Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "972698",
+          "name": "Personal Budget Tracker \u2014 Google Sheets Template",
+          "price_usd": 7.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 7.99
+        },
+        {
+          "ls_id": "1056693",
+          "name": "Personal Finance Dashboard | Net Worth Tracker | Debt Snowball Planner | Monthly Budget & Investment Log (Google Sheets)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056749",
+          "name": "Pet Care Planner | Vet Visit Log | Vaccination Tracker | Dog Cat Daily Care Checklist (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056678",
+          "name": "Pet Health Log & Dog Care Planner | Vet Visit Tracker | Vaccine Schedule | Medication Log | Grooming Record (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056711",
+          "name": "Recipe Binder Kit | Recipe Card Templates | Meal Index | Tried and True Recipe Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056609",
+          "name": "Savings Goal Tracker | Visual Progress Printable | Debt Payoff + Savings Chart | Financial Planner | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056721",
+          "name": "Spring Cleaning Checklist | Deep Clean Planner | Room-by-Room Guide | Home Organization Labels (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056701",
+          "name": "Teacher Gift Tags & Classroom Label Pack | 100 Printable Labels | Back to School | Thank You Tags | Editable Canva Templates",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056714",
+          "name": "Teacher Lesson Plan Template | Weekly Lesson Planner | Class Roster | Parent Communication Log | Sub Plans (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056652",
+          "name": "Teacher Lesson Planner & Gradebook Tracker | Weekly Curriculum Map | Attendance Log | Parent Contact Sheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056737",
+          "name": "Teacher Planner | Lesson Plan Book | Class Roster | Grade Book | Substitute Teacher Form (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056674",
+          "name": "Travel Itinerary Planner | Trip Budget Tracker | Packing List Template | Hotel & Flight Log | Bucket List Map (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056605",
+          "name": "Watercolor Botanical Wall Art Set | 6 Floral Prints | Spring & Garden Home Decor | Printable Poster Pack | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        }
+      ]
+    },
+    {
+      "key": "planner",
+      "label": "Planner & Productivity Vault",
+      "bundle_price_usd": 24.0,
+      "products": [
+        {
+          "ls_id": "1025019",
+          "name": "AI Workflow Automation Cookbook",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056724",
+          "name": "Beginner Cross-Stitch Pattern Kit | Easy Floral Designs | Grid Templates | Stitch Color Chart (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056743",
+          "name": "Book Club Kit | Reading Tracker | Discussion Guide Template | Monthly TBR List (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056673",
+          "name": "Book Reading Log & Library Tracker | Reading Challenge Worksheet | Monthly TBR List | Favorite Quotes Journal (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056704",
+          "name": "Bullet Journal Starter Kit | Monthly Spread Templates | Habit Tracker Pages | Weekly Layout (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056639",
+          "name": "College Student Academic Planner | Semester Schedule | Study Tracker | GPA Goal Sheet (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056748",
+          "name": "College Student Planner | Semester Schedule | Study Timetable | Assignment Tracker (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025080",
+          "name": "Customer Discovery Interview Script & Tracker",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056646",
+          "name": "Daily Habit Tracker | 30-Day Challenge Log | Mood & Energy Journal | Routine Builder (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "free",
+          "action": "make_free_lead_magnet",
+          "new_price_usd": 0.0
+        },
+        {
+          "ls_id": "1056651",
+          "name": "Digital Nomad Planner | Remote Work Productivity Tracker | Travel Work Balance Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056620",
+          "name": "Digital Scrapbook Kit | Boho Textures & Frames | Scrapbook Stickers | Printable Ephemera | Canva | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056610",
+          "name": "Digital Vision Board Template | Canva Editable | 2026 Goal Setting | Manifestation Board | New Year Planner | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1033984",
+          "name": "First 100 Users Playbook for SaaS",
+          "price_usd": 14.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056615",
+          "name": "Habit Tracker Bundle | 30-Day Challenge Printable | Daily Goals | Streaks | Behavior Change | Printable PDF | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056700",
+          "name": "Language Learning Planner | Vocabulary Notebook | Study Schedule | Daily Practice Tracker | Immersion Log (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025171",
+          "name": "LinkedIn Ads Setup & Targeting Playbook",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056681",
+          "name": "Notion Life Dashboard Template | All-in-One Personal OS | Habit Tracker, Goal Planner & Project Hub | Instant Notion Template",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024911",
+          "name": "Productivity Stack \u2014 Daily/Weekly/Monthly",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056703",
+          "name": "Reading Journal and Book Review Log | Reading List Tracker | Genre Goals | Annual Reading Challenge (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056616",
+          "name": "Reading Log & Book Tracker | Book Club Planner | Reading Challenge | Review Journal | Printable PDF | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056640",
+          "name": "Reading Tracker & Book Review Journal | 100-Book Challenge Log | TBR List | Book Club Kit (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056617",
+          "name": "Student Study Planner | Academic Organizer | Exam Tracker | Assignment Planner | Printable PDF | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1025022",
+          "name": "Substack Newsletter Launch Playbook",
+          "price_usd": 12.99,
+          "tier": "single",
+          "action": "reprice",
+          "new_price_usd": 9.99
+        },
+        {
+          "ls_id": "1056626",
+          "name": "Travel Journal & Trip Planner | Bucket List Tracker | Packing Checklist | Itinerary Template (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1056734",
+          "name": "Travel Journal | Trip Planner | Packing List | Bucket List and Itinerary Planner (Printable PDF)",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 5.99
+        },
+        {
+          "ls_id": "1024987",
+          "name": "Twitter/X Growth Playbook 2026",
+          "price_usd": 9.99,
+          "tier": "single",
+          "action": "keep",
+          "new_price_usd": 9.99
+        }
+      ]
+    },
+    {
+      "key": "art",
+      "label": "Printable Wall Art Gallery",
+      "bundle_price_usd": null,
+      "products": [
+        {
+          "ls_id": "1056692",
+          "name": "Scandinavian Hygge Wall Art Set | 6 Minimalist Nordic Prints | Boho Line Art | Printable Poster Pack | Instant Download",
+          "price_usd": 5.99,
+          "tier": "single",
+          "action": "keep"
+        }
+      ]
+    }
+  ]
+}
