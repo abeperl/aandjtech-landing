@@ -1,0 +1,32 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rockhound.app",
+      "sha256_cert_fingerprints": [
+        "EB:1A:5E:A8:5B:EE:EB:BA:91:39:23:F3:42:76:04:99:1A:86:67:15:AB:82:90:EF:61:5D:BB:FD:F8:19:3F:14"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.fossilref.app",
+      "sha256_cert_fingerprints": [
+        "EB:1A:5E:A8:5B:EE:EB:BA:91:39:23:F3:42:76:04:99:1A:86:67:15:AB:82:90:EF:61:5D:BB:FD:F8:19:3F:14"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.fieldbuddy.app",
+      "sha256_cert_fingerprints": [
+        "36:1B:3D:00:06:D8:E8:88:81:92:4F:04:42:33:C4:95:A0:73:2E:78:EA:82:5B:95:09:1A:31:3E:C3:6B:BE:87"
+      ]
+    }
+  }
+]

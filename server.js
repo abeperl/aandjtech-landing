@@ -80,6 +80,9 @@ app.use((req, res, next) => {
   }
 });
 
+// Serve .well-known/* (dotfiles are blocked by default in express.static)
+app.use('/.well-known', express.static(path.join(ROOT, '.well-known'), { dotfiles: 'allow' }));
+
 // Serve main aandjtech.com site static files
 app.use(express.static(ROOT, {
   // Don't serve apps/ or server.js as static files from root
