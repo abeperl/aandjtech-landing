@@ -57,6 +57,23 @@ app.post('/api/waitlist', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+// Serve /apps directory — hub page + individual app pages on the main domain
+// (Subdomain routing below handles fieldbuddy.aandjtech.com etc.)
+app.use('/apps', express.static(path.join(ROOT, 'apps'), {
+  index: 'index.html',
+  redirect: false,
+}));
+// Fallback: serve index.html for /apps (no trailing slash) and /apps/<name> (no trailing slash)
+app.get(['/apps', '/apps/:appname'], (req, res, next) => {
+  const appDir = req.params.appname ? path.join(ROOT, 'apps', req.params.appname) : path.join(ROOT, 'apps');
+  const indexFile = path.join(appDir, 'index.html');
+  if (fs.existsSync(indexFile)) {
+    res.sendFile(indexFile);
+  } else {
+    next();
+  }
+});
+
 // Middleware: route by subdomain
 app.use((req, res, next) => {
   // Railway overwrites X-Forwarded-Host; honor X-Original-Host set by the Cloudflare Worker
