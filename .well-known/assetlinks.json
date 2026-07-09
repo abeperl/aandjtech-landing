@@ -5,6 +5,7 @@
       "namespace": "android_app",
       "package_name": "com.rockhound.app",
       "sha256_cert_fingerprints": [
+        "9A:C5:CF:C5:3F:A3:C4:87:47:76:8E:85:AD:EE:CE:90:E8:FF:3A:C5:09:0E:78:EC:9E:35:4B:91:FF:4A:15:32",
         "EB:1A:5E:A8:5B:EE:EB:BA:91:39:23:F3:42:76:04:99:1A:86:67:15:AB:82:90:EF:61:5D:BB:FD:F8:19:3F:14"
       ]
     }
@@ -15,6 +16,7 @@
       "namespace": "android_app",
       "package_name": "com.fossilref.app",
       "sha256_cert_fingerprints": [
+        "2B:D6:D1:14:26:3F:F2:F9:F9:B3:A6:62:AD:54:F0:55:46:B7:75:49:4B:AC:6B:49:CB:3C:71:32:94:D6:CA:52",
         "EB:1A:5E:A8:5B:EE:EB:BA:91:39:23:F3:42:76:04:99:1A:86:67:15:AB:82:90:EF:61:5D:BB:FD:F8:19:3F:14"
       ]
     }
@@ -25,6 +27,7 @@
       "namespace": "android_app",
       "package_name": "com.fieldbuddy.app",
       "sha256_cert_fingerprints": [
+        "5C:09:9F:38:8D:DA:2A:DC:3D:49:54:EA:7D:92:3B:08:12:5D:1F:80:53:B6:9F:C1:0A:B8:89:FE:A9:2C:10:46",
         "36:1B:3D:00:06:D8:E8:88:81:92:4F:04:42:33:C4:95:A0:73:2E:78:EA:82:5B:95:09:1A:31:3E:C3:6B:BE:87"
       ]
     }
