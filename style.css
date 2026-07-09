@@ -1,0 +1,277 @@
+/* A&J Tech Printables — SEO section styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --primary: #1a2e44;
+  --accent: #e07b54;
+  --light: #f8f5f0;
+  --text: #2d3748;
+  --muted: #718096;
+  --green: #2d7a55;
+  --border: #e2e8f0;
+  --card-bg: #ffffff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--light);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Header / Nav */
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+header .logo span { color: var(--accent); }
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+nav a:hover, nav a.active { color: white; }
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 2.5rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  color: var(--text);
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+.breadcrumbs a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.breadcrumbs a:hover { color: var(--accent); }
+.breadcrumbs span { margin: 0 0.4rem; }
+
+/* Printables grid (hub page) */
+.printables-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.printable-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.printable-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.printable-card h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+.printable-card h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.printable-card h2 a:hover { color: var(--accent); }
+.printable-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Content sections */
+.content-section {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border: 1px solid var(--border);
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+.feature-list li {
+  padding: 0.5rem 0 0.5rem 1.8rem;
+  position: relative;
+}
+.feature-list li::before {
+  content: "✓";
+  color: var(--green);
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+}
+
+/* Product links */
+.product-links { margin: 2rem 0; }
+.product-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid var(--border);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.product-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.product-card h3 { margin-bottom: 0.3rem; }
+.product-card h3 a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.product-card h3 a:hover { color: var(--accent); }
+.product-platform {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+}
+.platform-etsy { background: #f0faf4; color: var(--green); }
+.platform-gumroad { background: #fff0eb; color: #c85a3f; }
+.platform-lemonsqueezy { background: #fff9db; color: #b8860b; }
+
+/* CTA box */
+.cta-box {
+  background: linear-gradient(135deg, var(--primary) 0%, #2d4a6a 100%);
+  color: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+.cta-box h2 { color: white; margin-top: 0; }
+.cta-box p { color: rgba(255,255,255,0.85); }
+.cta-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.85rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(224,123,84,0.4);
+}
+
+/* FAQ */
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+.faq-item h3 {
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.faq-item p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Related links */
+.related-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+.related-links a {
+  display: block;
+  padding: 0.7rem 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+}
+.related-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+footer a { color: rgba(255,255,255,0.8); text-decoration: none; }
+footer p { color: rgba(255,255,255,0.6); font-size: 0.85rem; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  header { padding: 0.8rem 1rem; flex-direction: column; gap: 0.5rem; }
+  nav a { margin: 0 0.5rem; font-size: 0.85rem; }
+  main { padding: 2rem 1rem; }
+  .printables-grid { grid-template-columns: 1fr; }
+  .content-section { padding: 1.5rem; }
+  .cta-box { padding: 1.5rem; }
+}
