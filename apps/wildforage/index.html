@@ -19,6 +19,68 @@
   <meta name="twitter:description" content="Identify edible wild plants, berries, mushrooms, and herbs. A field guide for foragers and outdoor enthusiasts. Free on Google Play.">
   <meta name="twitter:image" content="https://aandjtech.com/og-wildforage.png">
   <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{--primary:#2e6b2a;--accent:#5a9e2f;--light:#f1f8ee;--dark:#122610;--text:#1a2e18;--muted:#4e7848;--card:#fff}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+    .logo span{color:#8bc34a}
+    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+    header a:hover{color:#fff}
+    .hero{background:linear-gradient(135deg,var(--dark) 0%,#1e4a18 50%,var(--primary) 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='10' cy='10' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3Ccircle cx='30' cy='30' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3Ccircle cx='50' cy='50' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3C/svg%3E")}
+    .hero-content{position:relative;max-width:700px;margin:0 auto}
+    .app-badge{display:inline-block;background:rgba(90,158,47,0.2);border:1px solid rgba(90,158,47,0.4);color:#c5e1a5;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+    .hero h1 span{color:#8bc34a}
+    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(90,158,47,0.4)}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(90,158,47,0.5)}
+    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
+    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+    .safety-banner{background:#fff3cd;border-top:4px solid #ffc107;padding:1.25rem 2rem;text-align:center;font-size:0.95rem;color:#664d03}
+    .safety-banner strong{font-weight:700}
+    .features{padding:4rem 2rem;background:#fff}
+    .container{max-width:1100px;margin:0 auto}
+    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+    .card-icon{font-size:2.5rem;margin-bottom:1rem}
+    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+    .card p{color:var(--muted);font-size:0.95rem}
+    .categories{padding:3rem 2rem;background:var(--light)}
+    .cat-grid{display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin-top:2rem}
+    .cat-tag{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.6rem 1.1rem;font-size:0.9rem;color:var(--primary);font-weight:600}
+    .download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
+    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+    .play-btn svg{width:28px;height:28px}
+    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+    footer a:hover{color:#fff}
+    .footer-links{margin-bottom:0.75rem}
+    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
+  
+    .waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+    .waitlist .section-sub{margin-bottom:2rem}
+    .waitlist-form{max-width:560px;margin:0 auto}
+    .waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+    .waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+    .waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+    .waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+    .waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+    .waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+    .waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+    .waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+    .waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+    @media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
+  
+  </style>
 </head>
 <body>
 
