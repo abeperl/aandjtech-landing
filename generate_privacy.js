@@ -84,6 +84,7 @@ const APPS = {
   fieldbuddy: {
     name: 'FieldBuddy',
     description: 'a job tracking and invoicing tool for contractors and field service professionals',
+    businessData: true,
     sdks: {
       supabase: true,
       firebaseAnalytics: true,
@@ -114,7 +115,7 @@ const APPS = {
       supabase: true,
       firebaseAnalytics: true,
       firebaseCrashlytics: true,
-      firebaseRemoteConfig: false,
+      firebaseRemoteConfig: true,
       firebaseMessaging: false,
       admob: true,
       revenuecat: true,
@@ -123,7 +124,7 @@ const APPS = {
 };
 
 function generatePage(slug, meta) {
-  const { name, description, sdks } = meta;
+  const { name, description, sdks, businessData } = meta;
   const hasFirebase = sdks.firebaseAnalytics || sdks.firebaseCrashlytics || sdks.firebaseRemoteConfig || sdks.firebaseMessaging;
 
   // Build data collection list
@@ -131,6 +132,10 @@ function generatePage(slug, meta) {
     `<li><strong>Account information</strong>: If you create an account, we collect your email address and a username to authenticate you and sync your data across devices via our backend provider, Supabase.</li>`,
     `<li><strong>Device information</strong>: We collect device type, operating system version, and device identifiers to help us improve app stability and serve ads.</li>`,
   ];
+
+  if (businessData) {
+    dataItems.push(`<li><strong>Business data you enter</strong>: As an invoicing and job-tracking tool, the app stores the business records you create — including your clients' names, phone numbers, email addresses, and job-site addresses, plus job details, invoice line items, amounts, and payment status. This data is stored in your account via Supabase so it can sync across your devices. We never sell it or share it with third parties, and it is only used to provide the invoicing features you use.</li>`);
+  }
 
   if (sdks.firebaseAnalytics) {
     dataItems.push(`<li><strong>Usage analytics</strong>: We collect aggregated usage statistics (screens viewed, features used, session duration) via Firebase Analytics to understand which features are used most frequently.</li>`);
@@ -159,6 +164,10 @@ function generatePage(slug, meta) {
     `To authenticate users and sync data across devices via Supabase`,
     `To maintain and improve app performance and stability`,
   ];
+
+  if (businessData) {
+    usageItems.push(`To provide the core invoicing features: storing your client records, jobs, and invoices and syncing them across your devices`);
+  }
 
   if (sdks.firebaseCrashlytics) {
     usageItems.push(`To monitor and fix crashes via Firebase Crashlytics`);
@@ -237,7 +246,9 @@ function generatePage(slug, meta) {
     <p>A&amp;J Tech ("we," "our," or "us") built the <strong>${name}</strong> app as ${description}. This Privacy Policy describes what information we collect, how we use it, and your rights regarding that information.</p>
 
     <h2>1. Information We Collect</h2>
-    <p>${name} is designed to function primarily as an offline reference tool. When you create an account or use online features, we collect the following:</p>
+    <p>${businessData
+      ? `${name} stores the business records you create in your account. When you create an account or use online features, we collect the following:`
+      : `${name} is designed to function primarily as an offline reference tool. When you create an account or use online features, we collect the following:`}</p>
     <ul>
       ${dataItems.join('\n      ')}
     </ul>
