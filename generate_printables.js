@@ -116,8 +116,55 @@ function generateIndividualPage(kw, allKeywords) {
   const title = kw.h1;
   const keyword = kw.keyword;
   const metaDesc = truncate(`Download a premium ${keyword} — instant PDF download, print at home or use on tablet. Clean design, practical layouts, no filler pages.`, 160);
+  const products = kw.products;
   const body = generatePageBody(kw, allKeywords);
   const titleShort = title.split('—')[0].trim();
+  const pageUrl = `https://aandjtech.com/printables/${slug}.html`;
+
+  // JSON-LD: BreadcrumbList
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aandjtech.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Printables", "item": "https://aandjtech.com/printables" },
+      { "@type": "ListItem", "position": 3, "name": titleShort, "item": pageUrl }
+    ]
+  };
+
+  // JSON-LD: FAQPage
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": `Is this ${keyword} a physical product or a digital download?`, "acceptedAnswer": { "@type": "Answer", "text": "It's a digital download. After purchase, you'll receive a link to download the PDF file(s) instantly. No physical item will be shipped. You can print it at home, at a print shop, or use it digitally on a tablet." } },
+      { "@type": "Question", "name": "What paper size are the printables designed for?", "acceptedAnswer": { "@type": "Answer", "text": "Our printables are designed for both US Letter (8.5 x 11 inches) and A4 (210mm x 297mm) paper sizes. Most pages work on either size with minimal adjustment." } },
+      { "@type": "Question", "name": "Can I use these printables on my iPad or tablet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! The PDF files are fully compatible with popular annotation apps including GoodNotes, Notability, OneNote, and Xodo. Import the PDF and write directly on the pages with a stylus." } },
+      { "@type": "Question", "name": "How many times can I print the pages?", "acceptedAnswer": { "@type": "Answer", "text": "As many as you want. The digital file is yours to keep. Print one copy or a hundred — there's no limit. This is one of the biggest advantages of printables over pre-printed planners." } },
+      { "@type": "Question", "name": "Do you offer refunds?", "acceptedAnswer": { "@type": "Answer", "text": "Because these are digital products that can't be returned, refunds are handled on a case-by-case basis through the marketplace where you purchased (Etsy, Gumroad, or LemonSqueezy). If you have any issues with your download, reach out and we'll make it right." } }
+    ]
+  };
+
+  // JSON-LD: Product
+  const productLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": titleShort,
+    "description": metaDesc,
+    "category": "Printable",
+    "offers": products.map(p => ({
+      "@type": "Offer",
+      "price": p.price || "See listing",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": p.url,
+      "seller": { "@type": "Organization", "name": p.platform.charAt(0).toUpperCase() + p.platform.slice(1) }
+    }))
+  };
+
+  const allLd = [breadcrumbLd, faqLd, productLd]
+    .map(obj => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
+    .join('\n    ');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -126,12 +173,16 @@ function generateIndividualPage(kw, allKeywords) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
     <meta name="description" content="${metaDesc}">
-    <link rel="canonical" href="https://aandjtech.com/printables/${slug}.html">
+    <link rel="canonical" href="${pageUrl}">
     <link rel="stylesheet" href="/style.css">
     <meta property="og:title" content="${title}">
     <meta property="og:description" content="${metaDesc}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aandjtech.com/printables/${slug}.html">
+    <meta property="og:url" content="${pageUrl}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${metaDesc}">
+    ${allLd}
 </head>
 <body>
     <header>
@@ -179,6 +230,10 @@ function generateHubPage(keywords) {
     <meta property="og:title" content="Printables & Planners — A&J Tech">
     <meta property="og:description" content="Browse our collection of premium printable planners, journals, trackers, and templates. Instant download, print at home, or use on your tablet.">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Printables & Planners — A&J Tech">
+    <meta name="twitter:description" content="Browse our collection of premium printable planners, journals, trackers, and templates. Instant download, print at home, or use on your tablet.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Premium Printables Collection","description":"Browse our collection of ${keywords.length} premium printable planners, journals, trackers, and templates. Instant download, print at home, or use on your tablet.","url":"https://aandjtech.com/printables","isPartOf":{"@type":"WebSite","name":"A&J Tech","url":"https://aandjtech.com"}}</script>
 </head>
 <body>
     <header>
@@ -210,16 +265,19 @@ ${cardsHtml}        </div>
 }
 
 function generateSitemap(keywords) {
+  const today = new Date().toISOString().split('T')[0];
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   xml += '    <url>\n';
   xml += '        <loc>https://aandjtech.com/printables</loc>\n';
+  xml += `        <lastmod>${today}</lastmod>\n`;
   xml += '        <changefreq>weekly</changefreq>\n';
   xml += '        <priority>0.8</priority>\n';
   xml += '    </url>\n';
   keywords.forEach(kw => {
     xml += '    <url>\n';
     xml += `        <loc>https://aandjtech.com/printables/${kw.slug}.html</loc>\n`;
+    xml += `        <lastmod>${today}</lastmod>\n`;
     xml += '        <changefreq>monthly</changefreq>\n';
     xml += '        <priority>0.6</priority>\n';
     xml += '    </url>\n';

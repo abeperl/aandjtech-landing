@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Printables SEO section
+Allow: /printables/
+Allow: /printables/*.html
+Allow: /style.css
+Allow: /sitemap.xml
+
+# Block internal/API routes
+Disallow: /api/
+Disallow: /waitlist.json
+
+# Sitemap
+Sitemap: https://aandjtech.com/sitemap.xml
