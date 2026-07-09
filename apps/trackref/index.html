@@ -1,70 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrackRef Pro — Animal Track & Sign Identification Guide</title>
-  <meta name="description" content="TrackRef Pro is the definitive field guide for identifying animal tracks and signs in the wild. Perfect for hunters, trackers, wildlife observers, and outdoor enthusiasts.">
+  <title>TrackRef Pro — Animal Track Identification Guide</title>
+  <meta name="description" content="Identify animal tracks and signs in the wild. A field guide for hunters, naturalists, and outdoor enthusiasts. Free on Google Play.">
+  <link rel="canonical" href="https://aandjtech.com/apps/trackref/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TrackRef Pro — Animal Track Identification Guide">
+  <meta property="og:description" content="Identify animal tracks and signs in the wild. A field guide for hunters, naturalists, and outdoor enthusiasts. Free on Google Play.">
+  <meta property="og:url" content="https://aandjtech.com/apps/trackref/">
+  <meta property="og:site_name" content="A&J Tech">
+  <meta property="og:image" content="https://aandjtech.com/og-trackref.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TrackRef Pro — Animal Track Identification Guide">
+  <meta name="twitter:description" content="Identify animal tracks and signs in the wild. A field guide for hunters, naturalists, and outdoor enthusiasts. Free on Google Play.">
+  <meta name="twitter:image" content="https://aandjtech.com/og-trackref.png">
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}
-    :root{--primary:#4a3520;--accent:#a0522d;--light:#f7f2ec;--dark:#1e1208;--text:#221408;--muted:#70502a;--card:#fff}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
-    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
-    .logo span{color:#c8964a}
-    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
-    header a:hover{color:#fff}
-    .hero{background:linear-gradient(135deg,var(--dark) 0%,#3a2010 50%,var(--primary) 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
-    .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")}
-    .hero-content{position:relative;max-width:700px;margin:0 auto}
-    .app-badge{display:inline-block;background:rgba(160,82,45,0.25);border:1px solid rgba(160,82,45,0.4);color:#ffcc80;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
-    .hero h1 span{color:#c8964a}
-    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
-    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
-    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(160,82,45,0.4)}
-    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(160,82,45,0.5)}
-    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
-    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
-    .features{padding:4rem 2rem;background:#fff}
-    .container{max-width:1100px;margin:0 auto}
-    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
-    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
-    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
-    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
-    .card-icon{font-size:2.5rem;margin-bottom:1rem}
-    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
-    .card p{color:var(--muted);font-size:0.95rem}
-    .animals{padding:3rem 2rem;background:var(--light)}
-    .animal-grid{display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin-top:2rem}
-    .animal-tag{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.6rem 1.1rem;font-size:0.9rem;color:var(--primary);font-weight:600}
-    .download{background:linear-gradient(135deg,var(--dark),#3a2010);color:#fff;padding:4rem 2rem;text-align:center}
-    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
-    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
-    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
-    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
-    .play-btn svg{width:28px;height:28px}
-    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
-    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
-    footer a:hover{color:#fff}
-    .footer-links{margin-bottom:0.75rem}
-    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
-  
-    .waitlist{background:#fff;padding:4rem 2rem;text-align:center}
-    .waitlist .section-sub{margin-bottom:2rem}
-    .waitlist-form{max-width:560px;margin:0 auto}
-    .waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
-    .waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
-    .waitlist-fields input:focus{border-color:var(--accent);background:#fff}
-    .waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
-    .waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
-    .waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
-    .waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
-    .waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
-    .waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
-    @media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
-  </style>
 </head>
 <body>
 
@@ -154,9 +108,8 @@
     <h2>Get TrackRef Pro Free</h2>
     <p>Available on Android. Start reading the wild and understanding what animals are around you.</p>
     <div>
-      <a href="https://play.google.com/store/apps/details?id=com.trackref.app" class="play-btn">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
-        Google Play
+      <a href="https://play.google.com/store/apps/details?id=com.trackref.app&utm_source=aandjtech-hub&utm_medium=web&utm_campaign=trackref&utm_content=download-cta" class="play-btn">
+        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:180px;height:auto" width="180" />
       </a>
     </div>
   </div>

@@ -1,9 +1,15 @@
 User-agent: *
 Allow: /
 
-# Printables SEO section
-Allow: /printables/
-Allow: /printables/*.html
+# App hub and per-app pages
+Allow: /apps/
+Allow: /apps/*/index.html
+
+# Privacy policies
+Allow: /privacy/
+Allow: /privacy/*/index.html
+
+# Static assets
 Allow: /style.css
 Allow: /sitemap.xml
 

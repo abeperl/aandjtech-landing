@@ -1,193 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://aandjtech.com/printables</loc>
+        <loc>https://aandjtech.com/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/homeschool-planner-printable.html</loc>
+        <loc>https://aandjtech.com/apps/rockhound/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://aandjtech.com/apps/fossilref/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://aandjtech.com/apps/fieldbuddy/</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://aandjtech.com/apps/wildforage/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/kids-chore-chart-printable.html</loc>
+        <loc>https://aandjtech.com/apps/knotref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/teacher-planner-printable.html</loc>
+        <loc>https://aandjtech.com/apps/herpetoguide/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/gratitude-journal-printable.html</loc>
+        <loc>https://aandjtech.com/apps/trackref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/grief-journal-printable.html</loc>
+        <loc>https://aandjtech.com/apps/shellref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/printables/garden-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/travel-journal-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/recipe-binder-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/calorie-tracker-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/pregnancy-journal-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/home-renovation-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/pet-care-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/family-budget-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/college-student-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/small-business-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/fitness-workout-tracker-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/intermittent-fasting-tracker-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/digital-detox-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/bullet-journal-starter-kit-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/homeschool-attendance-tracker-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/wedding-planning-binder-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/printables/anniversary-date-night-planner-printable.html</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://aandjtech.com/privacy</loc>
+        <loc>https://aandjtech.com/privacy/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/knotref</loc>
+        <loc>https://aandjtech.com/privacy/rockhound/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/shellref</loc>
+        <loc>https://aandjtech.com/privacy/fossilref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/wildforage</loc>
+        <loc>https://aandjtech.com/privacy/fieldbuddy/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/trackref</loc>
+        <loc>https://aandjtech.com/privacy/wildforage/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/herpetoguide</loc>
+        <loc>https://aandjtech.com/privacy/knotref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/fieldbuddy</loc>
+        <loc>https://aandjtech.com/privacy/herpetoguide/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/rockhound</loc>
+        <loc>https://aandjtech.com/privacy/trackref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://aandjtech.com/privacy/fossilref</loc>
+        <loc>https://aandjtech.com/privacy/shellref/</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
