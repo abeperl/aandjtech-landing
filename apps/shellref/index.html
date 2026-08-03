@@ -3,77 +3,137 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShellRef Pro — Seashell & Marine Invertebrate Guide</title>
-  <meta name="description" content="Field guide for seashells and marine invertebrates. Identify shells with detailed descriptions and photos. Free on Google Play.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23102e2e'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle'%3E%F0%9F%90%9A%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <title>Seashell Identifier: ShellRef Pro — Atlantic, Pacific & Gulf Coast Shells</title>
+  <meta name="description" content="Identify seashells from Atlantic, Pacific, and Gulf coasts. Photos, descriptions, and offline access. Free on Google Play.">
   <link rel="canonical" href="https://aandjtech.com/apps/shellref/">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ShellRef Pro — Seashell & Marine Invertebrate Guide">
-  <meta property="og:description" content="Field guide for seashells and marine invertebrates. Identify shells with detailed descriptions and photos. Free on Google Play.">
+  <meta property="og:title" content="ShellRef Pro — Seashell Identification Guide">
+  <meta property="og:description" content="Pocket seashell identifier for Atlantic, Pacific, and Gulf coasts. Offline access for beach identification.">
   <meta property="og:url" content="https://aandjtech.com/apps/shellref/">
   <meta property="og:site_name" content="A&J Tech">
   <meta property="og:image" content="https://aandjtech.com/og-shellref.png">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ShellRef Pro — Seashell & Marine Invertebrate Guide">
-  <meta name="twitter:description" content="Field guide for seashells and marine invertebrates. Identify shells with detailed descriptions and photos. Free on Google Play.">
+  <meta name="twitter:title" content="ShellRef Pro — Seashell Identification Guide">
+  <meta name="twitter:description" content="Pocket seashell identifier for Atlantic, Pacific, and Gulf coasts. Offline access for beach identification.">
   <meta name="twitter:image" content="https://aandjtech.com/og-shellref.png">
   <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#2a6b6b;--accent:#3fc1a8;--cta-text:#102e2e;--light:#ecf8f6;--dark:#102e2e;--text:#0e2a2a;--muted:#477676;--card:#fff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+.logo span{color:var(--accent)}
+header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+header a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--primary) 60%,#2a6b6b 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero-content{position:relative;max-width:700px;margin:0 auto}
+.app-badge{display:inline-block;background:rgba(63,193,168,0.2);border:1px solid rgba(63,193,168,0.4);color:rgb(178,230,220);padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+.hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+.btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(63,193,168,0.4)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(63,193,168,0.5)}
+.btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;margin-left:1rem}
+.btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+.features{padding:4rem 2rem;background:#fff}
+.container{max-width:1100px;margin:0 auto}
+.section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+.section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+.card-icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+.card p{color:var(--muted);font-size:0.95rem}
+.types{padding:3rem 2rem;background:var(--light)}
+.type-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2rem}
+.type-pill{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.75rem 1.25rem;font-size:0.9rem;color:var(--primary);font-weight:600}
+.pricing{padding:4rem 2rem;background:var(--light)}
+.pricing-card{max-width:500px;margin:0 auto;background:#fff;border-radius:16px;padding:3rem 2rem;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.08);border:1px solid rgba(63,193,168,0.1)}
+.price{font-size:3rem;font-weight:900;color:var(--dark);margin:1rem 0}
+.price span{font-size:1.1rem;font-weight:500;color:var(--muted)}
+.pricing-card ul{text-align:left;margin:1.5rem 0;padding-left:1.5rem;color:var(--text)}
+.pricing-card ul li{margin-bottom:0.6rem}
+.free-tier{margin-top:2rem;padding:1.5rem;background:var(--light);border-radius:12px;text-align:left}
+.free-tier h4{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem}
+.free-tier p{color:var(--muted);font-size:0.9rem}
+.download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
+.download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+.download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+.play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+.play-btn svg{width:28px;height:28px}
+footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+footer a:hover{color:#fff}
+.footer-links{margin-bottom:0.75rem}
+.waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+.waitlist .section-sub{margin-bottom:2rem}
+.waitlist-form{max-width:560px;margin:0 auto}
+.waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+.waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+.waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+.waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+.waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+.waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+.waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+.waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+.waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+@media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
+@media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
+  </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">Shell<span>Ref</span> Pro</div>
+  <div class="logo">Shell<span>Ref</span></div>
   <a href="mailto:support@aandjtech.com">Support</a>
 </header>
 
+<main>
 <section class="hero">
   <div class="hero-content">
-    <div class="app-badge">🐚 Seashell & Marine Life Guide</div>
+    <div class="app-badge">🐚 Seashell Identification Guide</div>
     <span class="hero-emoji">🐚</span>
-    <h1>Know Every<br><span>Shell You Find</span></h1>
-    <p>ShellRef Pro is the definitive guide for identifying seashells and marine invertebrates along North American coastlines. Perfect for beachcombers, divers, and coastal naturalists.</p>
-    <a href="#download" class="btn">📲 Download Free</a>
+    <h1>Identify Every<br><span>Seashell You Find</span></h1>
+    <p>ShellRef Pro is your pocket seashell identifier. Browse hundreds of shells from Atlantic, Pacific, and Gulf coasts with photos and identification tips.</p>
+    <a href="#waitlist" class="btn">✉️ Join the Waiting List</a>
     <a href="#features" class="btn btn-ghost">See Features</a>
-  </div>
-</section>
-
-<section class="coasts">
-  <div class="container">
-    <h2 class="section-title">All North American Coasts</h2>
-    <p class="section-sub">Wherever you beach — ShellRef has you covered</p>
-    <div class="coast-grid">
-      <div class="coast-card"><div class="icon">🌊</div><h4>Atlantic Coast</h4><p>Maine to Florida</p></div>
-      <div class="coast-card"><div class="icon">🌊</div><h4>Gulf Coast</h4><p>Florida to Texas</p></div>
-      <div class="coast-card"><div class="icon">🌊</div><h4>Pacific Coast</h4><p>Alaska to Baja</p></div>
-    </div>
   </div>
 </section>
 
 <section class="features" id="features">
   <div class="container">
-    <h2 class="section-title">More Than Just Shells</h2>
-    <p class="section-sub">Comprehensive coverage of marine invertebrate life</p>
+    <h2 class="section-title">Everything You Need</h2>
+    <p class="section-sub">Seashell Identifier for Atlantic, Pacific & Gulf Coasts</p>
     <div class="grid">
+
       <div class="card">
-        <div class="card-icon">🔍</div>
-        <h3>Visual Shell ID</h3>
-        <p>Identify by shape, color, size, texture, and shell type. Rich descriptions help distinguish similar-looking species from each coast.</p>
+        <div class="card-icon">🐚</div>
+        <h3>Shell Identification</h3>
+        <p>Browse hundreds of seashell species with photos, descriptions, and identification tips. Filter by shape, size, and color.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">🦀</div>
-        <h3>Full Marine Invertebrates</h3>
-        <p>Covers mollusks, crustaceans, echinoderms, and more. Not just shells — the complete world of invertebrate beach life.</p>
+        <div class="card-icon">🏖️</div>
+        <h3>Coastal Coverage</h3>
+        <p>Shells from the Atlantic, Pacific, and Gulf coasts. Know what you'll find on your beach.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">🌊</div>
-        <h3>Habitat & Ecology</h3>
-        <p>Learn where each species lives, how it feeds, and its role in the coastal ecosystem. Understand what you've found beyond just the name.</p>
+        <div class="card-icon">📏</div>
+        <h3>Size & Habitat Data</h3>
+        <p>Detailed information on each shell's typical size range, habitat, and distribution patterns.</p>
       </div>
+
       <div class="card">
         <div class="card-icon">📴</div>
-        <h3>Works Offline</h3>
-        <p>No WiFi on the beach? No problem. Full reference library stored on your device for use anywhere along the shoreline.</p>
+        <h3>Full Offline Access</h3>
+        <p>All reference data stored locally. Identify shells on the beach without any internet connection.</p>
       </div>
     </div>
   </div>
@@ -96,25 +156,15 @@
   </div>
 </section>
 
-<section class="download" id="download">
-  <div class="container">
-    <h2>Get ShellRef Pro Free</h2>
-    <p>Available on Android. The perfect beachcombing companion for coastal explorers.</p>
-    <div>
-      <a href="https://play.google.com/store/apps/details?id=com.shellref.app&utm_source=aandjtech-hub&utm_medium=web&utm_campaign=shellref&utm_content=download-cta" class="play-btn">
-        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:180px;height:auto" width="180" />
-      </a>
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
   <div class="footer-links">
     <a href="/privacy/shellref/">Privacy Policy</a>
     <a href="mailto:support@aandjtech.com">support@aandjtech.com</a>
-    <a href="https://aandjtech.com">A&amp;J Tech</a>
+    <a href="https://aandjtech.com">A&J Tech</a>
   </div>
-  <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
+  <p>&copy; 2026 A&J Tech. All rights reserved.</p>
 </footer>
 
 <script>
