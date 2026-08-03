@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1e3f'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle'%3E%F0%9F%94%A8%3C/text%3E%3C/svg%3E" type="image/svg+xml">
   <title>Contractor Invoice: FieldBuddy — Invoicing & Job Tracking</title>
   <meta name="description" content="Create invoices and track jobs for trades. Plumbers, HVAC, electricians. Fast, mobile-first contractor invoicing app. Free with Pro $19.99/mo.">
   <link rel="canonical" href="https://aandjtech.com/apps/fieldbuddy/">
@@ -20,55 +21,70 @@
   <meta name="twitter:image" content="https://aandjtech.com/og-fieldbuddy.png">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
-    :root{--primary:#1a4a8c;--accent:#2563eb;--light:#f0f5ff;--dark:#0d1e3f;--text:#1a2e4d;--muted:#5a6a80;--card:#fff}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
-    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
-    .logo span{color:var(--accent)}
-    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
-    header a:hover{color:#fff}
-    .hero{background:linear-gradient(135deg,var(--dark) 0%,var(--primary) 60%,#1e40af 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
-    .hero-content{position:relative;max-width:700px;margin:0 auto}
-    .app-badge{display:inline-block;background:rgba(37,99,235,0.2);border:1px solid rgba(37,99,235,0.4);color:#93c5fd;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
-    .hero h1 span{color:var(--accent)}
-    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
-    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
-    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(37,99,235,0.4)}
-    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(37,99,235,0.5)}
-    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
-    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
-    .features{padding:4rem 2rem;background:#fff}
-    .container{max-width:1100px;margin:0 auto}
-    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
-    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
-    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
-    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
-    .card-icon{font-size:2.5rem;margin-bottom:1rem}
-    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
-    .card p{color:var(--muted);font-size:0.95rem}
-    .pricing{padding:4rem 2rem;background:var(--light)}
-    .pricing-card{max-width:500px;margin:0 auto;background:#fff;border-radius:16px;padding:3rem 2rem;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.08);border:1px solid rgba(37,99,235,0.1)}
-    .price{font-size:3rem;font-weight:900;color:var(--dark);margin:1rem 0}
-    .price span{font-size:1.1rem;font-weight:500;color:var(--muted)}
-    .pricing-card ul{text-align:left;margin:1.5rem 0;padding-left:1.5rem;color:var(--text)}
-    .pricing-card ul li{margin-bottom:0.6rem}
-    .free-tier{margin-top:2rem;padding:1.5rem;background:var(--light);border-radius:12px;text-align:left}
-    .free-tier h4{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem}
-    .free-tier p{color:var(--muted);font-size:0.9rem}
-    .download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
-    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
-    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
-    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
-    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
-    .play-btn svg{width:28px;height:28px}
-    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
-    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
-    footer a:hover{color:#fff}
-    .footer-links{margin-bottom:0.75rem}
-    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
-  
+:root{--primary:#1a4a8c;--accent:#2563eb;--cta-text:#ffffff;--light:#f0f5ff;--dark:#0d1e3f;--text:#1a2e4d;--muted:#5a6a80;--card:#fff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+.logo span{color:var(--accent)}
+header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+header a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--primary) 60%,#1a4a8c 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero-content{position:relative;max-width:700px;margin:0 auto}
+.app-badge{display:inline-block;background:rgba(37,99,235,0.2);border:1px solid rgba(37,99,235,0.4);color:rgb(168,193,247);padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+.hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+.btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(37,99,235,0.4)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(37,99,235,0.5)}
+.btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;margin-left:1rem}
+.btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+.features{padding:4rem 2rem;background:#fff}
+.container{max-width:1100px;margin:0 auto}
+.section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+.section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+.card-icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+.card p{color:var(--muted);font-size:0.95rem}
+.types{padding:3rem 2rem;background:var(--light)}
+.type-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2rem}
+.type-pill{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.75rem 1.25rem;font-size:0.9rem;color:var(--primary);font-weight:600}
+.pricing{padding:4rem 2rem;background:var(--light)}
+.pricing-card{max-width:500px;margin:0 auto;background:#fff;border-radius:16px;padding:3rem 2rem;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.08);border:1px solid rgba(37,99,235,0.1)}
+.price{font-size:3rem;font-weight:900;color:var(--dark);margin:1rem 0}
+.price span{font-size:1.1rem;font-weight:500;color:var(--muted)}
+.pricing-card ul{text-align:left;margin:1.5rem 0;padding-left:1.5rem;color:var(--text)}
+.pricing-card ul li{margin-bottom:0.6rem}
+.free-tier{margin-top:2rem;padding:1.5rem;background:var(--light);border-radius:12px;text-align:left}
+.free-tier h4{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem}
+.free-tier p{color:var(--muted);font-size:0.9rem}
+.download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
+.download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+.download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+.play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+.play-btn svg{width:28px;height:28px}
+footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+footer a:hover{color:#fff}
+.footer-links{margin-bottom:0.75rem}
+.waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+.waitlist .section-sub{margin-bottom:2rem}
+.waitlist-form{max-width:560px;margin:0 auto}
+.waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+.waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+.waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+.waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+.waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+.waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+.waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+.waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+.waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+@media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
+@media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
   </style>
 </head>
 <body>
@@ -78,37 +94,42 @@
   <a href="mailto:support@aandjtech.com">Support</a>
 </header>
 
+<main>
 <section class="hero">
   <div class="hero-content">
     <div class="app-badge">🧾 Contractor Invoicing & Job Tracking</div>
     <span class="hero-emoji">🔨</span>
-    <h1>Invoicing &amp; Job Tracking<br><span>for Tradespeople</span></h1>
+    <h1>Invoicing & Job Tracking<br><span>for Tradespeople</span></h1>
     <p>FieldBuddy is the all-in-one invoicing app for contractors. Track jobs, create professional PDF invoices, manage clients, and get paid — right from your phone.</p>
-    <a href="#download" class="btn">📲 Get on Google Play</a>
+    <a href="#waitlist" class="btn">✉️ Join the Waiting List</a>
     <a href="#features" class="btn btn-ghost">See Features</a>
   </div>
 </section>
 
 <section class="features" id="features">
   <div class="container">
-    <h2 class="section-title">Everything You Need to Run the Business Side</h2>
-    <p class="section-sub">Built for plumbers, electricians, HVAC techs, landscapers, and solo contractors</p>
+    <h2 class="section-title">Everything You Need</h2>
+    <p class="section-sub">Invoicing & Job Tracking for Tradespeople</p>
     <div class="grid">
+
       <div class="card">
         <div class="card-icon">📋</div>
         <h3>Job Tracking</h3>
         <p>Create and manage jobs from start to finish. Assign clients, track status, and keep every job organized in one place.</p>
       </div>
+
       <div class="card">
         <div class="card-icon">🧾</div>
         <h3>PDF Invoices</h3>
         <p>Generate clean, professional PDF invoices in seconds. Send them to clients directly from the app — no desktop required.</p>
       </div>
+
       <div class="card">
         <div class="card-icon">👥</div>
         <h3>Client Management</h3>
         <p>Keep all your client info, job history, and invoices in one place. Never lose track of who owes you what.</p>
       </div>
+
       <div class="card">
         <div class="card-icon">📱</div>
         <h3>Mobile-First</h3>
@@ -140,26 +161,68 @@
   </div>
 </section>
 
-<section class="download" id="download">
+<section class="waitlist" id="waitlist">
   <div class="container">
-    <h2>Get FieldBuddy on Android</h2>
-    <p>Download free, upgrade to Pro when you're ready. Built for contractors who'd rather be working than doing paperwork.</p>
-    <div>
-      <a href="https://play.google.com/store/apps/details?id=com.fieldbuddy.app&utm_source=aandjtech-hub&utm_medium=web&utm_campaign=fieldbuddy&utm_content=download-cta" class="play-btn">
-        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:180px;height:auto" width="180" />
-      </a>
-    </div>
+    <h2 class="section-title">Join the Waiting List</h2>
+    <p class="section-sub">Be among the first beta testers — get early access and help shape the app before public launch.</p>
+    <form class="waitlist-form" id="wl-form" onsubmit="submitWaitlist(event)">
+      <div class="waitlist-fields" id="wl-fields">
+        <input type="text" name="name" placeholder="Your name" autocomplete="name">
+        <input type="email" name="email" placeholder="Your email address" required autocomplete="email">
+        <button type="submit" class="waitlist-submit" id="wl-btn">Join Waiting List ✉️</button>
+      </div>
+      <div class="waitlist-msg success" id="wl-success">🎉 You're on the list! We'll email you when beta testing opens.</div>
+      <div class="waitlist-msg error" id="wl-error">Something went wrong. Please try again.</div>
+    </form>
   </div>
 </section>
+
+</main>
 
 <footer>
   <div class="footer-links">
     <a href="/privacy/fieldbuddy/">Privacy Policy</a>
     <a href="mailto:support@aandjtech.com">support@aandjtech.com</a>
-    <a href="https://aandjtech.com">A&amp;J Tech</a>
+    <a href="https://aandjtech.com">A&J Tech</a>
   </div>
-  <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
+  <p>&copy; 2026 A&J Tech. All rights reserved.</p>
 </footer>
 
+<script>
+async function submitWaitlist(e) {
+  e.preventDefault();
+  var form = e.target;
+  var btn = document.getElementById('wl-btn');
+  var fields = document.getElementById('wl-fields');
+  var success = document.getElementById('wl-success');
+  var error = document.getElementById('wl-error');
+  btn.disabled = true;
+  btn.textContent = 'Submitting…';
+  success.style.display = 'none';
+  error.style.display = 'none';
+  var data = {
+    name: form.elements.name.value.trim(),
+    email: form.elements.email.value.trim(),
+    app: document.title.split('—')[0].trim()
+  };
+  try {
+    var res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    });
+    if (res.ok) {
+      fields.style.display = 'none';
+      success.style.display = 'block';
+    } else {
+      throw new Error('Server error');
+    }
+  } catch(err) {
+    error.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = 'Join Waiting List ✉️';
+  }
+}
+</script>
 </body>
 </html>

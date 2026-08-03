@@ -3,135 +3,137 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fossil Identifier: FossilRef — Offline Fossil Field Guide</title>
-  <meta name="description" content="100% offline fossil identifier. No ads. Identify fossils with collecting-legality data, hunting sites, and geological timelines. Free on Google Play.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232a1f10'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle'%3E%F0%9F%A6%95%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <title>Fossil Identifier: FossilRef Pro — Fossil Field Guide & Collecting Laws</title>
+  <meta name="description" content="Identify fossils, learn about ancient life, and check collecting legality by region. Offline fossil field guide. Free on Google Play.">
   <link rel="canonical" href="https://aandjtech.com/apps/fossilref/">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Fossil Identifier: FossilRef — Offline Field Guide">
-  <meta property="og:description" content="100% offline fossil identifier. No ads. Collecting-legality data and hunting sites for fossil hunters.">
+  <meta property="og:title" content="Fossil Identifier: FossilRef Pro — Field Guide">
+  <meta property="og:description" content="Pocket fossil identification guide with collecting legality data. Offline access for field use.">
   <meta property="og:url" content="https://aandjtech.com/apps/fossilref/">
   <meta property="og:site_name" content="A&J Tech">
   <meta property="og:image" content="https://aandjtech.com/og-fossilref.png">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fossil Identifier: FossilRef — Offline Field Guide">
-  <meta name="twitter:description" content="100% offline fossil identifier. No ads. Collecting-legality data and hunting sites for fossil hunters.">
+  <meta name="twitter:title" content="Fossil Identifier: FossilRef Pro — Field Guide">
+  <meta name="twitter:description" content="Pocket fossil identification guide with collecting legality data. Offline access for field use.">
   <meta name="twitter:image" content="https://aandjtech.com/og-fossilref.png">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
-    :root{--primary:#6b4c2a;--accent:#d4870a;--light:#faf6f0;--dark:#3d2b14;--text:#2d1f0e;--muted:#7a5c3a;--card:#fff}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
-    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
-    .logo span{color:var(--accent)}
-    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
-    header a:hover{color:#fff}
-    .hero{background:linear-gradient(135deg,var(--dark) 0%,#5c3d1e 50%,var(--primary) 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
-    .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='20' cy='20' r='3'/%3E%3C/g%3E%3C/svg%3E")}
-    .hero-content{position:relative;max-width:700px;margin:0 auto}
-    .app-badge{display:inline-block;background:rgba(212,135,10,0.2);border:1px solid rgba(212,135,10,0.4);color:#f0c060;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
-    .hero h1 span{color:var(--accent)}
-    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
-    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
-    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(212,135,10,0.4)}
-    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,135,10,0.5)}
-    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
-    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
-    .features{padding:4rem 2rem;background:#fff}
-    .container{max-width:1100px;margin:0 auto}
-    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
-    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
-    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
-    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
-    .card-icon{font-size:2.5rem;margin-bottom:1rem}
-    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
-    .card p{color:var(--muted);font-size:0.95rem}
-    .stats{background:var(--light);padding:3rem 2rem;border-top:1px solid rgba(0,0,0,0.06)}
-    .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2rem;text-align:center;max-width:800px;margin:0 auto}
-    .stat-num{font-size:2.5rem;font-weight:900;color:var(--accent);line-height:1}
-    .stat-label{color:var(--muted);font-size:0.9rem;margin-top:0.25rem}
-    .download{background:linear-gradient(135deg,var(--dark),#5c3d1e);color:#fff;padding:4rem 2rem;text-align:center}
-    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
-    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
-    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
-    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
-    .play-btn svg{width:28px;height:28px}
-    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
-    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
-    footer a:hover{color:#fff}
-    .footer-links{margin-bottom:0.75rem}
-    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
-  
-    .waitlist{background:#fff;padding:4rem 2rem;text-align:center}
-    .waitlist .section-sub{margin-bottom:2rem}
-    .waitlist-form{max-width:560px;margin:0 auto}
-    .waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
-    .waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
-    .waitlist-fields input:focus{border-color:var(--accent);background:#fff}
-    .waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
-    .waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
-    .waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
-    .waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
-    .waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
-    .waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
-    @media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
-  
+:root{--primary:#5a4a2a;--accent:#b8860b;--cta-text:#2a1f10;--light:#faf5ec;--dark:#2a1f10;--text:#2a1e0e;--muted:#7a6a4a;--card:#fff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+.logo span{color:var(--accent)}
+header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+header a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--primary) 60%,#5a4a2a 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero-content{position:relative;max-width:700px;margin:0 auto}
+.app-badge{display:inline-block;background:rgba(184,134,11,0.2);border:1px solid rgba(184,134,11,0.4);color:rgb(227,207,157);padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+.hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+.btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(184,134,11,0.4)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(184,134,11,0.5)}
+.btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;margin-left:1rem}
+.btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+.features{padding:4rem 2rem;background:#fff}
+.container{max-width:1100px;margin:0 auto}
+.section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+.section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+.card-icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+.card p{color:var(--muted);font-size:0.95rem}
+.types{padding:3rem 2rem;background:var(--light)}
+.type-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2rem}
+.type-pill{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.75rem 1.25rem;font-size:0.9rem;color:var(--primary);font-weight:600}
+.pricing{padding:4rem 2rem;background:var(--light)}
+.pricing-card{max-width:500px;margin:0 auto;background:#fff;border-radius:16px;padding:3rem 2rem;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.08);border:1px solid rgba(184,134,11,0.1)}
+.price{font-size:3rem;font-weight:900;color:var(--dark);margin:1rem 0}
+.price span{font-size:1.1rem;font-weight:500;color:var(--muted)}
+.pricing-card ul{text-align:left;margin:1.5rem 0;padding-left:1.5rem;color:var(--text)}
+.pricing-card ul li{margin-bottom:0.6rem}
+.free-tier{margin-top:2rem;padding:1.5rem;background:var(--light);border-radius:12px;text-align:left}
+.free-tier h4{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem}
+.free-tier p{color:var(--muted);font-size:0.9rem}
+.download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
+.download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+.download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+.play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+.play-btn svg{width:28px;height:28px}
+footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+footer a:hover{color:#fff}
+.footer-links{margin-bottom:0.75rem}
+.waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+.waitlist .section-sub{margin-bottom:2rem}
+.waitlist-form{max-width:560px;margin:0 auto}
+.waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+.waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+.waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+.waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+.waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+.waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+.waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+.waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+.waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+@media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
+@media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
   </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">Fossil<span>Ref</span> Pro</div>
+  <div class="logo">Fossil<span>Ref</span></div>
   <a href="mailto:support@aandjtech.com">Support</a>
 </header>
 
+<main>
 <section class="hero">
   <div class="hero-content">
-    <div class="app-badge">🦴 North American Fossil Guide</div>
+    <div class="app-badge">🦴 Fossil Identification & Collecting Guide</div>
     <span class="hero-emoji">🦕</span>
-    <h1>Identify Any<br><span>Fossil You Find</span></h1>
-    <p>FossilRef Pro is the definitive field guide for fossil hunters in North America. Hundreds of species with detailed descriptions, geological timelines, and where to find them.</p>
-    <a href="#download" class="btn">📲 Download Free</a>
+    <h1>Identify Fossils<br><span>Wherever You Find Them</span></h1>
+    <p>FossilRef Pro is your pocket guide to fossils. Identify specimens, learn about ancient life, and know the collecting laws for your area.</p>
+    <a href="#waitlist" class="btn">✉️ Join the Waiting List</a>
     <a href="#features" class="btn btn-ghost">See Features</a>
-  </div>
-</section>
-
-<section class="stats">
-  <div class="stat-grid">
-    <div><div class="stat-num">500+</div><div class="stat-label">Fossil Species</div></div>
-    <div><div class="stat-num">50+</div><div class="stat-label">Geological Periods</div></div>
-    <div><div class="stat-num">100%</div><div class="stat-label">Offline Access</div></div>
-    <div><div class="stat-num">Free</div><div class="stat-label">Ad-Supported</div></div>
   </div>
 </section>
 
 <section class="features" id="features">
   <div class="container">
-    <h2 class="section-title">The Fossil Hunter's Best Tool</h2>
-    <p class="section-sub">From ammonites to dinosaur bones — identify what you find in the field</p>
+    <h2 class="section-title">Everything You Need</h2>
+    <p class="section-sub">Fossil Field Guide with Collecting Legality Data</p>
     <div class="grid">
+
       <div class="card">
-        <div class="card-icon">🔎</div>
-        <h3>Visual Identification</h3>
-        <p>Browse by shape, texture, size, and geological era to identify your fossil. Detailed descriptions help distinguish similar specimens with confidence.</p>
+        <div class="card-icon">🦴</div>
+        <h3>Fossil Identification</h3>
+        <p>Browse hundreds of fossil types with photos, descriptions, and identification tips. Filter by era, type, and region.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">🗺️</div>
-        <h3>Find-Sites by Region</h3>
-        <p>Discover where different fossils are commonly found across North America. Plan your next fossil hunting trip with location-based guides.</p>
+        <div class="card-icon">⚖️</div>
+        <h3>Collecting Legality</h3>
+        <p>Know the rules before you dig. Detailed guides on fossil collecting laws by state and federal land.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">⏳</div>
-        <h3>Geological Timeline</h3>
-        <p>Understand the deep history behind your finds. Each entry includes geological period, era, and how species fit into Earth's ancient history.</p>
+        <div class="card-icon">📐</div>
+        <h3>Geological Time Scale</h3>
+        <p>Explore the geologic timeline from Precambrian to Quaternary. Understand what lived when and where.</p>
       </div>
+
       <div class="card">
         <div class="card-icon">📴</div>
-        <h3>Works Offline</h3>
-        <p>No signal needed in the field. The full reference database is stored locally on your device so you can identify fossils wherever you find them.</p>
+        <h3>Full Offline Access</h3>
+        <p>All reference data stored locally. Identify fossils in the field without any internet connection.</p>
       </div>
     </div>
   </div>
@@ -154,25 +156,15 @@
   </div>
 </section>
 
-<section class="download" id="download">
-  <div class="container">
-    <h2>Get FossilRef Pro Free</h2>
-    <p>Available on Android. Start identifying fossils like a professional paleontologist.</p>
-    <div>
-      <a href="https://play.google.com/store/apps/details?id=com.fossilref.app&utm_source=aandjtech-hub&utm_medium=web&utm_campaign=fossilref&utm_content=download-cta" class="play-btn">
-        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:180px;height:auto" width="180" />
-      </a>
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
   <div class="footer-links">
     <a href="/privacy/fossilref/">Privacy Policy</a>
     <a href="mailto:support@aandjtech.com">support@aandjtech.com</a>
-    <a href="https://aandjtech.com">A&amp;J Tech</a>
+    <a href="https://aandjtech.com">A&J Tech</a>
   </div>
-  <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
+  <p>&copy; 2026 A&J Tech. All rights reserved.</p>
 </footer>
 
 <script>

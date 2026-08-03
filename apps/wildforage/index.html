@@ -3,83 +3,88 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wild Foraging Guide Pro — Edible Plant Identification</title>
-  <meta name="description" content="Identify edible wild plants, berries, mushrooms, and herbs. A field guide for foragers and outdoor enthusiasts. Free on Google Play.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231a2e10'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle'%3E%F0%9F%8D%84%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <title>Foraging Guide: Wild Edible Plants & Mushroom Safety — Wild Forage</title>
+  <meta name="description" content="Identify edible wild plants and mushrooms safely. Foraging guide with toxicity warnings, regional data, and offline access. Free on Google Play.">
   <link rel="canonical" href="https://aandjtech.com/apps/wildforage/">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Wild Foraging Guide Pro — Edible Plant Identification">
-  <meta property="og:description" content="Identify edible wild plants, berries, mushrooms, and herbs. A field guide for foragers and outdoor enthusiasts. Free on Google Play.">
+  <meta property="og:title" content="Wild Foraging Guide — Edible Plant & Mushroom Safety">
+  <meta property="og:description" content="Safely identify edible wild plants and mushrooms. Offline foraging guide with toxicity warnings and regional data.">
   <meta property="og:url" content="https://aandjtech.com/apps/wildforage/">
   <meta property="og:site_name" content="A&J Tech">
   <meta property="og:image" content="https://aandjtech.com/og-wildforage.png">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wild Foraging Guide Pro — Edible Plant Identification">
-  <meta name="twitter:description" content="Identify edible wild plants, berries, mushrooms, and herbs. A field guide for foragers and outdoor enthusiasts. Free on Google Play.">
+  <meta name="twitter:title" content="Wild Foraging Guide — Edible Plant & Mushroom Safety">
+  <meta name="twitter:description" content="Safely identify edible wild plants and mushrooms. Offline foraging guide with toxicity warnings and regional data.">
   <meta name="twitter:image" content="https://aandjtech.com/og-wildforage.png">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
-    :root{--primary:#2e6b2a;--accent:#5a9e2f;--light:#f1f8ee;--dark:#122610;--text:#1a2e18;--muted:#4e7848;--card:#fff}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
-    header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-    .logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
-    .logo span{color:#8bc34a}
-    header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
-    header a:hover{color:#fff}
-    .hero{background:linear-gradient(135deg,var(--dark) 0%,#1e4a18 50%,var(--primary) 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
-    .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='10' cy='10' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3Ccircle cx='30' cy='30' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3Ccircle cx='50' cy='50' r='2' fill='%23fff' fill-opacity='0.03'/%3E%3C/svg%3E")}
-    .hero-content{position:relative;max-width:700px;margin:0 auto}
-    .app-badge{display:inline-block;background:rgba(90,158,47,0.2);border:1px solid rgba(90,158,47,0.4);color:#c5e1a5;padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
-    .hero h1 span{color:#8bc34a}
-    .hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
-    .hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
-    .btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(90,158,47,0.4)}
-    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(90,158,47,0.5)}
-    .btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);box-shadow:none;margin-left:1rem}
-    .btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
-    .safety-banner{background:#fff3cd;border-top:4px solid #ffc107;padding:1.25rem 2rem;text-align:center;font-size:0.95rem;color:#664d03}
-    .safety-banner strong{font-weight:700}
-    .features{padding:4rem 2rem;background:#fff}
-    .container{max-width:1100px;margin:0 auto}
-    .section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
-    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
-    .card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
-    .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
-    .card-icon{font-size:2.5rem;margin-bottom:1rem}
-    .card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
-    .card p{color:var(--muted);font-size:0.95rem}
-    .categories{padding:3rem 2rem;background:var(--light)}
-    .cat-grid{display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin-top:2rem}
-    .cat-tag{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.6rem 1.1rem;font-size:0.9rem;color:var(--primary);font-weight:600}
-    .download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
-    .download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
-    .download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
-    .play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
-    .play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
-    .play-btn svg{width:28px;height:28px}
-    footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
-    footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
-    footer a:hover{color:#fff}
-    .footer-links{margin-bottom:0.75rem}
-    @media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
-  
-    .waitlist{background:#fff;padding:4rem 2rem;text-align:center}
-    .waitlist .section-sub{margin-bottom:2rem}
-    .waitlist-form{max-width:560px;margin:0 auto}
-    .waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
-    .waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
-    .waitlist-fields input:focus{border-color:var(--accent);background:#fff}
-    .waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:#fff;padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
-    .waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
-    .waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
-    .waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
-    .waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
-    .waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
-    @media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
-  
+:root{--primary:#3a6b2a;--accent:#5fa83f;--cta-text:#1a2e10;--light:#f0f8ec;--dark:#1a2e10;--text:#1a2e0e;--muted:#587747;--card:#fff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
+header{background:var(--dark);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.logo{font-size:1.4rem;font-weight:800;letter-spacing:-0.5px}
+.logo span{color:var(--accent)}
+header a{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.9rem}
+header a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--primary) 60%,#3a6b2a 100%);color:#fff;padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero-content{position:relative;max-width:700px;margin:0 auto}
+.app-badge{display:inline-block;background:rgba(95,168,63,0.2);border:1px solid rgba(95,168,63,0.4);color:rgb(191,220,178);padding:0.35rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:600;margin-bottom:1.5rem;letter-spacing:0.5px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;margin-bottom:1rem;line-height:1.15}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.1rem;opacity:0.85;max-width:540px;margin:0 auto 2.5rem}
+.hero-emoji{font-size:5rem;margin-bottom:1.5rem;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3))}
+.btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(95,168,63,0.4)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(95,168,63,0.5)}
+.btn-ghost{background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;box-shadow:none;margin-left:1rem}
+.btn-ghost:hover{background:rgba(255,255,255,0.2);box-shadow:none}
+.features{padding:4rem 2rem;background:#fff}
+.container{max-width:1100px;margin:0 auto}
+.section-title{text-align:center;font-size:1.9rem;font-weight:800;margin-bottom:0.5rem;color:var(--dark)}
+.section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.card{background:var(--light);border-radius:14px;padding:2rem;border:1px solid rgba(0,0,0,0.05);transition:transform 0.2s,box-shadow 0.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+.card-icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{font-size:1.15rem;font-weight:700;margin-bottom:0.5rem;color:var(--dark)}
+.card p{color:var(--muted);font-size:0.95rem}
+.types{padding:3rem 2rem;background:var(--light)}
+.type-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2rem}
+.type-pill{background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:8px;padding:0.75rem 1.25rem;font-size:0.9rem;color:var(--primary);font-weight:600}
+.pricing{padding:4rem 2rem;background:var(--light)}
+.pricing-card{max-width:500px;margin:0 auto;background:#fff;border-radius:16px;padding:3rem 2rem;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.08);border:1px solid rgba(95,168,63,0.1)}
+.price{font-size:3rem;font-weight:900;color:var(--dark);margin:1rem 0}
+.price span{font-size:1.1rem;font-weight:500;color:var(--muted)}
+.pricing-card ul{text-align:left;margin:1.5rem 0;padding-left:1.5rem;color:var(--text)}
+.pricing-card ul li{margin-bottom:0.6rem}
+.free-tier{margin-top:2rem;padding:1.5rem;background:var(--light);border-radius:12px;text-align:left}
+.free-tier h4{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem}
+.free-tier p{color:var(--muted);font-size:0.9rem}
+.download{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:4rem 2rem;text-align:center}
+.download h2{font-size:2rem;font-weight:800;margin-bottom:1rem}
+.download p{opacity:0.85;margin-bottom:2rem;max-width:500px;margin-left:auto;margin-right:auto}
+.play-btn{display:inline-flex;align-items:center;gap:0.75rem;background:#fff;color:var(--dark);padding:0.9rem 1.75rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1rem;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 14px rgba(0,0,0,0.2)}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
+.play-btn svg{width:28px;height:28px}
+footer{background:#111827;color:rgba(255,255,255,0.6);padding:2rem;text-align:center;font-size:0.875rem}
+footer a{color:rgba(255,255,255,0.8);text-decoration:none;margin:0 0.75rem}
+footer a:hover{color:#fff}
+.footer-links{margin-bottom:0.75rem}
+.waitlist{background:#fff;padding:4rem 2rem;text-align:center}
+.waitlist .section-sub{margin-bottom:2rem}
+.waitlist-form{max-width:560px;margin:0 auto}
+.waitlist-fields{display:flex;flex-direction:column;gap:0.75rem}
+.waitlist-fields input{padding:0.85rem 1.25rem;border:2px solid rgba(0,0,0,0.1);border-radius:8px;font-size:1rem;background:#f8f9fa;color:var(--text);outline:none;transition:border-color 0.2s;-webkit-appearance:none}
+.waitlist-fields input:focus{border-color:var(--accent);background:#fff}
+.waitlist-submit{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;background:var(--accent);color:var(--cta-text);padding:0.9rem 2rem;border-radius:8px;border:none;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;width:100%}
+.waitlist-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+.waitlist-submit:disabled{opacity:0.6;cursor:not-allowed}
+.waitlist-msg{border-radius:8px;padding:1rem;margin-top:1rem;font-weight:600;display:none}
+.waitlist-msg.success{background:#d4edda;color:#155724;border:1px solid #c3e6cb}
+.waitlist-msg.error{background:#f8d7da;color:#721c24;border:1px solid #f5c6cb}
+@media(min-width:540px){.waitlist-fields{flex-direction:row;flex-wrap:wrap}.waitlist-fields input{flex:1;min-width:140px}.waitlist-submit{width:auto;white-space:nowrap}}
+@media(max-width:600px){.btn-ghost{margin-left:0;margin-top:0.75rem;display:block}}
   </style>
 </head>
 <body>
@@ -89,61 +94,46 @@
   <a href="mailto:support@aandjtech.com">Support</a>
 </header>
 
+<main>
 <section class="hero">
   <div class="hero-content">
-    <div class="app-badge">🍄 Wild Plant & Mushroom Guide</div>
-    <span class="hero-emoji">🌿</span>
-    <h1>Forage Safely<br><span>Anywhere in North America</span></h1>
-    <p>Wild Foraging Guide Pro is the comprehensive reference for identifying edible wild plants, berries, mushrooms, and herbs. Detailed safety notes help you forage with confidence.</p>
-    <a href="#download" class="btn">📲 Download Free</a>
+    <div class="app-badge">🌿 Foraging Safety & Plant Identification</div>
+    <span class="hero-emoji">🍄</span>
+    <h1>Forage Safely.<br><span>Eat Wildly.</span></h1>
+    <p>Wild Foraging Guide helps you safely identify edible wild plants and mushrooms. Learn what's safe to eat, what to avoid, and how to forage responsibly.</p>
+    <a href="#waitlist" class="btn">✉️ Join the Waiting List</a>
     <a href="#features" class="btn btn-ghost">See Features</a>
-  </div>
-</section>
-
-<div class="safety-banner">
-  ⚠️ <strong>Always be 100% certain of identification before consuming any wild plant or mushroom.</strong> When in doubt, leave it out. This app is a reference guide — not a substitute for expert training.
-</div>
-
-<section class="categories">
-  <div class="container">
-    <h2 class="section-title">What You Can Find</h2>
-    <p class="section-sub">Comprehensive coverage of North American edible wild foods</p>
-    <div class="cat-grid">
-      <div class="cat-tag">🍄 Edible Mushrooms</div>
-      <div class="cat-tag">🌿 Wild Greens & Herbs</div>
-      <div class="cat-tag">🫐 Wild Berries & Fruits</div>
-      <div class="cat-tag">🌰 Nuts & Seeds</div>
-      <div class="cat-tag">🌱 Roots & Tubers</div>
-      <div class="cat-tag">🌸 Edible Flowers</div>
-      <div class="cat-tag">⚠️ Poisonous Look-alikes</div>
-    </div>
   </div>
 </section>
 
 <section class="features" id="features">
   <div class="container">
-    <h2 class="section-title">Forage Smarter, Not Harder</h2>
-    <p class="section-sub">Safety-first identification for every skill level</p>
+    <h2 class="section-title">Everything You Need</h2>
+    <p class="section-sub">Edible Wild Plants & Mushroom Foraging Safety Guide</p>
     <div class="grid">
+
       <div class="card">
-        <div class="card-icon">🔍</div>
-        <h3>Detailed ID Features</h3>
-        <p>Every entry includes multiple identification features — color, texture, smell, season, habitat — so you can confirm your find using multiple characteristics.</p>
+        <div class="card-icon">🌿</div>
+        <h3>Plant Identification</h3>
+        <p>Identify edible wild plants with photos, descriptions, and safety notes. Know the difference between edible and toxic lookalikes.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">☠️</div>
-        <h3>Toxic Look-alike Warnings</h3>
-        <p>Critical safety section highlights dangerous look-alike species for every edible plant or mushroom. Never confuse a deadly species with an edible one again.</p>
+        <div class="card-icon">🍄</div>
+        <h3>Mushroom Safety</h3>
+        <p>Critical safety information for mushroom foraging. Learn which species are safe, which are deadly, and how to tell them apart.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">📅</div>
-        <h3>Seasonal Availability</h3>
-        <p>Know exactly when and where to find each species. Seasonal calendars and habitat maps help you plan the most productive foraging trips.</p>
+        <div class="card-icon">🗺️</div>
+        <h3>Regional Guides</h3>
+        <p>Find what's in season in your area. Regional plant and mushroom guides for North America.</p>
       </div>
+
       <div class="card">
-        <div class="card-icon">🍳</div>
-        <h3>Preparation & Edibility</h3>
-        <p>Learn how to safely prepare and eat each species. Includes raw vs. cooked edibility notes, traditional uses, and nutritional highlights.</p>
+        <div class="card-icon">📴</div>
+        <h3>Full Offline Access</h3>
+        <p>All safety data stored locally. Forage with confidence even without cell service in the backcountry.</p>
       </div>
     </div>
   </div>
@@ -166,25 +156,15 @@
   </div>
 </section>
 
-<section class="download" id="download">
-  <div class="container">
-    <h2>Get Wild Foraging Guide Pro Free</h2>
-    <p>Available on Android. Connect with nature and discover the wild foods around you.</p>
-    <div>
-      <a href="https://play.google.com/store/apps/details?id=com.wildforage.app&utm_source=aandjtech-hub&utm_medium=web&utm_campaign=wildforage&utm_content=download-cta" class="play-btn">
-        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="width:180px;height:auto" width="180" />
-      </a>
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
   <div class="footer-links">
     <a href="/privacy/wildforage/">Privacy Policy</a>
     <a href="mailto:support@aandjtech.com">support@aandjtech.com</a>
-    <a href="https://aandjtech.com">A&amp;J Tech</a>
+    <a href="https://aandjtech.com">A&J Tech</a>
   </div>
-  <p>&copy; 2026 A&amp;J Tech. All rights reserved.</p>
+  <p>&copy; 2026 A&J Tech. All rights reserved.</p>
 </footer>
 
 <script>
