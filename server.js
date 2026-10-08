@@ -89,6 +89,21 @@ app.use(express.static(ROOT, {
   index: 'index.html',
 }));
 
+// Blog post routes (slug whitelist prevents path traversal)
+const BLOG_SLUGS = new Set([
+  'fall-foraging-guide-wild-edible-plants',
+  'fossil-collecting-laws-by-state-2026',
+  'identify-rocks-minerals-offline',
+  'invoice-estimate-apps-contractors-2026',
+]);
+app.get('/blog/:slug', (req, res, next) => {
+  if (BLOG_SLUGS.has(req.params.slug)) {
+    return res.sendFile(path.join(ROOT, 'blog', req.params.slug + '.html'));
+  }
+  next();
+});
+// Note: /blog itself is served by express.static via blog/index.html
+
 // Fallback: serve main index.html for root domain
 app.get('*', (req, res) => {
   res.sendFile(path.join(ROOT, 'index.html'));
